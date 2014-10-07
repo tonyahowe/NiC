@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table xml:id="access-condition-type-code">
+    <code-table-name>work-types</code-table-name>
+    <basis/>
+    <description/>
+    <items>
+        <item>
+            <id>rom</id>
+            <label>On Romances, an Imitation</label>
+            <value>Essay</value>
+            <value>Miscellany</value>
+        </item>
+        <item>
+            <id>cry</id>
+            <label>The Cry: A New Dramatic Fable</label>
+            <value>Treatise</value>
+            <value>Excerpt</value>
+        </item>
+        <item>
+            <id>hays</id>
+            <label>The Memoirs of Emma Courtney</label>
+            <value>Novel</value>
+            <value>Preface</value>
+        </item>
+        <item>
+            <id>johnson</id>
+            <label>The Rambler, No. 4</label>
+            <value>Essay</value>
+        </item>
+        <item>
+            <id>more</id>
+            <label>Strictures on Female Education</label>
+            <value>Treatise</value>
+            <value>Excerpt</value>
+        </item>
+        <item>
+            <id>pamela</id>
+            <label>Pamela; or, Virtue Rewarded</label>
+            <value>Epistolary Novel</value>
+            <value>Novel</value>
+            <value>Preface</value>
+        </item>
+    </items>
+</code-table>

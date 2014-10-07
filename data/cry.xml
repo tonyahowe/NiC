@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="colfield-cry">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">The Cry: A New Dramatic Fable</title>
+                <author>
+                    <forename>Sarah</forename>
+                    <surname>Fielding</surname>
+                </author>
+                <author>
+                    <forename>Jane</forename>
+                    <surname>Collier</surname>
+                </author>
+                <author>
+                    <surname>Anonymous</surname>
+                </author>
+                <respStmt>
+                    <resp>Transcription, correction, editorial commentary, and markup</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <date type="firstEd">1754</date>
+                    <publisher>Printed for R. and J. Dodsley</publisher>
+                    <pubPlace>London</pubPlace>
+                    <extent type="physical">3v. 12°</extent>
+                    <biblScope unit="page" from="12" to="34">Pages</biblScope>
+                    <note>This object is in the Library of Congress</note>
+                </imprint>
+                <imprint>
+                    <publisher>Google eBook</publisher>
+                    <pubPlace>Public domain electronic facsimile copy</pubPlace>
+                    <extent type="online">Add Link</extent>
+                    <date type="accessed">Add Date</date>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="supplied">Excerpt from the Introduction.</head>
+        </front>
+        <body>
+            <p>When a judicious writer sets before his readers entertainment for their imaginations, and desires them to indulge both him and themselves by playing with their fancies, should any man be so perversely sour as to sit in strict judgment; or if on the other hand, where the judgment ought to be employed, should he give a loose to his own wild imaginations, all time and place must be confused, and every image must be distorted into absurdity.</p>
+            <p>With the two principal ends in view, to entertain and to instruct (not to mention another principal view, which hath undoubtedly produced more volumes than either of the former, but, however seriously important to  the writer, is too ludicrous to find more than this cursory notice here) various have been the methods taken for those purposes. Ariosto, Spenser, and even Milton, ran into allegory, as there is nothing to which a great and lively imagination is so prone. It is a flight by which the human wit attempts at one and the same time to investigate two objects, and consequently is fitted only to the most exalted geniuses. It should therefore be very sparingly practised, lest, whilst the writer plays with his own fancies, and diverts himself by cutting the air with his widespread wings, he should soar out of the view of his readers, leaving them in confusion and perplexity to explore his viewless track.</p>
+            <p>Those who would attempt the same uncommon flights must, we are very sensible, have the same uncommon geniuses; otherwise they would make as ridiculous a figure as those poets mentioned by Horace, who, to prove their title to natural genius, went unshaved and slovenly into the publick walks, because Democritus had said that <note anchored="true" n="a">[a]</note> nature was better than art. But wit!) some small portion of real genius, and a warm imagination, an author surely may be permitted a little to expand his wings, and to wander in the aerial fields of fancy, provided the well known fable of Icarus bears this prudent advice to his ear, that he soar not to such dangerous heights, from whence unplumed he may fall to the ground disgraced, if not disabled from ever rising any more. There is scarcely to be found in any author such an inexhauslible treasure, such an immense fund of knowledge, as in Montaigne; but, like a heap of pearls for want of being strung, half their beauties are lost in confusion. His intrinsic worth, by not being stamp'd with some outward image, is not always current with the memory; and to digest such rich matter as is scattered about in every chapter, requires a very searching and attentive mind. Yet it is hardly to be doubted but the free manner of writing, which he assumed, was most fitted to his own genius, and by chusing any other he might have lost part of the force and energy of his images, which could not have been compensated by regularity and method.</p>
+            <p>Essay-writing is perhaps of all others the easiest for the author, and requires little more than what is called a fluency of words, and a vivacity of expression, to avoid dullness: but without such a real foundation of matter, as is to be found in the above-mentioned author, and in some few others of our own nation, whose names are too obvious to need repeating, an essay-writer is very apt, like Dogberry in Shakespear's Much ado about Nothing, to think, that if he had the tediousness of a king, he would bestow it all upon his readers. It is on this account in all likelihood, that stories and novels have been so much more sought after than meer essays. Yet stories and novels have flowed in such abundance, for these last ten years, that we would wish, if possible, to strike a little out of a road already so much beaten. There are two obvious reasons for such a deviation. One is the real excellence of some of those writings, both as to humour, character, moral, and every other proper requisite, which (without an affected humility) we by no means promise fully to equal, much less to surpass; and the other reason is, that we may not be thrown aside as increasing the number of that set of trifling performances, whose names we presume are most of them already devoted to oblivion. For although a decent modesty of not boasting ourselves equal to the best may not be misbecoming ; yet the same modesty would re strain us from imposing on the public what we thought below their consideration.</p>
+            <p>
+                <note anchored="true" n="b">[b]</note> When an author (writes a gentleman of no less erudition than judgment) "poorly anticipates your pardon for a bad performance, by declaring that 'it was the fruits of a few idle hours; written meerly for private amusement ; never revised ; published against consent, at the importunity of friends, copies (God knows how) having by stealth gotten abroad;' with other stale jargon of equal falshood and inanity; may we not ask such prefacers if what they allege be true, what has the world to do with them and their crudities ?" And may we not farther ask, what can induce a reader to turn one leaf beyond such contemptible prefaces ?</p>
+            <p>In an epic poem, the proem generally informs you of the poet's intention in his work. He tells you either what he designs to do, or what he intreats some superior power to do for him.</p>
+            <lg>
+                <l>Arms and the man I sing, &amp;c.</l>
+            </lg>
+            <p>says Virgil,</p>
+            <lg>
+                <l>The wrath of Peleus' son, the direful spring</l>
+                <l>Of all the Grecian woes, O Goddess sing ;</l>
+            </lg>
+            <p>begins the immortal Homer ; whose example is followed by our own Milton, in his Paradise Lost,</p>
+            <lg>
+                <l>Of man's first disobedience, &amp;c. ——</l>
+                <l>Sing heav'nly muse.——</l>
+            </lg>
+            <p>Sometimes the poet not only tells you what is the subject of his song, but he also informs you what is not, as in the beginning of the Paradise Regained,</p>
+            <lg>
+                <l>I who ere while, &amp;c.——</l>
+                <l>Now sing, &amp;c. ——</l>
+            </lg>
+            <p>The same method is observed by Spenser in his † Fairy Queen, and even by Virgil, if the <note anchored="true" n="c">[c]</note> disputed verses in the beginning of the Æneid may be allowed to be his. But in plain prose, we beg to inform our readers, that our intention in the following pages, is not to amuse them with a number of surprising incidents and adventures, but rather to paint the inward mind.</p>
+            <p>Plutarch, in the beginning of his life of Alexander the Great, says, that " neither do the most glorious exploits always furnish us with the clearest discoveries of virtue or vice in men; sometimes a matter of less moment, an expression, or a jest, informs us better of their manners and inclinations than the most famous sieges, the greatest encampments, or the bloodiest battles whatsoever. Therefore, as those who draw by the life are more exact in the lines and features of the face, from which we may often collect the disposition of the person, than in the other parts of the body: so I shall endeavour, by penetrating into, and describing the secret recesses and images of the soul, to express the lives of men, and leave their more shining actions and achievements to be treated of by others."</p>
+            <p>If the heroine of a romance was to travel through countries, where the castles of giants rise to her view; through gloomy forests, amongst the dens of savage beasts, where at one time she is in danger of being torn and devoured, at another, retarded in her flight by puzzling mazes, and falls at last into the hands of a cruel giant; the reader's fears will be alarmed for her safety ; his pleasure will arise on seeing her escape from the teeth of a lion, or the paws of a fierce tiger: if he hath conceived any regard for the virtuous sufferer, he will be delighted when she avoids being taken captive, or is rescued by the valour of some faithful knight; and with what joy will he accompany her steps when she finds the right road, and gets safely out of the enchanted dreary forest !—— But the puzzling mazes into which we shall throw our heroine, are the perverse intepretations made upon her words; the lions, tigers, and giants, from which we endeavour to rescue her, are the spiteful and malicious tongues of her enemies. In short, the design of the following work is to strip, as much as possible, <note anchored="true" n="d">[d]</note>DUESSA or Falshood, of all her shifts and evasions; to hunt her like a fox through all her doublings and windings; to shew, that, let her imitate Truth ever so much, yet is she but a phantom ; and, in a word, to expose her deformity, in hopes to persuade mankind to shun so odious a companion. Nor can this be effected, unless we could awaken the judgment to exert itself, so as to reject all the alluring bribes which the passions, assisted by the imagination, can offer. Unless we could prove that to moderate, and not to inflame the passions, is the only method of attaining happiness; and that it is the interest of man at once to use and to be thankful for his reason, and not absurdly by disuse to weaken its force, and at the same time vainly to boast of its strength.</p>
+            <p>Thoroughly to unfold the labyrinths of the human mind is an arduous task; and notwithstanding the many skilful and penetrating strokes which are to be found in the best authors, there seem yet to remain some intricate and unopened recesses in the heart of man. In order to dive into those recesses, and lay them open to the reader in a striking and intelligible manner, it is necessary to assume a certain freedom in writing, not strictly perhaps within the limits prescribed by rules. Yet we desire only to be free, and not licentious. We wish to give our imagination leave to play; but within such bounds as not to grow mad. And if we step into allegory, it shall not be out of sight of our reader. The liberty we desire, is to bring one or more persons before an allegorical aslembly, in order for them truly to relate their actions and sentiments throughout their past lives. </p>
+            <note type="footnote">[a] Horace's art of poetry.</note>
+            <note type="footnote">[b] Preface to Hermes, a Philosophical Inquiry concerning Language and Grammar.</note>
+            <note type="footnote">† Fairy Queen, canto the first. Lo, I the man, whose muse whilom did mask As time her taught, in lovely shepherds weeds; Am now enforcet, a far unfitter task For trumpets stern, to change my oaten reeds.</note>
+            <note type="footnote">[c] Ille ego, qui quondam gracili modulatus avena Carmen ; et, egressus silvis, vicina coëgi, Ut quamvis avido parerent arva colono; Gratum opus agricolis: At nunc horrentia Martis Arma virunique cano.</note>
+            <note type="footnote">[d] Spenser's Fairy Queen, book i. canto vii.</note>
+        </body>
+    </text>
+</TEI>

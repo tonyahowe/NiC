@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hays-mec">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">The Memoirs of Emma Courtney</title>
+                <author>
+                    <forename>Mary</forename>
+                    <surname>Hays</surname>
+                </author>
+                <respStmt>
+                    <resp>Transcription, correction, editorial commentary, and markup</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Printed for G. G. and J. Robinson, Paternoster-Row</publisher>
+                    <date type="firstEd">1796</date>
+                    <extent type="physical">2v. ; 12⁰</extent>
+                    <biblScope unit="page" from="1" to="7">Pages 1-7</biblScope>
+                    <note>This item is located in the Library of Congress.</note>
+                </imprint>
+                <imprint>
+                    <pubPlace>Public domain electronic facsimile copy</pubPlace>
+                    <publisher>Google eBook</publisher>
+                    <date type="accessed">18 August 2014</date>
+                    <extent type="online">http://books.google.com/books?id=94UgAAAAMAAJ</extent>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>Preface.</head>
+            <epigraph xml:lang="en">
+                <cit>
+                    <bibl>Rousseau</bibl>
+                    <quote>
+                        <l>
+                        The preceptions of persons in retirement are very
+                  different from those of people in the great world: their passions, being
+                  differendy modified, are differently expressed; their imaginations, constantly
+                  impressed by the same objects, are more violently affected. The same small number
+                  of images continually return, mix with every idea, and create those strange and
+                  false notions, so remarkable in people who spend their lives in solitude.</l>
+                    </quote>
+                </cit>
+            </epigraph>
+        </front>
+        <body>
+            <p>
+                <span title="thesis" class="mark">
+                    <span class="mark" title="valueClaim">The most interesting, and the most useful, fictions,
+                  are, perhaps, such, as delineating the progress, and tracing the consequences, of
+                  one strong, indulged, passion, or prejudice, afford materials, by which the
+                  philosopher may calculate the powers of the human mind, and learn the springs
+                  which set it in motion</span>
+                </span>—<span class="mark" title="quote">
+                    <rs type="treatise" ref="TM2">'Understanding, and talents,' says <rs type="person" ref="HEL">Helvetius</rs>, 'being nothing more, in men, than the produce of their
+                     desires, and particular situations.'</rs>
+                </span>
+                <span class="mark" title="gothic">Of the passion of terror <span class="mark" title="allusion">
+                        <rs type="person" ref="AR">Mrs Radcliffe</rs>
+                    </span> has made admirable use in her ingenious romances.</span>—In
+               the novel of <rs type="title" ref="CW">Caleb Williams</rs>, <span class="mark" title="character">curiosity in the hero,
+               and the love of reputation in the soul-moving character of Falkland, fostered into
+               ruling passions</span>, are drawn with a masterly hand.</p>
+            <p>
+                For the subject of these Memoirs, a more universal
+                  sentiment is chosen—a sentiment hackneyed in this species of composition,
+                  consequently more difficult to treat with any degree of originality;—yet, <span class="mark" title="purpose">to
+                  accomplish this, has been the aim of the author</span>; with what success, the public
+                  will, probably, determine.
+            </p>
+            <p>
+                <span class="mark" title="valueClaim">Every writer who advances principles, whether
+                  true or false, that have a tendency to set the mind in motion, does good.</span>
+               Innumerable mistakes have been made, both moral and philosophical:—while covered with
+                  <span class="mark" title="religion">a sacred and mysterious veil</span>, how are
+               they to be detected? <span class="mark" title="science">From various combinations and
+                  multiplied experiments, truth, only, can result.</span>
+                <span class="mark" title="reason">Free thinking, and free
+               speaking, are the virtue and the characteristics of a rational being</span>:—there can be no
+               argument which mitigates against them in one instance, but what equally mitigates
+               against them in all; <span class="mark" title="religion">
+                    <span class="mark" title="science">
+                        <span class="mark" title="experience">every principle must be doubted, before it will be
+                     examined and proved.</span>
+                    </span>
+                </span>
+            </p>
+            <p>
+                <span class="mark" title="purpose" type="negative">
+                    <span class="mark" title="romance">It has commonly been the business
+                  of fiction to pourtray characters, not as they really exist, but, as, we are told,
+                  they ought to be—a sort of ideal perfection, in which nature and passion are
+                  melted away, and jarring attributes wonderfully combined.</span>
+                </span>
+            </p>
+            <p>
+                <span class="mark" title="character">In delineating the character of Emma Courtney, I had not in view these fantastic
+               models: <span class="mark" title="realism">
+                        <span class="mark" title="purpose">I meant
+                     to represent her, as a human being, loving virtue while enslaved by passion,
+                     liable to the mistakes and weaknesses of our fragile
+                  nature</span>
+                    </span>
+                </span>.—<span class="mark" title="reader">Let those readers, who feel
+                  inclined to judge with severity the extravagance and eccentricity of her conduct,
+                  look into their own hearts</span>; and should they there find no record, traced by an
+                  accusing spirit, to soften the asperity of their censures—yet, let them bear in
+                  mind, that the errors of my heroine were the offspring of sensibility; and that
+                     <span class="mark" title="science">
+                    <span class="mark" title="experience">the result of her hazardous experiment</span>
+                </span>
+                  is calculated to operate as <span class="mark" title="purpose">a&#160;warning, rather
+                     than as an example.</span>—The philosopher—who is not ignorant, that
+               light and shade are more powerfully contrasted in minds rising above the common
+               level; that, <span class="mark" title="metaphor">as rank weeds take strong root in a fertile soil, vigorous powers not
+               unfrequently produce fatal mistakes and pernicious exertions</span>; that <span class="mark" title="character">character is the
+               produce of a lively and constant affection</span>—may, possibly, <span class="mark" title="purpose">discover in these Memoirs
+                  traces of reflection, and of some attention to the phænomena of the human mind</span>.</p>
+            <p>
+                <span class="mark" title="probability">Whether the incidents, or the characters, are
+                  copied from life, is of little importance—The only question is, if
+                  the&#160;circumstances, and situations, are altogether improbable?</span> If
+               not—<span class="mark" title="logic">whether the consequences&#160;might&#160;not have followed from the circumstances?</span>—<span class="mark" title="valueClaim">This is
+               a grand question, applicable to all the purposes of education, morals, and
+               legislation</span>—and on this I rest my moral—<span class="mark" title="quote">
+                    <rs type="biblical" ref="MTW">'Do men gather figs of thorns, or grapes of
+               thistles?' asked a moralist and a reformer</rs>
+                </span>.</p>
+            <p>
+                <span class="mark" title="probability">Every&#160;possible&#160;incident, in works of this
+                  nature, might, perhaps, be rendered&#160;probable, <span class="mark" title="editorial.xml#connection">were a sufficient regard paid to the
+                  more minute, delicate, and connecting links of the chain</span>.</span> Under this
+               impression, I chose, as the least arduous, a simple story—and, even in that, the fear
+               of repetition, of prolixity, added, it may be, to a portion of indolence, made me, in
+               some parts, neglectful of this rule:—yet, in tracing the character of my heroine from
+               her birth, I had it in view. For the conduct of my hero, I consider myself less
+               responsible—it was not&#160;his&#160;memoirs that I professed to write.</p>
+            <p> I am not sanguine respecting the success of this little publication. <span class="mark" title="gothic">It is truly observed, by <rs type="person" ref="MGL">the writer of <rs type="novel" ref="MONK">a late popular novel</rs>
+                    </rs>—<span class="mark" title="quote">'That an author, whether good or bad, or between
+                     both, is an animal whom every body is privileged to attack; for, though all are
+                     not able to write books, all conceive themselves able to judge them. A bad
+                     composition carries with it its own punishment—contempt and ridicule:—a good
+                     one excites envy, and (frequently) entails upon its author a thousand
+                     mortifications.'</span>
+                </span>
+            </p>
+            <p>
+                <span class="mark" title="affect">
+                    <span class="mark" title="reason">
+                        <span class="mark" title="reader">To the feeling and the thinking few</span>, this
+                     production of an active mind, in a season of impression, rather than of
+                     leisure, is presented.</span>
+                </span>
+            </p>
+        </body>
+    </text>
+</TEI>

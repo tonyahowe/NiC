@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rich-pmla">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">Pamela; or, Virtue Rewarded</title>
+                <author>
+                    <forename>Samuel</forename>
+                    <surname>Richardson</surname>
+                </author>
+                <respStmt>
+                    <resp>transcription, correction, editorial commentary, and markup</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <date type="firstEd">1741</date>
+                    <publisher>Printed for C. Rivington, in St. Paul’s Church-Yard; and J. Osborn, in Pater-noster Row</publisher>
+                    <pubPlace>London</pubPlace>
+                    <extent>2v. 12°</extent>
+                    <note/>
+                    <biblScope unit="page" from="12" to="34">Pages</biblScope>
+                </imprint>
+                <imprint>
+                    <pubPlace>Public domain electronic fulltext copy</pubPlace>
+                    <publisher>University of Michigan ECCO-TCP</publisher>
+                    <extent>http://name.umdl.umich.edu/004853488.0001.000</extent>
+                    <date type="accessed">10 July 2014</date>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>Preface, by the Editor.</head>
+        </front>
+        <body>
+            <p>IF to&#160;Divert&#160;and&#160;Entertain, and at the same time to&#160;Instruct, and&#160;Improve&#160;the Minds
+               of the&#160;Youth&#160;of&#160;both Sexes:</p>
+            <p>IF to inculcate&#160;Religion&#160;and&#160;Morality&#160;in so easy and agreeable a manner, as shall
+               render them equally&#160;delightful&#160;and&#160;profitable&#160;to the&#160;younger Class&#160;of Readers, as
+               well as worthy of the Attention of Persons of&#160;maturer&#160;Years and Understandings:</p>
+            <p>IF to set forth in the most exemplary Lights, the&#160;Parental, the&#160;Filial, and
+               the&#160;Social&#160;Duties,&#160;and that from&#160;low&#160;to&#160;high&#160;Life:</p>
+            <p> IF to paint&#160;Vice&#160;in its proper Colours, to make it&#160;deservedly Odious; and to
+               set&#160;Virtue&#160;in its own amiable Light, to make it truly&#160;Lovely:</p>
+            <p> IF to draw Characters&#160;justly, and to support them&#160;equally:</p>
+            <p> IF to raise a Distress from&#160;natural&#160;Causes, and to excite Compassion
+               from&#160;proper&#160;Motives:</p>
+            <p> IF to teach the Man of&#160;Fortune&#160;how to use it; the Man of&#160;Passion&#160;how to subdue it;
+               and the Man of&#160;Intrigue, how, gracefully, and with Honour to himself, to&#160;reclaim:</p>
+            <p> IF to give&#160;practical&#160;Examples, worthy to be followed in the
+               most&#160;critical&#160;and&#160;affecting&#160;Cases, by the&#160;modest&#160;Virgin, the&#160;chaste&#160;Bride, and
+               the&#160;obliging&#160;Wife:</p>
+            <p> IF to effect all these good Ends,&#160;in so probable, so natural, so&#160;lively&#160;a manner, as
+               shall engage the Passions of every sensible Reader, and strongly interest them in the
+               edifying Story:</p>
+            <p> AND all&#160;without raising a single&#160;Idea&#160;throughout the Whole, that shall shock the
+               exactest Purity, even in those tender Instances where the exactest Purity would be
+               most apprehensive:</p>
+            <p> IF these, (embellished with a great Variety of entertaining Incidents)&#160;be laudable
+               or worthy Recommendations of any Work, the Editor of the following Letters, which
+               have their Foundation inTruth&#160;and&#160;Nature, ventures to assert,&#160;vithat all these
+               desirable Ends are obtained&#160;in these Sheets: And as he is therefore confident of the
+               favourable Reception which he boldly bespeaks for this little Work; he thinks
+               any&#160;further Preface&#160;or&#160;Apology&#160;for it, unnecessary: And the rather for two Reasons,
+               1st. Because he can Appeal from&#160;his own&#160;Passions, (which have been
+               uncommonly&#160;moved&#160;in perusing these engaging Scenes) to the Passions of&#160;Every one&#160;who
+               shall read them with the least Attention: And, in the next place, because
+               an&#160;Editor&#160;may reasonably be supposed to judge with an Impartiality which is rarely to
+               be met with in an&#160;Author&#160;towards his own Works.</p>
+            <p> The Editor.</p>
+        </body>
+    </text>
+</TEI>
