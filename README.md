@@ -3,7 +3,7 @@ NiC
 
 An eXist app that makes accessible a curated and edited collection of primary resources for teaching the eighteenth-century novel in English
 
-<h2>Things I Want to Do (In No Particular Order)</h2
+<h2>Things I Want to Do (In No Particular Order)</h2>
 
 <ul>
 <li>add facsimile page images (sample images available in /images)
