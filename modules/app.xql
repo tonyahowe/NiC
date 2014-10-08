@@ -246,11 +246,11 @@ function app:query($node as node()*, $model as map(*), $query as xs:string?, $mo
             let $hits :=
                 if ($scope eq 'narrow')
                 then
-                    for $hit in ($context//tei:sp[ft:query(., $queryExpr)], $context//tei:lg[ft:query(., $queryExpr)])
+                    for $hit in ($context//tei:p[ft:query(., $queryExpr)], $context//tei:head[ft:query(., $queryExpr)])
                     order by ft:score($hit) descending
                     return $hit
                 else
-                    for $hit in ($context//tei:div[not(tei:div)][ft:query(., $queryExpr)], $context//tei:div[not(tei:div)][ft:query(., $queryExpr)])
+                    for $hit in $context//tei:text[ft:query(., $queryExpr)]
                     order by ft:score($hit) descending
                     return $hit
             let $store := (
