@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" class="templates:surround?with=templates/page.html&amp;at=main">
     <h1>Search Help</h1>
-    <p>In this Shakespeare app, a number of search options are available. Simple searches are
+    <p>A number of search options are available for this database application. Simple searches are
         possible, but it is also possible to perform quite advanced searches. Search is based on the
         open source search engine <a href="http://lucene.apache.org" target="_blank">Apache
             Lucene</a> and tries to bring into play all the options that Lucene provides. </p>
     <section>
         <h3>Search Options</h3>
         <p>The search interface offers a number of choices.</p>
-        <p>You can choose <em>which texts</em> (plays, poems/poem collection) to search in. Note
+        <p>You can choose <em>which texts</em> to search in by selecting the checkboxes to the left of the titles. Note
             that if you do not make any choice, you will search in all available texts – there is no
             need to click all check boxes in order to perform a general search.</p>
         <p>You have a choice among <em>search modes</em>. These will be explained in more detail
@@ -20,32 +20,12 @@
         <p>Search is performed in a number of <em>fields</em> - to be more exact, in indexes based
             on certain fields. This contrasts with searches in a word processing document which are
             made in a document as a whole, as one long string of characters.</p>
-        <p>Shakespeare's works consist of plays and poems. Plays are made up of speeches which then
-            usually consist of lines (and notices about who the speaker is), and here each speech is
-            indexed as a whole. This means that of you search for the co-occurrence of two words, say
-            "snake" or "fillet", you do not search in the play as a whole, but you get a hit only if
-            the two words occur in the same speech. Poems are made of stanzas which also consist of
-            lines, and if you search for the occurrence of "bounty" and "boundless" near each other,
-            you search inside a certain stanza, not inside a poem or the Sonnets as a whole.</p>
-        <p>The <em>search scope</em> here described is the default "narrow" search scope. If you
-            choose, you can search more broadly, in the divisions which the speeches or stanzas are
-            part of. This means, in the case of plays, that you search within acts, and in the case
-            of poems, that you search within poems as a whole. If you do so, the co-occurrence of
-            two words can span several speeches and you may search for words which are within, say,
-            10 words of each other, though they belong to different stanzas. Both kind of search
-            scopes are useful for certain tasks.</p>
         <p>You have the option to perform your search in different <em>works types</em> – instead of
             selecting works individually, you can select groups such as tragedies or poems. Here you
             can choose several different options.</p>
         <p>This may seem obvious, but you search for <em>words</em> - spaces and punctuation and so
-            on cannot be searched for, but only the words themselves. Also, the words are all
-            lower-cased, so while this means that there is no way to differentiate between "Hamlet"
-            (the proper name) and "hamlet" (a village), you also do not have to remember that
-            "fillet" occurs first in a sentence in the second witch's speech and therefore is in
-            upper-case. All your input is stripped of punctuation and lower-cased, so you can just
-            as well spare yourself the effort to input them – whether you search for "To be, or not
-            to be" or "to be or not to be" is all the same. Often words like "to be or not to be"
-            are removed from indexes, but not in the Shakespeare app.</p>
+            on cannot be searched for, but only the words themselves. All your input is stripped of punctuation and lower-cased, so you can just
+            as well spare yourself the effort to input them.</p>
         <p>One may ask: if spaces cannot be searched for, what are phrase searches? Don't phrases
             consist of words with spaces and punctuation in between? Yes, but when you search for a
             phrase, this is not the same as when you search for a phrase in a word processing
@@ -55,7 +35,7 @@
     </section>
     <section>
         <h3>Search Strategies</h3>
-        <p>There are searches – and searches. This app perhaps gives too many search options ….</p>
+        <p>There are searches – and then there are searches.</p>
         <ul>
             <li>One can search by simply filling in words in the query field, choose one of the
                 search mode options ("Any Search Term" …) and press return (or click the magnifying
@@ -78,7 +58,7 @@
             Shakespeare app, hits are only displayed according to relevance, according to a "score"
             computed for each search. This is quite a complicated thing in itself, but basically,
             the more times your search terms occur in your search scope and the less common they are
-            in the index (that is, in Shakespeare's works) the higher the score they will get and
+            in the index the higher the score they will get and
             the more prominent they will be. </p>
     </section>
     <section>
@@ -97,19 +77,18 @@
             query field, you are saying that you want to see all of the words in the hits within the
             search scope, in the order specified or not, and within a certain proximity. The
             proximity is stated in terms of maximum number of words <!-- plus one?!? -->allowed in
-            between the words your enter in your query. You can thus retrieve "I pray thee, stay
-            with us: go not to Wittenberg" with "pray stay Wittenberg 6". If you do not enter any
+            between the words your enter in your query. For instance, "probability character 6" will return the records in which those two strings appear within 6 words from one another. If you do not enter any
             digit, 5 will be assumed.</p>
-        <p>"Fuzzy Search" needs a little explanation. If you take a word, like "snake", you can make
+        <p>"Fuzzy Search" needs a little explanation. If you take a word, like "probability", you can make
             changes and additions to it. One change would thus give you "spake", "slave", "snare"
-            and "snakes". If you make one more change based on this, you can easily see that a lot
+            and "probabilitys". If you make one more change based on this, you can easily see that a lot
             of words can be generated. Since this search is very time-consuming, the maximum number
             of "edits" you can make is 2. If you do not enter any digit, 2 is also assumed. Fuzzy
             search demands so many resources that only one term can be searched at a time<!-- ? -->,
             so all words after the first will be removed from your query.</p>
         <p>"Wildcard Search" offers the possibility to search using ? for a single character and *
             for zero, one or more characters. You would retrieve hits with "shake", "spake", "stake"
-            and so on with "s?ake", and "snake" and "snakes" with "snake*". "*ling" will give you
+            and so on with "s?ake", and "probability" and "probabilitys" with "probability*". "*ling" will give you
             "telling", "trembling", "brawling" and so on, "te??ing" will give you "telling",
             "teeming", "tending" and so on. This offers some of the functionality of a regular
             expression search, but be aware that the symbols ? and * have different meanings in
@@ -126,41 +105,41 @@
         <p>The first option (using + and -) is better suited to a search which orders hits according
             to score. Here you let words stand as they are (without + or -) if you would like them
             to occur in hits, but you prefix them with + if they must occur in a hit and - if they
-            must not occur as a hit. If you search for "snake killed" you get a lot of hits with
-            either "snake" or "killed" and some with both. If you search for "snake +killed", all
-            your hits will contain "killed", but they may or may not contain "snake". If you search
-            for "snake -killed", you would like to see hits with "snake", but only if they do not
-            contain "killed".</p>
-        <p>If you use AND, OR and NOT, the logic is rather different. If you search for "snake AND
-            killed" you get hits with both "snake" and "killed" and none with only one of them. This
-            corresponds to "+snake +killed". If you search for "snake OR killed", this is the same as
-            simply searching for "snake killed". If you search for "snake NOT killed", this equals
-            searching for "snake -killed".</p>
-        <p>If you use AND, OR and NOT, the logic is rather different. If you search for "snake AND
-            killed" you get hits with both "snake" and "killed" and none with only one of them. This
-            corresponds to "+snake +killed". If you search for "snake OR killed", this is the same as
-            simply searching for "snake killed". If you search for "snake NOT killed", this equals
-            searching for "snake -killed".</p>
+            must not occur as a hit. If you search for "probability character" you get a lot of hits with
+            either "probability" or "character" and some with both. If you search for "probability +character", all
+            your hits will contain "character", but they may or may not contain "probability". If you search
+            for "probability -character", you would like to see hits with "probability", but only if they do not
+            contain "character".</p>
+        <p>If you use AND, OR and NOT, the logic is rather different. If you search for "probability AND
+            character" you get hits with both "probability" and "character" and none with only one of them. This
+            corresponds to "+probability +character". If you search for "probability OR character", this is the same as
+            simply searching for "probability character". If you search for "probability NOT character", this equals
+            searching for "probability -character".</p>
+        <p>If you use AND, OR and NOT, the logic is rather different. If you search for "probability AND
+            character" you get hits with both "probability" and "character" and none with only one of them. This
+            corresponds to "+probability +character". If you search for "probability OR character", this is the same as
+            simply searching for "probability character". If you search for "probability NOT character", this equals
+            searching for "probability -character".</p>
         <p>Searches can acquire higher complexity use of parentheses. Here the use of AND, OR and
-            NOT may come more naturally. Say you want to find passages where the word killed occurs
-            but where also at least one of the words "snake", "deer", "fly", "cat" or "bird" occurs.
-            You can express this by "(snake OR deer OR fly OR cat OR bird) AND killed". An AND
-            enforces "must occur" on both sides, so both one of the animals and the word "killed"
-            have to occur in the hits. Say (for some reason) you do not wish the words "pricket" and
-            "mouse" to occur in your hits – you then embroider your search expression with "NOT
-            (pricket OR mouse)" as "(snake OR deer OR fly OR cat OR bird) AND killed NOT (pricket OR
-            mouse)"</p>
-        <p>If you simply search for "pricket OR deer AND killed", you will (because the AND rubs off
-            to the left), search for passages where "deer" and "killed" must occur, but you would
-            also like "pricket" to be marked as a hit. You can enforce a certain logic on your query
+            NOT may come more naturally. Say you want to find passages where the word character occurs
+            but where also at least one of the words "probability", "cause", or "reason" occurs.
+            You can express this by "(probability OR cause OR reason) AND character". An AND
+            enforces "must occur" on both sides, so both one of the animals and the word "character"
+            have to occur in the hits. Say (for some reason) you do not wish the words "trial" and
+            "elevate" to occur in your hits – you then embroider your search expression with "NOT
+            (trial OR elevate)" as "(probability OR cause OR reason) AND character NOT (trial OR
+            elevate)"</p>
+        <p>If you simply search for "trial OR cause AND character", you will (because the AND rubs off
+            to the left), search for passages where "cause" and "character" must occur, but you would
+            also like "trial" to be marked as a hit. You can enforce a certain logic on your query
             by grouping with parentheses.</p>
-        <p>If you search for "(snake OR deer) AND killed" you are saying that one or both of "snake"
-            and "deer" must occur, as must "killed".</p>
-        <p>If you search for "snake OR (deer AND killed)", you would like to retrieve hits where
-            "snake" occurs and you would like to retrieve hits where "deer" and "killed" go
-            together. In practice this means that you will get a lot of "snake"-only hits.</p>
-        <p>You can also nest parentheses, e.g. "(snake OR (deer AND killed)) NOT pricket" will
-            remove the hits with "pricket" from "snake OR (deer AND killed". </p>
+        <p>If you search for "(probability OR cause) AND character" you are saying that one or both of "probability"
+            and "cause" must occur, as must "character".</p>
+        <p>If you search for "probability OR (cause AND character)", you would like to retrieve hits where
+            "probability" occurs and you would like to retrieve hits where "cause" and "character" go
+            together. In practice this means that you will get a lot of "probability"-only hits.</p>
+        <p>You can also nest parentheses, e.g. "(probability OR (cause AND character)) NOT trial" will
+            remove the hits with "trial" from "probability OR (cause AND character". </p>
         <p>As you can see, the options are many …. And as if this was not enough, there is also
             regex – and regex syntax combined with standard syntax!</p>
     </section>
@@ -176,7 +155,7 @@
         they operate on. <section>
             <h4>Match any character</h4>
             <p>The period <code>"."</code> can be used to represent any character.</p>
-            <p> In order to retrieve the string <code>"snake"</code>, the following expressions can
+            <p> In order to retrieve the string <code>"probability"</code>, the following expressions can
                 be used:</p>
             <ul>
                 <li>
@@ -191,7 +170,7 @@
             <h4>One-or-more</h4>
             <p>The plus sign <code>"+"</code> can be used to repeat the preceding shortest pattern
                 once or more times. </p>
-            <p>In order to retrieve the string <code>"deer"</code>, the following expression can be
+            <p>In order to retrieve the string <code>"cause"</code>, the following expression can be
                 used:</p>
             <ul>
                 <li>
@@ -360,7 +339,6 @@
                     </li>
                 </ul>
                 <p>The possibilities here are enormous.</p>
-                <p>To be continued ….</p>
             </section>
         </section>
     </section>

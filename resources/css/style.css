@@ -147,6 +147,7 @@ input:required:valid {
 .nav-link {
     display: block;
     margin: 0 0 20px 0;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .toc {
@@ -323,7 +324,7 @@ td.following {
 /* ---------------------------------------- VARIABLES ---------------------------------------- */
 /* ------------------------------------ Documentation styles ---------------------------------- */
 .content {
-  font: 16px/24px Georgia, "Times New Roman", Times, serif;
+  font: 16px/24px Helvetica, Arial, sans-serif;;
   color: #555;
 }
 .content section {
@@ -344,6 +345,7 @@ td.following {
   padding: 10px 0 5px;
 }
 .content h3 {
+  font-family: "QuicksandBook", "Arial", Helvetica, sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
@@ -387,7 +389,13 @@ td.following {
   color: #0083cb;
 }
 .content blockquote p {
-  padding: 0 0 10px;
+  /*padding: 0 0 10px;*/
+  font-style: italic;
+  text-align: justify;
+  padding: 10px 15px 0 15px;
+  border: 1px solid #abe1ff;
+  background: #FFF;
+  margin: 5px 0 10px;
 }
 .content ul,
 .content ol {
@@ -652,6 +660,7 @@ body {
   .navbar-nav > li > .dropdown-menu {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    font-family: Helvetica, Arial, sans-serif;
   }
   .nav > li {
     height: 52px;

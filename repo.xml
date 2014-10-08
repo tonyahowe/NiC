@@ -10,5 +10,5 @@
     <target>NiC</target>
     <prepare>pre-install.xql</prepare>
     <finish/>
-    <permissions user="admin" password="admin" group="dba" mode="rw-rw-r--"/>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="admin" user="admin" group="dba" mode="rw-rw-r--"/>
 </meta>

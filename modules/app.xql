@@ -416,7 +416,7 @@ function app:show-hits($node as node()*, $model as map(*), $start as xs:integer,
         <tr class="reference">
             <td colspan="3">
                 <span class="number">{$start + $p - 1}</span>
-                <a href="{$doc-id}.html">{$work-title}</a>, <a href="{$div-ancestor-id}.html">{$div-ancestor-head}</a>
+                <a href="{$doc-id}.html">{$work-title}</a>
             </td>
         </tr>
     let $matchId := ($hit/@xml:id, util:node-id($hit))[1]
