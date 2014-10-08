@@ -6,9 +6,9 @@
             <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer">
                 <param name="stopwords" type="org.apache.lucene.analysis.util.CharArraySet"/>
             </analyzer>
-            <text qname="tei:div"/>
-            <text qname="tei:sp"/>
-            <text qname="tei:lg"/>
+            <text qname="tei:text"/>
+            <text qname="tei:head"/>
+            <text qname="tei:p"/>
         </lucene>
     </index>
 </collection>
