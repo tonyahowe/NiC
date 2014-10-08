@@ -6,6 +6,7 @@ An eXist app that makes accessible a curated and edited collection of primary re
 <h2>Things I Want to Do (In No Particular Order)</h2>
 
 <ul>
+<li>add live link functionality to tei:imprint/extent[@type='online']
 <li>add facsimile page images (sample images available in /images)
 <li>add new kinds of xml files, linked to sample xml files currently in /data--for instance, headnotes and reading/study questions
 <li>add user functionality for uploading and/or sub-collection creation
