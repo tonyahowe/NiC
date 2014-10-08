@@ -19,8 +19,6 @@ declare function tei2:tei2html($nodes as node()*) {
                 tei2:body($node) 
             case element(tei:p) return
                 <p xmlns="http://www.w3.org/1999/xhtml">{$node}</p> 
-(:            case element(exist:match) return:)
-(:                <mark xmlns="http://www.w3.org/1999/xhtml">{ $node/node() }</mark>:)
             case element() return
                 tei2:tei2html($node/node())
             default return
@@ -32,7 +30,10 @@ declare function tei2:header($header as element(tei:teiHeader)) {
     let $pubStmt := $header//tei:publicationStmt
     let $sourceDesc := $header//tei:sourceDesc
     let $authors := $header//tei:titleStmt/tei:author
-    
+    let $imprints := $header//tei:sourceDesc/tei:imprint
+    let $onlineImprint := $header//tei:sourceDesc/tei:imprint/tei:extent[@type="online"]
+    let $publishers := $header//tei:sourceDesc/tei:imprint/tei:publisher
+
   (: link issue: works, but don't want it to display with @type=physical extent. need an or operator? or something else? :)
     return
         <div xmlns="http://www.w3.org/1999/xhtml" class="text-header">
@@ -65,16 +66,11 @@ declare function tei2:header($header as element(tei:teiHeader)) {
                     <p>{$resp/tei:resp/text()}: {$resp/tei:name/text()} </p>
             }
             
-            {$pubStmt}
-            
             {
-                for $publisher in $sourceDesc/tei:imprint
-                return 
-                    <span class="imprint">{$publisher/tei:publisher/text()}, {$publisher/tei:pubPlace/text()}. <a href="{$publisher/tei:extent/text()}">{$publisher/tei:extent/text()}</a>. {$publisher/tei:date/text()}. {$publisher/tei:biblScope/text()}. {$publisher/tei:note/text()}<br/></span>
+                for $onlineImprint in $imprints
+                return <a href="{$publishers/tei:extent/text()}">{$publishers/tei:extent/text()}</a>
             }
-            
-            {distinct-values(//span/@title)}
-        <hr/></div>
+</div>
 };
 
 declare function tei2:front($front as element (tei:front)) {
@@ -102,21 +98,6 @@ declare function tei2:body($body as element (tei:body)) {
         $para
 };
 
-
-(:  :declare function tei2:body($body as element (tei:body)) {
-    let $para := $body//tei:p
-    
-    return 
-        <div xmlns="http://www.w3.org/1999/xhtml" class="main-text">
-        {
-            console:log($para),
-            for $para in $body/*  (: without the slash asterisk nothing returns--why? :)
-                return
-                    <p>{$para/text()}</p> (: adding an extra slash shows the text of the span anas inside each p; with one slash, content of spans are dropped. why? tag is stripped. When just return <p>{$para}</p>, all, including the spans, also returned, but the spans are visible as spans :)
-        }
-    
-        </div>
-}; :)
 declare function tei2:themes($work as element(tei:TEI)) {
     let $theme := $work//tei:span/@type="ana" 
     return
@@ -126,19 +107,6 @@ declare function tei2:themes($work as element(tei:TEI)) {
                 $theme/text()
 };
 
-(:  :declare function tei2:mark($body as element (tei:body)) {
-    let $span := $body//tei:span
-    
-    return
-        <div xmlns="http://www.w3.org/1999/xhtml" class="annotation">
-        {
-            console:log($span),
-            for $span in $body/*
-                return
-                    <em>{$span/text()}</em>
-        }
-        </div>
-}; :)
 
 declare %private function tei2:get-id($node as element()) {
     ($node/@xml:id, $node/@exist:id)[1]
