@@ -17,8 +17,12 @@ declare function tei2:tei2html($nodes as node()*) {
                 tei2:front($node)
             case element(tei:body) return 
                 tei2:body($node) 
+(:            case element(tei:pb) return:)
+(:                tei2:pageImages($node):)
             case element(tei:p) return
                 <p xmlns="http://www.w3.org/1999/xhtml">{$node}</p> 
+            case element(exist:match) return
+                <mark xmlns="http://www.w3.org/1999/xhtml">{ $node/node() }</mark>
             case element() return
                 tei2:tei2html($node/node())
             default return
@@ -98,15 +102,20 @@ declare function tei2:body($body as element (tei:body)) {
         $para
 };
 
-declare function tei2:themes($work as element(tei:TEI)) {
-    let $theme := $work//tei:span/@type="ana" 
-    return
-        console:log($theme),
-        for $theme in $work
-            return 
-                $theme/text()
-};
-
+(:declare function tei2:pageImages($pb as element (tei:pb)) {:)
+(:   :)
+(:<xsl:template match="pb"> <!-- matches every pb element -->:)
+(:  <xsl:element name="img"> <!-- outputs an img element instead -->:)
+(:    <xsl:attribute name="src">  <!-- outputs the src attribute inside the img object -->:)
+(:      <xsl:value-of select="@facs"/> <!-- gives the src attribute a specific style -->:)
+(:    </xsl:attribute>      :)
+(:    <xsl:attribute name="class"> <!-- give the class the name facsize -->:)
+(:      facsize:)
+(:    </xsl:attribute>:)
+(:  </xsl:element>:)
+(:  <br/>:)
+(:</xsl:template> :)
+(:}:)
 
 declare %private function tei2:get-id($node as element()) {
     ($node/@xml:id, $node/@exist:id)[1]

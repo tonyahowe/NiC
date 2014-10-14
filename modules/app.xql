@@ -171,38 +171,38 @@ declare function app:work-types($node as node(), $model as map(*)) {
         templates:form-control($control, $model)
 };
 
-declare function app:navigation($node as node(), $model as map(*)) {
-    let $div := $model("work")
-    let $prevDiv := $div/preceding::tei:div[parent::tei:div][1]
-    let $nextDiv := $div/following::tei:div[parent::tei:div][1]
-    let $work := $div/ancestor-or-self::tei:TEI
-    return
-        element { node-name($node) } {
-            $node/@*,
-            if ($prevDiv) then
-                <a xmlns="http://www.w3.org/1999/xhtml" href="{$prevDiv/@xml:id}.html" class="previous">
-                    <i class="glyphicon glyphicon-chevron-left"/> Previous Scene</a>
-            else
-                (),
-            if ($nextDiv) then
-                <a xmlns="http://www.w3.org/1999/xhtml" href="{$nextDiv/@xml:id}.html" class="next">
-                    Next Scene <i class="glyphicon glyphicon-chevron-right"/></a>
-            else
-                (),
-            <h5 xmlns="http://www.w3.org/1999/xhtml"><a href="{$work/@xml:id}">{app:work-title($work)}</a></h5>
-        }
-};
+(:declare function app:navigation($node as node(), $model as map(*)) {:)
+(:    let $div := $model("work"):)
+(:    let $prevDiv := $div/preceding::tei:div[parent::tei:div][1]:)
+(:    let $nextDiv := $div/following::tei:div[parent::tei:div][1]:)
+(:    let $work := $div/ancestor-or-self::tei:TEI:)
+(:    return:)
+(:        element { node-name($node) } {:)
+(:            $node/@*,:)
+(:            if ($prevDiv) then:)
+(:                <a xmlns="http://www.w3.org/1999/xhtml" href="{$prevDiv/@xml:id}.html" class="previous">:)
+(:                    <i class="glyphicon glyphicon-chevron-left"/> Previous Scene</a>:)
+(:            else:)
+(:                (),:)
+(:            if ($nextDiv) then:)
+(:                <a xmlns="http://www.w3.org/1999/xhtml" href="{$nextDiv/@xml:id}.html" class="next">:)
+(:                    Next Scene <i class="glyphicon glyphicon-chevron-right"/></a>:)
+(:            else:)
+(:                (),:)
+(:            <h5 xmlns="http://www.w3.org/1999/xhtml"><a href="{$work/@xml:id}">{app:work-title($work)}</a></h5>:)
+(:        }:)
+(:};:)
 
 declare function app:view($node as node(), $model as map(*), $id as xs:string, $query as xs:string?) {
-    for $div in $model("work")/id($id)
-    let $div :=
+    for $text in $model("work")/id($id)
+    let $text :=
         if ($query) then
-            util:expand(($div[.//tei:sp[ft:query(., $query)]], $div[.//tei:lg[ft:query(., $query)]]), "add-exist-id=all")
+            util:expand(($text[.//tei:front[ft:query(., $query)]], $text[.//tei:body[ft:query(., $query)]]), "add-exist-id=all")
         else
-            $div
+            $text
     return
         <div xmlns="http://www.w3.org/1999/xhtml" class="play">
-        { tei2:tei2html($div) }
+        { tei2:tei2html($text) }
         </div>
 };
 
@@ -405,22 +405,22 @@ declare
     %templates:default("per-page", 10)
 function app:show-hits($node as node()*, $model as map(*), $start as xs:integer, $per-page as xs:integer) {
     for $hit at $p in subsequence($model("hits"), $start, $per-page)
-    let $id := $hit/ancestor-or-self::tei:div[1]/@xml:id/string()
+    let $id := $hit/ancestor-or-self::tei:TEI/@xml:id/string()
     let $work-title := app:work-title($hit/ancestor::tei:TEI)
     let $doc-id := $hit/ancestor::tei:TEI/@xml:id
-    let $div-ancestor-id := $hit/ancestor::tei:div[1]/@xml:id
-    let $div-ancestor-head := $hit/ancestor::tei:div[1]/tei:head/text() 
+(:    let $text-ancestor-id := $hit/ancestor::tei:text/@xml:id:)
+(:    let $text-ancestor-front := $hit/ancestor::tei:text/tei:front/text() :)
     (:pad hit with surrounding siblings:)
     let $hitExpanded := <hit>{($hit/preceding-sibling::*[1], $hit, $hit/following-sibling::*[1])}</hit>
     let $loc := 
         <tr class="reference">
             <td colspan="3">
                 <span class="number">{$start + $p - 1}</span>
-                <a href="{$doc-id}">{$work-title}</a>
+                <a href="{$doc-id}.html">{$work-title}</a>
             </td>
         </tr>
-    let $matchId := ($hit/@xml:id, util:node-id($hit))[1]
-    let $config := <config width="120" table="yes" link="{$id}.html?query={$model('query')}#{$matchId}"/>
+(:    let $matchId := ($hit/@xml:id, util:node-id($hit))[1]:)
+    let $config := <config width="120" table="yes" link="{$id}.html?query={$model('query')}"/>
     let $kwic := kwic:summarize($hitExpanded, $config, app:filter#2)
     return
         ($loc, $kwic)        
@@ -430,7 +430,7 @@ function app:show-hits($node as node()*, $model as map(*), $start as xs:integer,
     Callback function called from the kwic module.
 :)
 declare %private function app:filter($node as node(), $mode as xs:string) as xs:string? {
-  if ($node/parent::tei:speaker or $node/parent::tei:stage or $node/parent::tei:head) then 
+  if ($node/parent::tei:head) then 
       concat('(', $node, ':) ')
   else if ($mode eq 'before') then 
       concat($node, ' ')

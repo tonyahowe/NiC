@@ -474,11 +474,14 @@ td.following {
 }
 
 .mark { /* another mark defined in style.css */
-    
+    color:#0083cb;
+    background-color: white;
+    font-weight: bold;
+    padding:0 .5em 0 .5em;
 }
 
 .mark:hover {
-    color:gray;
+    background-color:yellow;
 }
 
 .text-header {
