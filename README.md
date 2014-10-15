@@ -8,7 +8,8 @@ An eXist app that makes accessible a curated and edited collection of primary re
 <ul>
 <li>add live link functionality to tei:imprint/extent[@type='online']
 <li><del>correct live linking to title in search results</del>
-<li>correct live linking to query term in search results
+<li><del>correct live linking to query term in search results</del>
+<li>typeswitch case <exist:match> in tei2html.xql doesn't return <mark> tags - fix this
 <li>add facsimile page images (sample images available in /images)
 <li>add new kinds of xml files, linked to sample xml files currently in /data--for instance, headnotes and reading/study questions
 <li>add user functionality for uploading and/or sub-collection creation
