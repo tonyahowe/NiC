@@ -194,16 +194,24 @@ declare function app:work-types($node as node(), $model as map(*)) {
 (:};:)
 
 declare function app:view($node as node(), $model as map(*), $id as xs:string, $query as xs:string?) {
+(:    let $query := session:get-attribute("apps.NiC.query"):)
+(:    return:)
+(:        for $text in $model("work")/id($id):)
+(:        let $text :=:)
+(:            if ($query) then:)
+(:                util:expand(($text[.//tei:head[ft:query(., $query)]], $text[.//tei:p[ft:query(., $query)]]), "add-exist-id=all"):)
+(:            else:)
+(:                $text:)
+(:        return:)
+(:            tei2:tei2html($text):)
     for $text in $model("work")/id($id)
     let $text :=
         if ($query) then
-            util:expand(($text[.//tei:front[ft:query(., $query)]], $text[.//tei:body[ft:query(., $query)]]), "add-exist-id=all")
+            util:expand(($text[.//tei:head[ft:query(., $query)]], $text[.//tei:p[ft:query(., $query)]]), "add-exist-id=all")
         else
             $text
     return
-        <div xmlns="http://www.w3.org/1999/xhtml" class="play">
-        { tei2:tei2html($text) }
-        </div>
+        tei2:tei2html($text) 
 };
 
 (:~

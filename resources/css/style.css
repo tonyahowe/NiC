@@ -473,16 +473,13 @@ td.following {
   word-wrap: break-word;
 }
 
-.mark { /* another mark defined in style.css */
+.mark {  
     color:#0083cb;
     background-color: white;
     font-weight: bold;
     padding:0 .5em 0 .5em;
 }
 
-.mark:hover {
-    background-color:yellow;
-}
 
 .text-header {
 }
