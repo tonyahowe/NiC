@@ -172,21 +172,21 @@ declare function app:work-types($node as node(), $model as map(*)) {
 };
 
 (:declare function app:navigation($node as node(), $model as map(*)) {:)
-(:    let $div := $model("work"):)
-(:    let $prevDiv := $div/preceding::tei:div[parent::tei:div][1]:)
-(:    let $nextDiv := $div/following::tei:div[parent::tei:div][1]:)
-(:    let $work := $div/ancestor-or-self::tei:TEI:)
+(:    let $para := $model("work"):)
+(:    let $prevPara := $div/preceding::tei:p[parent::tei:p][1]:)
+(:    let $nextPara := $div/following::tei:p[parent::tei:p][1]:)
+(:    let $work := $para/ancestor-or-self::tei:TEI:)
 (:    return:)
 (:        element { node-name($node) } {:)
 (:            $node/@*,:)
 (:            if ($prevDiv) then:)
-(:                <a xmlns="http://www.w3.org/1999/xhtml" href="{$prevDiv/@xml:id}.html" class="previous">:)
-(:                    <i class="glyphicon glyphicon-chevron-left"/> Previous Scene</a>:)
+(:                <a xmlns="http://www.w3.org/1999/xhtml" href="{$prevPara/@xml:id}.html" class="previous">:)
+(:                    <i class="glyphicon glyphicon-chevron-left"/> Previous Paragraph</a>:)
 (:            else:)
 (:                (),:)
 (:            if ($nextDiv) then:)
-(:                <a xmlns="http://www.w3.org/1999/xhtml" href="{$nextDiv/@xml:id}.html" class="next">:)
-(:                    Next Scene <i class="glyphicon glyphicon-chevron-right"/></a>:)
+(:                <a xmlns="http://www.w3.org/1999/xhtml" href="{$nextPara/@xml:id}.html" class="next">:)
+(:                    Next Paragraph <i class="glyphicon glyphicon-chevron-right"/></a>:)
 (:            else:)
 (:                (),:)
 (:            <h5 xmlns="http://www.w3.org/1999/xhtml"><a href="{$work/@xml:id}">{app:work-title($work)}</a></h5>:)
@@ -211,8 +211,31 @@ declare function app:view($node as node(), $model as map(*), $id as xs:string, $
         else
             $text
     return
-        tei2:tei2html($text) 
+            tei2:tei2html($text)
+            
 };
+
+
+
+(:declare :)
+(:    %templates:wrap:)
+(:    function app:viewImages:)
+(:    :)
+(:(:    ($work as element(tei:TEI)) {:):)
+(:(:    let $pageImg := $work/tei:text/tei:body/tei:pb:):)
+(:(:    let $pageSrc := $pageImg/@facs:):)
+(:(:    for $pageImg in $work:):)
+(:(:    return:):)
+(:(:        <img src="{$pageSrc}"/>:):)
+(:(:};:):)
+(:(:    :):)
+(:    ($node as node()*, $model as map(*), $id as xs:string?) {:)
+(:    let $work := collection($config:data)//id($id):)
+(:    let $pageImage := $work//tei:pb/@facs:)
+(:    for $pageImage in $work:)
+(:    return:)
+(:        <img src="{$pageImage}"/>:)
+(:};:)
 
 (:~
     Execute the query. The search results are not output immediately. Instead they
@@ -427,8 +450,8 @@ function app:show-hits($node as node()*, $model as map(*), $start as xs:integer,
                 <a href="{$doc-id}.html">{$work-title}</a>
             </td>
         </tr>
-(:    let $matchId := ($hit/@xml:id, util:node-id($hit))[1]:)
-    let $config := <config width="120" table="yes" link="{$id}.html?query={$model('query')}"/>
+    let $matchId := ($hit/@xml:id, util:node-id($hit))[1]
+    let $config := <config width="120" table="yes" link="{$id}.html?query={$model('query')}#{$matchId}"/>
     let $kwic := kwic:summarize($hitExpanded, $config, app:filter#2)
     return
         ($loc, $kwic)        
