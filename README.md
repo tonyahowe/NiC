@@ -6,7 +6,8 @@ An eXist app that makes accessible a curated and edited collection of primary re
 <h2>Things I Want to Do (In No Particular Order)</h2>
 
 <ul>
-<li>Add live link functionality to tei:imprint/extent[@type='online']
+<li><del>Add live link functionality to tei:imprint/extent[@type='online']<del>
+<li><del>Added iteration for multiple XML contributors</del>
 <li><del>Correct live linking to title in search results</del>
 <li><del>Correct live linking to query term in search results</del>
 <li><del>Typeswitch case <exist:match> in tei2html.xql doesn't return <mark> tags</del>
