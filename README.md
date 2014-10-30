@@ -12,8 +12,8 @@ An eXist app that makes accessible a curated and edited collection of primary re
 <li><del>Correct live linking to query term in search results</del>
 <li><del>Typeswitch case <exist:match> in tei2html.xql doesn't return <mark> tags</del>
 <li><del>Add facsimile page images (sample images available in /images)</del>
-<li>Refine page image display - page images embedded in hays.xml -- see notes on page images below
-<li>Correct the branching path for selecting either view-play.html or view-work.html to default to one -- see note below
+<li><del>Refine page image display - page images embedded in hays.xml -- see notes on page images below</del>
+<li><del>Correct the branching path for selecting either view-play.html or view-work.html to default to one -- see note below</del>
 <li>Add new kinds of xml files, linked to sample xml files currently in /data--for instance, headnotes and reading/study questions
 <li>Add user functionality for uploading and/or sub-collection creation
 <li>Define a workflow to curate user contributions
