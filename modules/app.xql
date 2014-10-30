@@ -71,10 +71,6 @@ function app:work($node as node(), $model as map(*), $id as xs:string?) {
         map { "work" := $work }
 };
 
-declare function app:display($node as node(), $model as map(*)) {
-    tei2:tei2html($model("work"))
-};
-
 declare function app:work-title($node as node(), $model as map(*), $type as xs:string?) {
     let $suffix := if ($type) then "." || $type else ()
     let $work := $model("work")/ancestor-or-self::tei:TEI
@@ -171,39 +167,7 @@ declare function app:work-types($node as node(), $model as map(*)) {
         templates:form-control($control, $model)
 };
 
-(:declare function app:navigation($node as node(), $model as map(*)) {:)
-(:    let $para := $model("work"):)
-(:    let $prevPara := $div/preceding::tei:p[parent::tei:p][1]:)
-(:    let $nextPara := $div/following::tei:p[parent::tei:p][1]:)
-(:    let $work := $para/ancestor-or-self::tei:TEI:)
-(:    return:)
-(:        element { node-name($node) } {:)
-(:            $node/@*,:)
-(:            if ($prevDiv) then:)
-(:                <a xmlns="http://www.w3.org/1999/xhtml" href="{$prevPara/@xml:id}.html" class="previous">:)
-(:                    <i class="glyphicon glyphicon-chevron-left"/> Previous Paragraph</a>:)
-(:            else:)
-(:                (),:)
-(:            if ($nextDiv) then:)
-(:                <a xmlns="http://www.w3.org/1999/xhtml" href="{$nextPara/@xml:id}.html" class="next">:)
-(:                    Next Paragraph <i class="glyphicon glyphicon-chevron-right"/></a>:)
-(:            else:)
-(:                (),:)
-(:            <h5 xmlns="http://www.w3.org/1999/xhtml"><a href="{$work/@xml:id}">{app:work-title($work)}</a></h5>:)
-(:        }:)
-(:};:)
-
 declare function app:view($node as node(), $model as map(*), $id as xs:string, $query as xs:string?) {
-(:    let $query := session:get-attribute("apps.NiC.query"):)
-(:    return:)
-(:        for $text in $model("work")/id($id):)
-(:        let $text :=:)
-(:            if ($query) then:)
-(:                util:expand(($text[.//tei:head[ft:query(., $query)]], $text[.//tei:p[ft:query(., $query)]]), "add-exist-id=all"):)
-(:            else:)
-(:                $text:)
-(:        return:)
-(:            tei2:tei2html($text):)
     for $text in $model("work")/id($id)
     let $text :=
         if ($query) then
@@ -215,27 +179,27 @@ declare function app:view($node as node(), $model as map(*), $id as xs:string, $
             
 };
 
+declare function app:pageImages($node as node(), $model as map(*)) {
+    for $pb in $model("work")//tei:pb
+    let $facsPage := $pb/@facs
+    return
+        <p><a href="../images/{$facsPage}"><img src="../images/{$facsPage}" width="100%"/></a></p>
+};
 
-
-(:declare :)
-(:    %templates:wrap:)
-(:    function app:viewImages:)
-(:    :)
-(:(:    ($work as element(tei:TEI)) {:):)
-(:(:    let $pageImg := $work/tei:text/tei:body/tei:pb:):)
-(:(:    let $pageSrc := $pageImg/@facs:):)
-(:(:    for $pageImg in $work:):)
-(:(:    return:):)
-(:(:        <img src="{$pageSrc}"/>:):)
-(:(:};:):)
-(:(:    :):)
-(:    ($node as node()*, $model as map(*), $id as xs:string?) {:)
-(:    let $work := collection($config:data)//id($id):)
-(:    let $pageImage := $work//tei:pb/@facs:)
-(:    for $pageImage in $work:)
-(:    return:)
-(:        <img src="{$pageImage}"/>:)
-(:};:)
+declare function app:sources($node as node(), $model as map(*)) {
+    for $n in $model("work")//tei:imprint
+    return
+        <p><li class="list-unstyled"><small>
+            {$n//tei:pubPlace}: {$n//tei:publisher}. {$n//tei:date}.
+            {
+                if ($n//tei:extent/@type = "online") then
+                    <a href="{$n//tei:extent}">Link.</a>
+                else
+                    $n//tei:extent
+            }
+            {$n//tei:note}
+            </small></li></p>
+};
 
 (:~
     Execute the query. The search results are not output immediately. Instead they

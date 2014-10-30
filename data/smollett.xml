@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="smollett-rr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">The Adventures of Roderick Random</title>
+                <author>
+                    <forename>Tobias</forename>
+                    <surname>Smollett</surname>
+                </author>
+                <author>
+                    <surname>Anonymous</surname>
+                </author>
+                <respStmt>
+                    <resp>Transcription and correction</resp>
+                    <name>Elizabeth Ricketts</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction, editorial commentary, and markup</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Printed for J. Osborn, in Pater-Noster-Row</publisher>
+                    <date type="firstEd">1748</date>
+                    <extent type="physical">2v. ;  12⁰.</extent>
+                    <note>First edition.</note>
+                </imprint>
+                <imprint>
+                    <pubPlace>Public domain electronic facsimile copy</pubPlace>
+                    <publisher> Internet Archive</publisher>
+                    <date type="accessed">24 October 2014</date>
+                    <extent type="online">https://archive.org/details/adventuresroder00unkngoog</extent>
+                    <note>Sixth edition.</note>
+                    <note>This electronic version is a digitization of the sixth edition, housed at the University of Lausanne</note>
+                </imprint>
+                <imprint>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Printed for W. Strachan, J. Rivington, R. Baldwin, Hawes, Clarke, and Collins, W. Johnston, [and 5 others]</publisher>
+                    <date>1775</date>
+                    <extent type="physical">2v.,plates ;  12⁰.</extent>
+                    <note>Tenth edition.</note>
+                    <note>The page images are sourced from this object, courtesy of the Library of Congress, Washington DC.</note>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="section">Preface.</head>
+        </front>
+        <body>
+            
+        </body>
+    </text>
+</TEI>

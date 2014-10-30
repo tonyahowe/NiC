@@ -37,13 +37,13 @@
                     <pubPlace>London</pubPlace>
                     <extent type="physical">3v. 12°</extent>
                     <biblScope unit="page" from="12" to="34">Pages</biblScope>
+                    <note>First edition.</note>
                     <note>This object is in the Library of Congress</note>
                 </imprint>
                 <imprint>
                     <publisher>Google eBook</publisher>
                     <pubPlace>Public domain electronic facsimile copy</pubPlace>
                     <extent type="online">Add Link</extent>
-                    <date type="accessed">Add Date</date>
                 </imprint>
             </sourceDesc>
         </fileDesc>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="reeve-prog">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">The Progress of Romance</title>
+                <author>
+                    <forename>Clara</forename>
+                    <surname>Reeve</surname>
+                </author>
+                <respStmt>
+                    <resp>Transcription and correction</resp>
+                    <name>Elizabeth Ricketts</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction, editorial commentary, and markup</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <pubPlace>Colchester</pubPlace>
+                    <publisher>Printed for the author by W. Keymer</publisher>
+                    <date type="firstEd">1785</date>
+                    <extent type="physical">2 v. in 1. 19 cm.</extent>
+                    <note>The page images are sourced from this edition, published in one volume, courtesy of the Library of Congress, Washington DC.</note>
+                    <biblScope unit="page" from="12" to="34">Add Pages.</biblScope>
+                </imprint>
+                <imprint>
+                    <pubPlace>Public domain electronic facsimile copy</pubPlace>
+                    <publisher>HathiTrust</publisher>
+                    <date type="accessed">24 October 2014</date>
+                    <extent type="online">http://babel.hathitrust.org/cgi/pt?id=inu.30000007087707;view=2up;seq=8</extent>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="section"/>
+        </front>
+        <body>
+            <pb facs="reeve.jpg"/>
+            <pb facs="reeve-001.jpg"/>
+            <pb facs="reeve-002.jpg"/>
+            <pb facs="reeve-003.jpg"/>
+            <pb facs="reeve-004.jpg"/>
+            <pb facs="reeve-005.jpg"/>
+            <pb facs="reeve-006.jpg"/>
+            <pb facs="reeve-007.jpg"/>
+            <pb facs="reeve-008.jpg"/>
+            <pb facs="reeve-009.jpg"/>
+            <pb facs="reeve-010.jpg"/>
+            <pb facs="reeve-011.jpg"/>
+            <pb facs="reeve-012.jpg"/>
+            <pb facs="reeve-013.jpg"/>
+            <pb facs="reeve-014.jpg"/>
+            <pb facs="reeve-015.jpg"/>
+            <pb facs="reeve-016.jpg"/>
+            <pb facs="reeve-017.jpg"/>
+            <pb facs="reeve-018.jpg"/>
+            <pb facs="reeve-019.jpg"/>
+            <pb facs="reeve-020.jpg"/>
+        </body>
+    </text>
+</TEI>

@@ -26,19 +26,16 @@
             <sourceDesc>
                 <imprint>
                     <pubPlace>London</pubPlace>
-                    <publisher>Printed for J[ohn]. Payne, at Pope's Head, in Pater-noster-Row</publisher>
+                    <publisher>Printed for J[ohn]. Payne, and J. Bouquet, in Pater-noster-Row; where letters for the author are received, [1750-1752]</publisher>
                     <date type="firstEd">Saturday, 31 March 1750</date>
-                    <date>1752</date>
-                    <note>This excerpt is sourced from a reprint of the first collected UK
-                        edition.</note>
-                    <extent>6v. ; 12⁰.</extent>
-                    <biblScope unit="page" from="12" to="34">Pages.</biblScope>
+                    <note>First edition.</note>
+                    <note>The accompanying page image is sourced from the Michigan State University Special Collections library.</note>
                 </imprint>
                 <imprint>
                     <pubPlace>Public domain electronic facsimile copy</pubPlace>
                     <publisher>Google eBook</publisher>
-                    <date type="accessed">15 August 2014</date>
-                    <extent>http://books.google.com/books?id=7ZYDAAAAQAAJ</extent>
+                    <extent type="online">http://books.google.com/books?id=7ZYDAAAAQAAJ</extent>
+                    <note>This electronic edition is a reprint of the first collected UK edition.</note>
                 </imprint>
             </sourceDesc>
         </fileDesc>

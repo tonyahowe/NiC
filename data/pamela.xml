@@ -9,7 +9,7 @@
                     <surname>Richardson</surname>
                 </author>
                 <respStmt>
-                    <resp>transcription, correction, editorial commentary, and markup</resp>
+                    <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>
                 </respStmt>
             </titleStmt>
@@ -29,14 +29,13 @@
                     <publisher>Printed for C. Rivington, in St. Paul’s Church-Yard; and J. Osborn, in Pater-noster Row</publisher>
                     <pubPlace>London</pubPlace>
                     <extent>2v. 12°</extent>
-                    <note/>
+                    <note>This is the first edition.</note>
                     <biblScope unit="page" from="12" to="34">Pages</biblScope>
                 </imprint>
                 <imprint>
                     <pubPlace>Public domain electronic fulltext copy</pubPlace>
                     <publisher>University of Michigan ECCO-TCP</publisher>
-                    <extent>http://name.umdl.umich.edu/004853488.0001.000</extent>
-                    <date type="accessed">10 July 2014</date>
+                    <extent type="online">http://name.umdl.umich.edu/004853488.0001.000</extent>
                 </imprint>
             </sourceDesc>
         </fileDesc>

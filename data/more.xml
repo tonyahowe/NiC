@@ -10,7 +10,7 @@
                     <surname>More</surname>
                 </author>
                 <respStmt>
-                    <resp>transcription, correction, editorial commentary, and markup</resp>
+                    <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>
                 </respStmt>
             </titleStmt>
@@ -29,15 +29,15 @@
                     <pubPlace>London</pubPlace>
                     <publisher>Printed for T. Cadell Jun. and W. Davies in the Strand</publisher>
                     <date type="firstEd">1799</date>
-                    <note>This object is in the Library of Congress.</note>
-                    <extent>2v. ;  8⁰.</extent>
+                    <extent type="physical">2v. ;  8⁰.</extent>
                     <biblScope unit="page" from="12" to="34">Pages</biblScope>
+                    <note>First edition.</note>
+                    <note>This object is in the Library of Congress.</note>
                 </imprint>
                 <imprint>
                     <pubPlace>Public domain electronic facsimile copy</pubPlace>
                     <publisher>University of Michigan ECCO-TCP</publisher>
-                    <date type="accessed">19 August 2014</date>
-                    <extent>http://quod.lib.umich.edu/e/ecco?c=ecco;iel=4;view=toc;idno=004902140.0001.001</extent>
+                    <extent type="online">http://quod.lib.umich.edu/e/ecco?c=ecco;iel=4;view=toc;idno=004902140.0001.001</extent>
                 </imprint>
             </sourceDesc>
         </fileDesc>

@@ -15,14 +15,8 @@ declare function tei2:tei2html($nodes as node()*) {
                 tei2:header($node) 
             case element(tei:front) return
                 tei2:front($node)
-(:            case element(tei:body) return :)
-(:                tei2:body($node) :)
-            case element(tei:pb) return
-                tei2:pageImages($node)
-            
             case element(tei:p) return
                 <p xmlns="http://www.w3.org/1999/xhtml" id="{tei2:get-id($node)}">{ tei2:tei2html($node/node()) }</p> (: THIS IS WHERE THE ANCHORS ARE INSERTED! :)
-(:                <p xmlns="http://www.w3.org/1999/xhtml">{$node}</p> :)
             case element(exist:match) return
                 <mark xmlns="http://www.w3.org/1999/xhtml">{ $node/node() }</mark>
             case element() return
@@ -36,15 +30,16 @@ declare function tei2:header($header as element(tei:teiHeader)) {
     let $pubStmt := $header//tei:publicationStmt
     let $sourceDesc := $header//tei:sourceDesc
     let $authors := $header//tei:titleStmt/tei:author
+    let $resps := $header//tei:respStmt
     let $imprints := $header//tei:sourceDesc/tei:imprint
-    let $onlineImprint := $header//tei:sourceDesc/tei:imprint/tei:extent[@type="online"]
+    let $onlineImprints := $header//tei:sourceDesc/tei:imprint/tei:extent[@type="online"]
     let $publishers := $header//tei:sourceDesc/tei:imprint/tei:publisher
 
   (: link issue: works, but don't want it to display with @type=physical extent. need an or operator? or something else? :)
     return
         <div xmlns="http://www.w3.org/1999/xhtml" class="text-header">
             <h1>{$titleStmt/tei:title/text()}</h1>
-            <h2>By 
+            <h1><small>By 
             {
                 let $author-full-names :=
                     for $author in $authors
@@ -64,19 +59,21 @@ declare function tei2:header($header as element(tei:teiHeader)) {
                             $author-full-names[last()]
                         )
             }
-            </h2>
-            
-            {
-                for $resp in $titleStmt/tei:respStmt
+            </small></h1><p></p>
+        
+            { 
+                for $n in $resps
                 return
-                    <p>{$resp/tei:resp/text()}: {$resp/tei:name/text()} </p>
+                    <li class="list-unstyled">{concat($n//$resps/tei:resp, ' by ', $n//$resps/tei:name)}</li>
+                            
+                    
+(:                for $resp in $resps:)
+(:                return:)
+(:                    <p>{string-join(($titleStmt/tei:respStmt/tei:resp, $titleStmt/tei:respStmt/tei:name), ' by ')}</p>:)
+               
             }
-            
-            {
-                for $onlineImprint in $imprints
-                return <a href="{$publishers/tei:extent/text()}">{$publishers/tei:extent/text()}</a>
-            }
-</div>
+
+    </div>
 };
 
 declare function tei2:front($front as element (tei:front)) {
@@ -104,12 +101,12 @@ declare function tei2:front($front as element (tei:front)) {
 (:};:)
 
 
-declare function tei2:pageImages($pb as element (tei:pb)) {
-    let $facsPage := $pb/@facs
-    for $pb in "work"
-    return
-        <img src="../images/{$facsPage}"/>
-};
+(:declare function tei2:pageImages($pb as element (tei:pb)) {:)
+(:    let $facsPage := $pb/@facs:)
+(:    for $pb in "work":)
+(:    return:)
+(:        <img src="../images/{$facsPage}"/>:)
+(:};:)
 
 declare %private function tei2:get-id($node as element()) {
     ($node/@xml:id, $node/@exist:id)[1]

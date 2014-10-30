@@ -30,13 +30,21 @@
                     <date type="firstEd">1796</date>
                     <extent type="physical">2v. ; 12⁰</extent>
                     <biblScope unit="page" from="1" to="7">Pages 1-7</biblScope>
-                    <note>This item is located in the Library of Congress.</note>
+                    <note>First Edition.</note>
+                    <note>This item is located in the University of Alberta Special Collections Lbrary.</note>
                 </imprint>
                 <imprint>
                     <pubPlace>Public domain electronic facsimile copy</pubPlace>
                     <publisher>Google eBook</publisher>
-                    <date type="accessed">18 August 2014</date>
                     <extent type="online">http://books.google.com/books?id=94UgAAAAMAAJ</extent>
+                </imprint>
+                <imprint>
+                    <pubPlace>New York</pubPlace>
+                    <publisher>Printed for Hugh M. Griffith, no. 88, water-street</publisher>
+                    <date>1802</date>
+                    <note>Page images are sourced from this first American edition, courtesy of the Library of Congress, Washington DC.</note>
+                    <extent type="physical">2 v. in 1. 17 x 11 cm.</extent>
+                    <biblScope unit="page" from="1" to="7">Pages 1-7</biblScope>
                 </imprint>
             </sourceDesc>
         </fileDesc>
@@ -44,23 +52,13 @@
     <text>
         <front>
             <head>Preface.</head>
-            <epigraph xml:lang="en">
-                <cit>
-                    <bibl>Rousseau</bibl>
-                    <quote>
-                        <l>
-                        The preceptions of persons in retirement are very
-                  different from those of people in the great world: their passions, being
-                  differendy modified, are differently expressed; their imaginations, constantly
-                  impressed by the same objects, are more violently affected. The same small number
-                  of images continually return, mix with every idea, and create those strange and
-                  false notions, so remarkable in people who spend their lives in solitude.</l>
-                    </quote>
-                </cit>
-            </epigraph>
         </front>
         <body>
-            <pb facs="hays-mec-00.png"/>
+            <pb facs="hays-mec.jpg"/>
+            <pb facs="hays-mec-001.jpg"/>
+            <pb facs="hays-mec-002.jpg"/>
+            <pb facs="hays-mec-003.jpg"/>
+            <pb facs="hays-mec-004.jpg"/>
             <p>
                 <span title="thesis">
                     <span title="valueClaim">The most interesting, and the most useful, fictions,
@@ -78,7 +76,6 @@
                the novel of <rs type="title" ref="CW">Caleb Williams</rs>, <span title="character">curiosity in the hero,
                and the love of reputation in the soul-moving character of Falkland, fostered into
                ruling passions</span>, are drawn with a masterly hand.</p>
-            <pb facs="hays-mec-01.png"/>
             <p>
                 For the subject of these Memoirs, a more universal
                   sentiment is chosen—a sentiment hackneyed in this species of composition,
@@ -103,7 +100,6 @@
                     </span>
                 </span>
             </p>
-            <pb facs="hays-mec-02.png"/>
             <p>
                 <span title="purpose" type="negative">
                     <span title="romance">It has commonly been the business

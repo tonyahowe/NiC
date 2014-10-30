@@ -39,5 +39,17 @@
             <value>Dialogue</value>
             <value>Misc</value>
         </item>
+        <item>
+            <id>smollett-rr</id>
+            <label>The Adventures of Roderick Random</label>
+            <value>Preface</value>
+            <value>Novel</value>
+        </item>
+        <item>
+            <id>reeve-prog</id>
+            <label>The Progress of Romance</label>
+            <value>Dialogue</value>
+            <value>Misc</value>
+        </item>
     </items>
 </code-table>

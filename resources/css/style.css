@@ -299,13 +299,13 @@ td.hi {
     background-color: white;
 }
 
-mark /* note that there's another mark defined in exist-nic.css, copied all below */
-    {
-    color:#0083cb;
-    background-color: white;
-    font-weight: bold;
-    padding:0 .5em 0 .5em;
- }
+/* mark /* note that there's another mark defined in exist-nic.css, copied all below 
+/*    {*/
+/*    color:#0083cb;*/
+/*    background-color: white;*/
+/*    font-weight: bold;*/
+/*    padding:0 .5em 0 .5em;*/
+/* }*/
 
 td.following {
     text-align: left;
@@ -473,12 +473,12 @@ td.following {
   word-wrap: break-word;
 }
 
-.mark {  
-    color:#0083cb;
-    background-color: white;
-    font-weight: bold;
-    padding:0 .5em 0 .5em;
-}
+/*.mark {  */
+/*    color:#0083cb;*/
+/*    background-color: white;*/
+/*    font-weight: bold;*/
+/*    padding:0 .5em 0 .5em;*/
+/*}*/
 
 
 .text-header {
