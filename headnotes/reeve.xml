@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="colfield-cry">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">Headnote: The Progress of Romance</title>
+                <author>
+                    <forename>Tonya</forename>
+                    <surname>Howe</surname>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+            </publicationStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>Headnote: <em>The Progress of Romance</em>
+            </head>
+        </front>
+        <body>
+            <p>Clara Reeve's <i>The Progress of Romance</i> is an important text in the history of the novel for several reasons. Not only does it present a history of prose fiction during a period when prose fiction was highly contentious, but it also does so with careful attention to women's roles in the development of the novel. Far from dismissive, she treats the romance as a legitimate genre with a vibrant and influential history. Indeed, this caused some critics to instead dismiss <em>her</em> work as trivial and feminine. While the majority of the work is concerned with the history and reputation of romance as a form, she does spend time addressing the relationship between the novel as distinct from the romance--this she does primarily in Conversation VII, excerpted here. <i>The Progress of Romance</i> was published in 1785, and written in the dialogue form, which puts it squarely within the masculine philosophical tradition. </p>
+            <p>more here!</p>
+        </body>
+    </text>
+</TEI>
