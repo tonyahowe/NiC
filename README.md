@@ -15,6 +15,7 @@ An eXist app that makes accessible a curated and edited collection of primary re
 <li><del>Refine page image display - page images embedded in hays.xml -- see notes on page images below</del>
 <li><del>Correct the branching path for selecting either view-play.html or view-work.html to default to one -- see note below</del>
 <li>Add new kinds of xml files, linked to sample xml files currently in /data--for instance, headnotes and reading/study questions
+<li>Why isn't the About link working as expected? I.e., like the Search Help link?
 <li>Add user functionality for uploading and/or sub-collection creation
 <li>Define a workflow to curate user contributions
 <li>Enable users to select records from among all the data sources for inclusion into a pdf or a subcollection
