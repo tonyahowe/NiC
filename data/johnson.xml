@@ -53,6 +53,12 @@
             </epigraph>
         </front>
         <body>
+            <pb facs="rambler.png"/>
+            <pb facs="rambler-001.png"/>
+            <pb facs="rambler-002.png"/>
+            <pb facs="rambler-003.png"/>
+            <pb facs="rambler-004.png"/>
+            <pb facs="rambler-005.png"/>
             <p>The works of fiction, with which the present generation seems more particularly
                   delighted, are such as <span ana="editorial.xml#realism" type="positive">exhibit
                      life in its true state, diversified only by accidents that daily happen in the

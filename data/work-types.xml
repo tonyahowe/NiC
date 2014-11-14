@@ -5,6 +5,12 @@
     <description/>
     <items>
         <item>
+            <id>fem-ment</id>
+            <label>The Female Mentor; or, Select Conversations</label>
+            <value>Essay</value>
+            <value>Dialogue</value>
+        </item>
+        <item>
             <id>hays-mec</id>
             <label>The Memoirs of Emma Courtney</label>
             <value>Novel</value>
@@ -38,6 +44,7 @@
             <label>The Cry, a New Dramatic Fable</label>
             <value>Dialogue</value>
             <value>Misc</value>
+            <value>Essay</value>
         </item>
         <item>
             <id>smollett-rr</id>
@@ -50,6 +57,7 @@
             <label>The Progress of Romance</label>
             <value>Dialogue</value>
             <value>Misc</value>
+            <value>Essay</value>
         </item>
     </items>
 </code-table>
