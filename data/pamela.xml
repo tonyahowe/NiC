@@ -4,23 +4,31 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">Pamela; or, Virtue Rewarded</title>
-                <author>
-                    <forename>Samuel</forename>
-                    <surname>Richardson</surname>
-                </author>
+                <person xml:id="SR" sex="M" href="http://en.wikipedia.org/wiki/Samuel_Richardson">
+                    <author>
+                        <forename>Samuel</forename>
+                        <surname>Richardson</surname>
+                        <birth when="1689-08-19">19 August 1689</birth>
+                        <death when="1761-07-04">4 July 1761</death>
+                        <occupation>Master Printer</occupation>
+                        <occupation>Novelist</occupation>
+                        <occupation>Writer</occupation>
+                        <trait type="Marital Status">Remarried</trait>
+                        <nationality>English</nationality>
+                    </author>
+                </person>
                 <respStmt>
                     <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
-               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study and the teaching of the eighteenth-century development of the novel in English.</p>
                 <p>
                     <normalization>
-                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation and page breaks have not been retained. </normalization>
                 </p>
-                <p>Materials have been transcribed from and checked against first editions. 
+                <p>Materials have been transcribed from and checked against first editions where possible. 
                 </p>
             </publicationStmt>
             <sourceDesc>
@@ -35,7 +43,8 @@
                 <imprint>
                     <pubPlace>Public domain electronic fulltext copy</pubPlace>
                     <publisher>University of Michigan ECCO-TCP</publisher>
-                    <extent type="online">http://name.umdl.umich.edu/004853488.0001.000</extent>
+                    <note>This is the third edition, also published in 1741. Page images have been temporarily drawn from the 3rd edition available on Google Books</note>
+                    <extent type="online">http://quod.lib.umich.edu/e/ecco/004873068.0001.001</extent>
                 </imprint>
             </sourceDesc>
         </fileDesc>
@@ -45,6 +54,11 @@
             <head>Preface, by the Editor.</head>
         </front>
         <body>
+            <pb facs="pamela-00.png"/>
+            <pb facs="pamela-01.png"/>
+            <pb facs="pamela-02.png"/>
+            <pb facs="pamela-03.png"/>
+            <pb facs="pamela-04.png"/>
             <p>IF to&#160;Divert&#160;and&#160;Entertain, and at the same time to&#160;Instruct, and&#160;Improve&#160;the Minds
                of the&#160;Youth&#160;of&#160;both Sexes:</p>
             <p>IF to inculcate&#160;Religion&#160;and&#160;Morality&#160;in so easy and agreeable a manner, as shall

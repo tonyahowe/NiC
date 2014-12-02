@@ -4,10 +4,18 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">The Progress of Romance</title>
-                <author>
-                    <forename>Clara</forename>
-                    <surname>Reeve</surname>
-                </author>
+                <person xml:id="CR" sex="F" href="http://en.wikipedia.org/wiki/Clara_Reeve">
+                    <author>
+                        <forename>Clara</forename>
+                        <surname>Reeve</surname>
+                        <born when="1729">1729</born>
+                        <died when="1807-12-03">3 December 1807</died>
+                        <occupation>Writer</occupation>
+                        <occupation>Novelist</occupation>
+                        <trait type="Marital Status">Unmarried</trait>
+                        <nationality>English</nationality>
+                    </author>
+                </person>
                 <respStmt>
                     <resp>Transcription and correction</resp>
                     <name>Elizabeth Ricketts</name>
@@ -47,7 +55,7 @@
     </teiHeader>
     <text>
         <front>
-            <head type="section"/>
+            <head type="section">Evening VII</head>
         </front>
         <body>
             <pb facs="reeve.jpg"/>
@@ -71,6 +79,488 @@
             <pb facs="reeve-018.jpg"/>
             <pb facs="reeve-019.jpg"/>
             <pb facs="reeve-020.jpg"/>
+            <sp>
+                <speaker>
+                    <i>Hort.</i>
+                </speaker>
+                <p>We have now, I presume, done with the Romances, and are expecting your investigation of Novels.</p>
+            </sp>
+            <sp>
+                <speaker>
+                    <i>Euph.</i>
+                </speaker>
+                <p> It is now that I begin to be sensible in how arduous an undertaking I have engaged, and to fear I shall leave it unfinished.</p>
+            </sp>
+            <sp>
+                <speaker>
+                    <i>Hort.</i>
+                </speaker>
+                <p>Have no fears, Madam; we shall not suffer you to leave off presently.  We expect the completion of the plan you have given us.</p>
+            </sp>
+            <sp>
+                <speaker>
+                    <i>Soph.</i>
+                </speaker>
+                <p>If I judge rightly, the conclusion is yet a great way off.</p>
+            </sp>
+            <sp>
+                <speaker>
+                    <i>Euph.</i>
+                </speaker>
+                <p>This is one of the circumstances that frighten me. If I skim over the subject lightly it will be doing nothing; and if I am too minute I may grow dull and tedious, and tire my hearers.</p>
+                <sp>
+                    <sp>
+                        <speaker>
+                            <i>Hort.</i>
+                        </speaker>
+                        <p> You must aim at the medium you recommended to us.</p>
+                    </sp>
+                    <sp>
+                        <speaker>
+                            <i>Euph.</i>
+                        </speaker>
+                        <p> What Goddess, or what Muse must I invoke to guide me through these vast, unexplored regions of fancy?—regions inhabited by wisdom and folly,—by wit and stupidity,—by religion and profaneness,—by morality and licentiousness.—How shall I separate and distinguish the various and opposite qualities of these strange concomitants?—point out some as the objects of admiration and respect, and others of abhorrence and contempt? </p>
+                    </sp>
+                    <sp>
+                        <speaker>
+                            <i>Hort.</i>
+                        </speaker>
+                        <p> The subject warms you already, and when that is the case, you will never be heard coldly.—Go on and prosper.</p>
+                    </sp>
+                    <sp>
+                        <speaker>
+                            <i>Euph.</i>
+                        </speaker>
+                        <p> In this fairy land are many Castles of various Architecture.—Some are built in the air, and have no foundation at all,— others are composed of such heavy materials,
+that their own weight sinks them into the earth, where they lie buried under their own ru-
+ins, and leave not a trace behind,—a third sort are built upon areal and solid foundation,
+and and remain impregnable against all the attacks of Criticism, and perhaps even of time itself.</p>
+                    </sp>
+                    <sp>
+                        <speaker>
+                            <i>Soph.</i>
+                        </speaker>
+                        <p>So so!—we are indeed got into Fairy-land; it is here that I expect to meet with
+many of my acquaintance, and I shall challenge them whenever I do.</p>
+                    </sp>
+                    <sp>
+                        <speaker>
+                            <i>Euph.</i>
+                            <speaker>
+                                <p> I hope that you will assist my labours.—I will drop the metaphor, and tell you that I mean to take notice only of the most eminent works of this kind:—to pass over others slightly and leave the worst in the depths of Oblivion.</p>
+                                <p>The word Novel in all languages signifies something new. It was first used to distinguish these works from Romance, though they have lately been confounded together and are frequently mistaken for each other.</p>
+                                <sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Soph.</i>
+                                        </speaker>
+                                        <p> But how will you draw the line of distinction, so as to separate them effectually, and prevent future mistakes? </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Euph.</i>
+                                        </speaker>
+                                        <p> I will attempt this distinction, and I presume if it is properly done it will be fol-
+lowed,—If not, you are but where you were before. The Romance is an heroic fable,
+which treats of fabulous persons and things.—The Novel is a picture of real life and
+manners, and of the times in which it is written. The Romance in lofty and elevated language, describes what never happened nor is likely to happen.—The Novel gives a familiar relation of such things, as pass every day before our eyes, such as may happen to our friend, or to ourselves; and the perfection of it, is to represent every scene, in so easy and natural a manner, and to make them appear so probable, as to deceive us into a persuasion (at least while we are reading) that all is real, until we are affected by the joys or distresses, of the persons in the story, as if they were our own.</p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Hort.</i>
+                                        </speaker>
+                                        <p>You have well distinguished, and it is necessary to make this distinction.—I clearly perceive the difference between the Romance and Novel, and am surprized they
+should be confounded together. </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Euph.</i>
+                                        </speaker>
+                                        <p> I have sometimes thought it has been done insidiously, by those who endeavour to render all writings of both kinds contemptible. </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Soph.</i>
+                                        </speaker>
+                                        <p> I have generally observed that men of learning have spoken of them with the greatest disdain, especially collegians. </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Euph.</i>
+                                        </speaker>
+                                        <p>Take care what you say my friend, they are a set of men who are not to be offended with impunity. Yet they deal in Romances, though of a different kind.—Some
+have taken up an opinion upon trust in others whose judgment they prefer to their own.— Others having seen a few of the worst or dullest among them, have judged of all the rest by them;—just as some men affect to despise our sex, because they have only conversed with the worst part of it. </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Hort. </i>
+                                        </speaker>
+                                        <p> You sex knows how to retort upon ours, and to punish us for our offences against
+you.—Proceed however. </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Euph.</i>
+                                        </speaker>
+                                        <p> The Italians were the first that excelled in Novel-writing.—I cannot ascertain the date of any of their earliest Novels. <i>Cynthio Giraldi, </i> and the Decameron of <i>Boccace</i>
+are are some of the first, and served as a model to many that were written afterwards. </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Hort. </i>
+                                        </speaker>
+                                        <p> One Original work of Genius, always produces a swarm of imitations. </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Euph.</i>
+                                        </speaker>
+                                        <p> Cervantes published his exemplary Novels in the year 1613.—They are twelve
+in number, and their titles are as follows: - <i>The little Gipsey—The liberal Lover—The
+Force of Blood—Ricconete and Cotadillo—The Spanish English Lady—The Glass Doctor—The jealous Estramaduran—The illustrious Chambermaid—The two Ladies—The Lady Cornelia—The deceitful Marriage—</i> I mention these by name, because (though they are well known) they have been introduced into other works and ascribed to other Authors. <i>Cervantes </i> boasts in his Preface, that he was
+the first that ever wrote Novels in the Spanish language, which is a proof that he intended them as a different species, from all his other works.</p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Hort.</i>
+                                        </speaker>
+                                        <p> I make no doubt that the seed once sown, produced as plentiful a crop there, as it
+did in the rest of Europe. </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Euph.</i>
+                                        </speaker>
+                                        <p> No, I think not.—It went on fair and softly in Spain, but in France it multiplied to infinity, as it has since done in England.—The first Novels in France were those of <i>Scarron, </i> who probably took the hint from <i>Cervantes.</i>—His Novels were soon buried and forgotten, his best work is called <i>le Roman Comique</i>, which I imagine he intended as
+a kind of Burlesque on the heroic Romance, for otherwise, it is more properly a Novel, than his other pieces.—It is very badly translated into English, by the Title of the <i>Comical Romance,</i> whereas it ought to be the <i>Theatrical Romance, </i> being the Adventures of a company of strolling players;—.under all its disadvantages; it is still natural, lively, and entertaining.
+I have read an early Novel translated from the French, which was much admired in in its day, called <i>Zayde.</i>
+                                        </p>
+                                    </sp>
+                                    <sp>
+                                        <speaker>
+                                            <i>Euph.</i>
+                                        </speaker>
+                                        <p> I thank you for reminding me of it. —It was written by M. Segrais, and the Treatise on the Origin of Romance by M. Huet: was prefixed to it-in it the good Bishop pays as many compliments to M. Segrais, as he does to M. D'Urfe and Madamois. Scudery. </p>
+                                        <sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Soph.</i>
+                                                </speaker>
+                                                <p> But give us your opinion of Layde? </p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Euph.</i>
+                                                </speaker>
+                                                <p> It is superior to Scarron's Novels, but I think, not equal to those of Cervantes; which have all strong marks of his Genius and spirit.</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Soph.</i>
+                                                </speaker>
+                                                <p> Allow me to remind you of the <i>Princess of Cleves,</i> the <i>Captives,</i>
+                                                    <i> Ines de Castro,</i>
+and I shall recollect others of the fame date.</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Euph.</i>
+                                                </speaker>
+                                                <p>You oblige me.—All the last are within the limits of mediocrity, but the <i>Princess of Cleves</i> is of worse tendency, for it influences young minds in favour of a certain
+<i>fatality</i> in love matters, which encourages them to plead errors of the imagination, for
+faults of the heart, which if indulged will undermine both their virtue and peace.</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Soph.</i>
+                                                </speaker>
+                                                <p>You have not mentioned le Sage ? </p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Euph.</i>
+                                                </speaker>
+                                                <p> Le Sage is indeed a writer of note, he is the Author of the <i>Devil upon Two
+Sticks, </i> (as the <i>Diable Boitu </i> is absurdly translated,) of the Bachelor of Salamanca, and of <i>Gil Blas,</i> which is a Novel of first rate merit.</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Hort.</i>
+                                                </speaker>
+                                                <p> There I agree with you.—<i>Voltaire</i> who never praises without good reason, speaks
+of it and its Author in these terms.—<i>" Son " Gil Bias est demeure, parcequ'il y a du naturel."</i>
+                                                </p>
+                                                <p>—It is written in such a manner as to please all times and all people.—He speaks also of Novels written by Count <i>Antony Hamilton, </i> which were as lively as <i>Scarron’s,</i> without
+their Buffoonery.—Are you acquainted with his writings ?</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Euph.</i>
+                                                </speaker>
+                                                <p> I have read his Memoirs of the Count <i>de Grammont,</i> which are written with
+the vivacity of a wit, and the ease of a fine gentleman; they are somewhat exceptionable on the score of morals, and yet as little as can be expected from the Memoirs of a licentious court, that of Charles the Second, and the life of a man of pleasure like the Count <i>de Grammont.</i> I do not reckon this among the Novels, because it has truth for its foundation, though indeed highly embellished.—Of his Novels I know nothing, tho' I have made a strict enquiry after them, and I conjecture that they never were popular.</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Soph.</i>
+                                                </speaker>
+                                                <p> I remember a book called La Belle Assemble, that was very much read formerly, and I think it was well spoken of. </p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Euph.</i>
+                                                </speaker>
+                                                <p> It was written some time after the books we have named, and it is a very unexceptionable and entertaining work of its kind. It carries marks of imitation of <i>Boccace's Decameron, </i> and some of the stories are too far out of the limits of probability. Let us next consider some of the early Novels of our own country.</p>
+                                                <p>We had early translations of the best Novels of all other Countries, but for a long
+time produced very few of our own. One of the earliest I know of is the <i>Cyprian Academy,</i> by Robert Baron in the reign of <i>Charles</i> the First.—Among our early Novel-writers we must reckon Mrs.<i> Behn.</i>—There are strong marks of Genius in all this lady's works, but unhappily, there are some parts of them, very improper to be read by, or recommended to virtuous minds, and especially to youth.—She wrote in an age, and to a court of licentious manners, and perhaps we ought to ascribe to these causes the loose turn of her stories.—Let us do justice to her merits, and cast the veil of compassion over her faults.—She died in the year 1689, and lies buried in the cloisters
+of Westminster Abbey.—The inscription will shew how high she stood in estimation at
+that time.</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Hort.</i>
+                                                </speaker>
+                                                <p>Are you not partial to the sex of this Genius ?—when you excuse in her, what you would not to a man ?</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Euph.</i>
+                                                </speaker>
+                                                <p> Perhaps I may, and you must excuse me if I am so, especially as this lady had many fine and amiable qualities, besides her genius for writing.</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Soph.</i>
+                                                </speaker>
+                                                <p>Pray let her rest in peace,—you were speaking of the inscription on her monument, I do not remember it.</p>
+                                            </sp>
+                                            <sp>
+                                                <speaker>
+                                                    <i>Euph.</i>
+                                                    <p> It is as follows:
+<lg>
+                                                            <l>Mrs. APHRA BEHN, 1689.</l>
+                                                            <l>Here lies a proof that wit can never be</l>
+                                                            <l>Defence enough against mortality.</l>
+                                                        </lg>
+
+Let me add that Mrs. Behn will not be forgotten, so long as the Tragedy of <i>Oroonoko, </i> is acted, it was from her story of that illustrious African, that Mr. <i>Southern </i>wrote that play, and the most affecting parts of it are taken almost literally from her.</p>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> Peace be to her manes !—I shall not disturb her, or her works.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> I shall not recommend them to your perusal <i>Hortensius.</i>
+                                                        </p>
+                                                        <p>The next female writer of this class is Mrs. Manley, whose works are still more exceptionable than Mrs. <i>Behn's, </i> and as much inferior to them in point of merit.—She hoarded up all the public and private scandal within her reach, and poured it forth, in a work too well known in the last age, though almost forgotten in the present ; a work that partakes of the style of the Romance, and the Novel. I forbear the name, and further observations on it, as Mrs. <i>Manley's </i> works are sinking gradually into oblivion. I am sorry to fay they were once in fashion, which obliges me to mention them, otherwise I had rather be spared the pain of disgracing an Author of my own sex.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Soph.</i>
+                                                        </speaker>
+                                                        <p> It must be confessed that these books of the last age, were of worse tendency than any of those of the present.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> My dear friend, there were bad books at all times, for those who sought for them.—Let us pass them over in silence.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> No not yet.—Let me help your memory to one more Lady-Author of the same class.—Mrs. Heywood.—She has the fame claim upon you as those you have last mentioned.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> I had intended to have mentioned <i>Mrs. Heywood </i> though in a different way, but I find you will not suffer any part of her character to escape you.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> Why should she be spared any more than the others ?</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> Because she repented of her faults, and employed the latter part of her life in expiating the offences of the former.—There is reason to believe that the examples of the two ladies we have spoken of, seduced Mrs.<i>Heywood </i> into the fame track; she certainly wrote some amorous novels in her youth, and also two books of the fame kind as Mrs.<i>Manley's </i> capital work, all of which I hope are forgotten.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> I fear they will not be so fortunate, they will be known to posterity by the infamous immortality, conferred upon them by <i>Pope</i> in his Dunciad.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p>Mr. Pope was severe in his castigations, but let us be just to merit of every kind. Mrs. <i>Heywood</i> had the singular good fortune to recover a lost reputation, and the yet greater honour to atone for her errors.— She devoted the remainder of her life and labours to the service of virtue. Mrs. <i>Heywood</i> was one of the most voluminous female writers that ever England produced, none of her latter works are destitute of merit, though they do not rise to the highest pitch of excellence.—<i>Betsey Thoughtless</i> is reckoned her best Novel; but those works by which she is most likely to be known to posterity, are the <i>Female Spectator,</i> and the <i>Invisible Spy.</i>—this lady died so lately as the year 1758.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Soph.</i>
+                                                        </speaker>
+                                                        <p> I have heard it often said that Mr.Pope was too severe in his treatment of this
+lady, it was supposed that she had given some private offence, which he resented publicly as was too much his way.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort</i>
+                                                        </speaker>
+                                                        <p> That is very likely, for he was not of a forgiving disposition.—If I have been too severe also, you ladies must forgive me in behalf of your sex.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> Truth is sometimes severe.—Mrs. Heywood's wit and ingenuity were never denied. I would be the last to vindicate her faults, but the first to celebrate her return to virtue, and her atonement for them.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Soph.</i>
+                                                        </speaker>
+                                                        <p> May her first writings be forgotten, and the last survive to do her honour!</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> Let us proceed to other writers.— As I purpose in future to take notice only of such Novels as are originals, or else os extraordinary merit, I must beg your allowance for all trifling slips of memory, for errors in chronology, and all other mistakes of equal consequence.—I must also have leave to mention English and Foreign books indifferently, just as they happen to rise to my memory, and observation.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> It is but just that you should have these, and every other allowance you can require, we have already laid a heavy tax upon you.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> You fee I have many helps from my notes, and I hope to receive further assistance from you both.—I will proceed with my progress. The life of <i>Cleveland,</i> natural son of
+<i>Oliver Cromwell,</i> is one of the old <i>Novels,</i> if I may be allowed the expression, I do not
+certainly know the Author, nor yet the date of the first edition.—When a Novel came
+out but seldom, it was eagerly received and generally read, this was at the time called a work of uncommon merit, but it will not bear a comparison with those that have been written since. There is originality and regularity in it. The incidents are too much of the
+marvellous kind, but some .of the scenes are very pathetic, and there is business enough to keep the reader's attention constantly awake, and above all other merit, it has a moral tendency.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> I have heard this book ascribed to <i>Daniel de Foe,</i> who as I think was also the
+Author of <i>Robinson Crusoe.</i>
+                                                        </p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> His title to the last mentioned is not quite clear.—It is said that he was trusted with a manuscript of <i>Alexander Selkirk's,</i> who met with an adventure of the same kind
+as <i>Crusoe's,</i> and that he stole his materials from thence, and then returned the manuscript to the Author—When <i>Selkirk's</i> book was published, it was taken but little notice of; it had more truth, but less Romance, and beside, the curiosity of the public was gratified, and they looked on <i>Crusoe</i> as the Original, and <i>Selkirk</i> as the copy only.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> That was hard indeed, but I fear not unprecedented; you will give us your opinion of the book, exclusive of this circumstance.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p>Robinson Crusoe was published in the year 1720.—<i>Gaudentio di Lucca</i> in 1725. I shall speak of these two books together, because there is a strong resemblance between them, the same marks of Originality appear in both.—They both give account of unknown or rather of Ideal countries, but in so natural and probable a manner, that they carry the reader with them wherever they please, in the midst of the most extraordinary occurrences. <i>Gaudentio di Lucca</i> is written by the pen of a master, it is imputed to Bishop <i>Berkely,</i> and is not unworthy of that truly venerable man.—There is a greatness of design, and a depth of penetration into the causes of the health and prosperity of a state, and of the moral evils that first weaken and undermine, and finally cause the ruin of it.—The vast consequence of the good or bad education of youth, on which depends the health, vigour, and happiness of a nation.—These circumstances gives this book a manifest superiority to the other, in many other respects they are both equally entitled to our plaudit.—But what gives a still higher value to these two books, they are evidently written to promote the cause of religion and virtue, and may safely be put into the hands of youth.—Such books cannot be too strongly recommended, as under the disguise of fiction, warm the heart with the love of virtue, and by that means, excite the reader to the practice of it.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> A warm plaudit you have given them,—I remember to have read Robinson Crusoe when very young, but I have forgot it, and ever since I have looked upon it as a book for children only; but I will read it again upon your recommendation, and judge of its merits.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> That is the certain consequence of putting these books too soon into the hands of children.—I will be bold to fay a youth who reads them at a proper age, will never forget them.—Let me also beg you will read <i>Gaudentio di Lucca.</i>
+                                                        </p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> I will certainly read them both at my best leisure.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Soph.</i>
+                                                        </speaker>
+                                                        <p> But let me beg you to get the old Edition of Crusoe, for this is one of the books, which <i>Fanaticism</i> has laid her paw upon, and altered it to her own tenets, and she has added some of her own reveries at the end of it, called <i>Visions of the Angelical World.</i>—If <i>Hortensius</i> should once dip into that part of it, it would entirely discredit our recommendation.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> You say true, I will get him the old Edition, which is the best.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p>Pray do you' call these Books Romances or Novels?</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> They partake of the nature of both but I consider them as of a different species from either, as works singular and Original. —I shall have occasion to place some later
+works under this class. But it is time for us to adjourn till next Thursday.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> I shall not fail to meet you.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Soph.</i>
+                                                        </speaker>
+                                                        <p> At my house.—No other engagement shall prevent it.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Hort.</i>
+                                                        </speaker>
+                                                        <p> Agreed,—none could give me equal
+pleasure.</p>
+                                                    </sp>
+                                                    <sp>
+                                                        <speaker>
+                                                            <i>Euph.</i>
+                                                        </speaker>
+                                                        <p> You are always my kind and indulgent friends, and your approbation is the
+crown of my labours.</p>
+                                                    </sp>
+                                                </speaker>
+                                            </sp>
+                                        </sp>
+                                    </sp>
+                                </sp>
+                            </speaker>
+                        </speaker>
+                    </sp>
+                </sp>
+            </sp>
         </body>
     </text>
 </TEI>

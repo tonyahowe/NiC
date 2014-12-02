@@ -4,17 +4,31 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">The Cry: A New Dramatic Fable</title>
-                <author>
-                    <forename>Sarah</forename>
-                    <surname>Fielding</surname>
-                </author>
-                <author>
-                    <forename>Jane</forename>
-                    <surname>Collier</surname>
-                </author>
-                <author>
-                    <surname>Anonymous</surname>
-                </author>
+                <person xml:id="SF" sex="F" href="http://en.wikipedia.org/wiki/Sarah_Fielding">
+                    <author>
+                        <forename>Sarah</forename>
+                        <surname>Fielding</surname>
+                        <birth when="1710-11-08">8 November 1710</birth>
+                        <death when="1768-04-09">9 April 1768</death>
+                        <occupation>Writer</occupation>
+                        <occupation>Children's Author</occupation>
+                        <occupation>Novelist</occupation>
+                        <nationality>English</nationality>
+                        <trait type="Marital Status">Unmarried</trait>
+                    </author>
+                </person>
+                <person xml:id="JC" sex="F" href="http://en.wikipedia.org/wiki/Jane_Collier">
+                    <author>
+                        <forename>Jane</forename>
+                        <surname>Collier</surname>
+                        <birth when="1714">1714</birth>
+                        <death when="1755">1755</death>
+                        <occupation>Writer</occupation>
+                        <occupation>Satirist</occupation>
+                        <nationality>English</nationality>
+                        <trait type="Marital Status">Unmarried</trait>
+                    </author>
+                </person>
                 <respStmt>
                     <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>

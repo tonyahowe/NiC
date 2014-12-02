@@ -5,10 +5,19 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">Strictures on the Modern System of Female Education</title>
-                <author>
-                    <forename>Hannah</forename>
-                    <surname>More</surname>
-                </author>
+                <person xml:id="HM" sex="F" href="http://en.wikipedia.org/wiki/Hannah_More">
+                    <author>
+                        <forename>Hannah</forename>
+                        <surname>More</surname>
+                        <birth when="1745-02-02">2 February 1745</birth>
+                        <death when="1833-09-07">7 September 1833</death>
+                        <occupation>Writer</occupation>
+                        <occupation>Playwright</occupation>
+                        <occupation>Philanthropist</occupation>
+                        <trait type="Marital Status">Unmarried</trait>
+                        <nationality>English</nationality>
+                    </author>
+                </person>
                 <respStmt>
                     <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>

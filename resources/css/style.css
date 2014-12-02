@@ -10,6 +10,14 @@
     font: 16px/24px Georgia, serif;
 }
 
+lg, l {
+   display: block; 
+}
+
+lg {
+    padding: 1em;
+}
+
 .well-dark { /* front-page box */
     background-color: #3B3B3C; 
     color: white;

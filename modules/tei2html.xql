@@ -13,6 +13,12 @@ declare function tei2:tei2html($nodes as node()*) {
                 tei2:tei2html($node/*)
             case element(tei:teiHeader) return
                 tei2:header($node) 
+            case element(tei:lg) return
+                <lg>{ tei2:tei2html($node/node()) }</lg>
+            case element(tei:l) return
+                <l>{ tei2:tei2html($node/node()) }</l>
+            case element(tei:i) return
+                <i>{ tei2:tei2html($node/node()) }</i>
             case element(tei:front) return
                 tei2:front($node)
             case element(tei:p) return

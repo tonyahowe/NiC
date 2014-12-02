@@ -4,10 +4,20 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">The Rambler No. 4</title>
-                <author>
-                    <forename>Samuel</forename>
-                    <surname>Johnson</surname>
-                </author>
+                <person xml:id="SJ" sex="M" href="http://en.wikipedia.org/wiki/Samuel_Johnson">
+                    <author>
+                        <forename>Samuel</forename>
+                        <surname>Johnson</surname>
+                        <birth when="1709-09-18">18 September 1709 [O.S. 7 September]</birth>
+                        <death when="1784-12-13">13 December 1784</death>
+                        <occupation>Lexicographer</occupation>
+                        <occupation>Essayist</occupation>
+                        <occupation>Critic</occupation>
+                        <occupation>Writer</occupation>
+                        <trait type="Marital Status">Married</trait>
+                        <nationality>English</nationality>
+                    </author>
+                </person>
                 <respStmt>
                     <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>
