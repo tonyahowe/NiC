@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">The Cry: A New Dramatic Fable</title>
-                <person xml:id="SF" sex="F" href="http://en.wikipedia.org/wiki/Sarah_Fielding">
-                    <author>
+                <author>
+                    <person xml:id="SF" sex="F" href="http://en.wikipedia.org/wiki/Sarah_Fielding">
                         <forename>Sarah</forename>
                         <surname>Fielding</surname>
                         <birth when="1710-11-08">8 November 1710</birth>
@@ -15,10 +15,10 @@
                         <occupation>Novelist</occupation>
                         <nationality>English</nationality>
                         <trait type="Marital Status">Unmarried</trait>
-                    </author>
-                </person>
-                <person xml:id="JC" sex="F" href="http://en.wikipedia.org/wiki/Jane_Collier">
-                    <author>
+                    </person>
+                </author>
+                <author>
+                    <person xml:id="JC" sex="F" href="http://en.wikipedia.org/wiki/Jane_Collier">
                         <forename>Jane</forename>
                         <surname>Collier</surname>
                         <birth when="1714">1714</birth>
@@ -27,8 +27,8 @@
                         <occupation>Satirist</occupation>
                         <nationality>English</nationality>
                         <trait type="Marital Status">Unmarried</trait>
-                    </author>
-                </person>
+                    </person>
+                </author>
                 <respStmt>
                     <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>

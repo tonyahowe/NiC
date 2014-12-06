@@ -190,7 +190,7 @@ declare function app:sources($node as node(), $model as map(*)) {
     for $n in $model("work")//tei:imprint
     return
         <p><li class="list-unstyled"><small>
-            {$n//tei:pubPlace}: {$n//tei:publisher}. {$n//tei:date}.
+            {$n//tei:pubPlace}: {$n//tei:publisher}. {$n//tei:date}. 
             {
                 if ($n//tei:extent/@type = "online") then
                     <a href="{$n//tei:extent}">Link.</a>

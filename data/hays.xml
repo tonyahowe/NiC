@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">The Memoirs of Emma Courtney</title>
-                <person xml:id="MH" sex="F" href="http://en.wikipedia.org/wiki/Mary_Hays">
-                    <author>
+                <author>
+                    <person xml:id="MH" sex="F" href="http://en.wikipedia.org/wiki/Mary_Hays">
                         <forename>Mary</forename>
                         <surname>Hays</surname>
                         <birth when="1759-10-13">13 October 1759</birth>
@@ -14,8 +14,8 @@
                         <occupation>Feminist</occupation>
                         <trait type="Marital Status">Married</trait>
                         <nationality>English</nationality>
-                    </author>
-                </person>
+                    </person>
+                </author>
                 <respStmt>
                     <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>

@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">On Romances, An Imitation</title>
-                <person xml:id="JA" sex="M" href="http://en.wikipedia.org/wiki/John_Aikin">
-                    <author>
+                <author>
+                    <person xml:id="JA" sex="M" href="http://en.wikipedia.org/wiki/John_Aikin">
                         <forename>John</forename>
                         <surname>Aikin</surname>
                         <birth when="1747-01-05">5 January 1747</birth>
@@ -14,10 +14,10 @@
                         <occupation>Writer</occupation>
                         <trait type="Marital Status">Married</trait>
                         <nationality>English</nationality>
-                    </author>
-                </person>
-                <person xml:id="ALB" sex="F" href="http://en.wikipedia.org/wiki/Anna_Laetitia_Barbauld">
-                    <author>
+                    </person>
+                </author>
+                <author>
+                    <person xml:id="ALB" sex="F" href="http://en.wikipedia.org/wiki/Anna_Laetitia_Barbauld">
                         <forename>Anna Leticia</forename>
                         <surname>Barbauld</surname>
                         <birth when="1743-06-20">20 June 1743</birth>
@@ -27,8 +27,8 @@
                         <occupation>Children's Author</occupation>
                         <trait type="Marital Status">Married</trait>
                         <nationality>English</nationality>
-                    </author>
-                </person>
+                    </person>
+                </author>
                 <respStmt>
                     <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>

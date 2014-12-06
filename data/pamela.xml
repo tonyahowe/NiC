@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">Pamela; or, Virtue Rewarded</title>
-                <person xml:id="SR" sex="M" href="http://en.wikipedia.org/wiki/Samuel_Richardson">
-                    <author>
+                <author>
+                    <person xml:id="SR" sex="M" href="http://en.wikipedia.org/wiki/Samuel_Richardson">
                         <forename>Samuel</forename>
                         <surname>Richardson</surname>
                         <birth when="1689-08-19">19 August 1689</birth>
@@ -15,8 +15,8 @@
                         <occupation>Writer</occupation>
                         <trait type="Marital Status">Remarried</trait>
                         <nationality>English</nationality>
-                    </author>
-                </person>
+                    </person>
+                </author>
                 <respStmt>
                     <resp>Transcription, correction, editorial commentary, and markup</resp>
                     <name>Tonya Howe</name>

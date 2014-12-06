@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">The Adventures of Roderick Random</title>
-                <person xml:id="TS" sex="M" href="http://en.wikipedia.org/wiki/Tobias_Smollett">
-                    <author>
+                <author>
+                    <person xml:id="TS" sex="M" href="http://en.wikipedia.org/wiki/Tobias_Smollett">
                         <forename>Tobias</forename>
                         <surname>Smollett</surname>
                         <birth when="1721-03-19">19 March 1721</birth>
@@ -16,8 +16,8 @@
                         <occupation>Physician</occupation>
                         <trait type="Marital Status">Married</trait>
                         <nationality>Scottish</nationality>
-                    </author>
-                </person>
+                    </person>
+                </author>
                 <respStmt>
                     <resp>Transcription and correction</resp>
                     <name>Elizabeth Ricketts</name>

@@ -50,7 +50,7 @@ declare function tei2:header($header as element(tei:teiHeader)) {
                 let $author-full-names :=
                     for $author in $authors
                     return
-                        concat($author/tei:forename, ' ', $author/tei:surname)
+                        concat($author//tei:forename, ' ', $author//tei:surname)
                 let $name-count := count($authors)
                 return
                     if ($name-count le 2) then

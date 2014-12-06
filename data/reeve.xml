@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="statusBar">The Progress of Romance</title>
-                <person xml:id="CR" sex="F" href="http://en.wikipedia.org/wiki/Clara_Reeve">
-                    <author>
+                <author>
+                    <person xml:id="CR" sex="F" href="http://en.wikipedia.org/wiki/Clara_Reeve">
                         <forename>Clara</forename>
                         <surname>Reeve</surname>
                         <born when="1729">1729</born>
@@ -14,8 +14,8 @@
                         <occupation>Novelist</occupation>
                         <trait type="Marital Status">Unmarried</trait>
                         <nationality>English</nationality>
-                    </author>
-                </person>
+                    </person>
+                </author>
                 <respStmt>
                     <resp>Transcription and correction</resp>
                     <name>Elizabeth Ricketts</name>
@@ -202,7 +202,12 @@ you.—Proceed however. </p>
                                         <speaker>
                                             <i>Euph.</i>
                                         </speaker>
-                                        <p> The Italians were the first that excelled in Novel-writing.—I cannot ascertain the date of any of their earliest Novels. <i>Cynthio Giraldi, </i> and the Decameron of <i>Boccace</i>
+                                        <p> The Italians were the first that excelled in Novel-writing.—I cannot ascertain the date of any of their earliest Novels. <i>
+                                                <person xml:id="CG" sex="M" href="http://en.wikipedia.org/wiki/Giovanni_Battista_Giraldi">Cynthio Giraldi</person>, </i> and the <bibl>
+                                                <title xml:id="DC">Decameron</title>
+                                            </bibl> of <i>
+                                                <person xml:id="BC" sex="M" href="http://en.wikipedia.org/wiki/Giovanni_Boccaccio">Boccace</person>
+                                            </i>
 are are some of the first, and served as a model to many that were written afterwards. </p>
                                     </sp>
                                     <sp>
@@ -215,9 +220,13 @@ are are some of the first, and served as a model to many that were written after
                                         <speaker>
                                             <i>Euph.</i>
                                         </speaker>
-                                        <p> Cervantes published his exemplary Novels in the year 1613.—They are twelve
-in number, and their titles are as follows: - <i>The little Gipsey—The liberal Lover—The
-Force of Blood—Ricconete and Cotadillo—The Spanish English Lady—The Glass Doctor—The jealous Estramaduran—The illustrious Chambermaid—The two Ladies—The Lady Cornelia—The deceitful Marriage—</i> I mention these by name, because (though they are well known) they have been introduced into other works and ascribed to other Authors. <i>Cervantes </i> boasts in his Preface, that he was
+                                        <p>
+                                            <person xml:id="CV" sex="M" href="http://en.wikipedia.org/wiki/Miguel_de_Cervantes">Cervantes</person> published his exemplary Novels in the year 1613.—They are twelve
+in number, and their titles are as follows: - <i>
+                                                <title>The little Gipsey</title>—<title>The liberal Lover</title>—<title>The
+Force of Blood</title>—<title>Ricconete and Cotadillo</title>—<title>The Spanish English Lady</title>—<title>The Glass Doctor</title>—<title>The jealous Estramaduran</title>—<title>The illustrious Chambermaid</title>—<title>The two Ladies</title>—<title>The Lady Cornelia</title>—<title>The deceitful Marriage</title>—</i> I mention these by name, because (though they are well known) they have been introduced into other works and ascribed to other Authors. <i>
+                                                <person xml:id="CV" sex="M" href="http://en.wikipedia.org/wiki/Miguel_de_Cervantes">Cervantes</person>
+                                            </i> boasts in his Preface, that he was
 the first that ever wrote Novels in the Spanish language, which is a proof that he intended them as a different species, from all his other works.</p>
                                     </sp>
                                     <sp>
@@ -231,9 +240,18 @@ did in the rest of Europe. </p>
                                         <speaker>
                                             <i>Euph.</i>
                                         </speaker>
-                                        <p> No, I think not.—It went on fair and softly in Spain, but in France it multiplied to infinity, as it has since done in England.—The first Novels in France were those of <i>Scarron, </i> who probably took the hint from <i>Cervantes.</i>—His Novels were soon buried and forgotten, his best work is called <i>le Roman Comique</i>, which I imagine he intended as
+                                        <p> No, I think not.—It went on fair and softly in Spain, but in France it multiplied to infinity, as it has since done in England.—The first Novels in France were those of <i>
+                                                <person xml:id="SCA" sex="M" href="http://en.wikipedia.org/wiki/Paul_Scarron">Scarron</person>, </i> who probably took the hint from <i>
+                                                <person xml:id="CV" sex="M" href="http://en.wikipedia.org/wiki/Miguel_de_Cervantes">Cervantes</person>.</i>—His Novels were soon buried and forgotten, his best work is called <i>
+                                                <bibl link="#SCA">
+                                                    <title>le Roman Comique</title>
+                                                </bibl>
+                                            </i>, which I imagine he intended as
 a kind of Burlesque on the heroic Romance, for otherwise, it is more properly a Novel, than his other pieces.—It is very badly translated into English, by the Title of the <i>Comical Romance,</i> whereas it ought to be the <i>Theatrical Romance, </i> being the Adventures of a company of strolling players;—.under all its disadvantages; it is still natural, lively, and entertaining.
-I have read an early Novel translated from the French, which was much admired in in its day, called <i>Zayde.</i>
+I have read an early Novel translated from the French, which was much admired in in its day, called <i>
+                                                <bibl>
+                                                    <title>Zayde</title>
+                                                </bibl>.</i>
                                         </p>
                                     </sp>
                                     <sp>
@@ -252,7 +270,7 @@ I have read an early Novel translated from the French, which was much admired in
                                                 <speaker>
                                                     <i>Euph.</i>
                                                 </speaker>
-                                                <p> It is superior to Scarron's Novels, but I think, not equal to those of Cervantes; which have all strong marks of his Genius and spirit.</p>
+                                                <p> It is superior to Scarron's Novels, but I think, not equal to those of <person xml:id="CV" sex="M" href="http://en.wikipedia.org/wiki/Miguel_de_Cervantes">Cervantes</person>; which have all strong marks of his Genius and spirit.</p>
                                             </sp>
                                             <sp>
                                                 <speaker>
