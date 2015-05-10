@@ -23,6 +23,8 @@ declare function tei2:tei2html($nodes as node()*) {
                 tei2:front($node)
             case element(tei:p) return
                 <p xmlns="http://www.w3.org/1999/xhtml" id="{tei2:get-id($node)}">{ tei2:tei2html($node/node()) }</p> (: THIS IS WHERE THE ANCHORS ARE INSERTED! :)
+            case element(tei:person) return
+                <a href="http://google.com">{ tei2:tei2html($node/node()) }</a>
             case element(exist:match) return
                 <mark xmlns="http://www.w3.org/1999/xhtml">{ $node/node() }</mark>
             case element() return

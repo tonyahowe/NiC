@@ -83,9 +83,20 @@ declare function app:work-title($work as element(tei:TEI)) {
 };
 
 declare function app:work-author($node as node(), $model as map(*)) {
-    let $authors := $model("work")//tei:author
-    return
-        string-join($authors/tei:surname, ', ')
+    let $surnames := $model("work")//tei:surname
+    let $name-count := count($surnames)
+        return
+            if ($name-count le 2) then
+                string-join($surnames, ' and ')
+            else
+                concat(
+                    string-join(
+                        $surnames[position() = (1 to last() - 1)]
+                        , 
+                        ', '),
+                    ', and ',
+                    $surnames[last()]
+                )
 };
 
 declare 
