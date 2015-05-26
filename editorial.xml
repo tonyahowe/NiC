@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="editorial">
+                <interpGrp>
+                    <interp xml:id="thesis">a statement suggesting the central claim or thesis of the text</interp>
+                    <interp xml:id="valueClaim">author is making a value claim about fiction</interp> <!-- can there be a "type" associated with a valueclaim that can be positive or negative? so that those types can be applied to other interpretive claims, as well? -->
+                    <interp xml:id="support">support marshalled in support of a claim</interp>
+                    <interp xml:id="positive">a positive statement about fiction</interp>
+                    <interp xml:id="negative">a negative statement about fiction</interp>
+                    <interp xml:id="affect">a statement drawing on images of affect</interp>
+                    <interp xml:id="realism">a statement about the role of realism, the detail, or the individual in fiction</interp>
+                    <interp xml:id="imitation">a statement about the power, nature, or role of imitation, of imitating an action or an observation</interp>
+                    <interp xml:id="idealism">a statement about the role of the ideal or the nouminal in fiction</interp>
+                    <interp xml:id="purpose">the author is making a statement of purpose</interp>
+                    <interp xml:id="religion">themes or images of religiosity</interp>
+                    <interp xml:id="experience">themes or images of experience and empirical evidence</interp>
+                    <interp xml:id="romance">themes or images drawing on romance conventions</interp>
+                    <interp xml:id="gothic">themes, images, or references to gothic fiction</interp>
+                    <interp xml:id="term">a statement giving specific terminology to the novel</interp>
+                    <interp xml:id="genre">a statement or exmamination of the generic features of the novel</interp>
+                    <interp xml:id="youth">themes, images, or references to youth culture</interp>
+                    <interp xml:id="reference">a statement including a reference to a quote, rather than a direct quote</interp>
+                    <interp xml:id="quote">a direct quote</interp>
+                    <interp xml:id="reason">reason, judgment, selection, pattern-recognition</interp>
+                    <interp xml:id="probability">a statement about the role of probability in assessing fiction</interp>
+                    <interp xml:id="metaphor">an interesting explanation via metaphor or simile</interp>
+                    <interp xml:id="character">a statment or discussion of characterization</interp>
+                    <interp xml:id="science">a statement or image of scientific quality; sometimes connected to discussions of experience</interp>
+                    <interp xml:id="reader">an address or reference to the reader</interp>
+                    <interp xml:id="connection">a discussion of logical connection; sometimes tied to discussions of probability</interp>
+                    <interp xml:id="education">a statement or discussion of education or instruction</interp>
+                    <interp xml:id="distinction">a statement concerning selection or distinguishing between many options; also refers to the lack of distinction, or intellectual promiscuity</interp>
+                    <interp xml:id="gender">a discussion that visibly invokes gender</interp>
+                    <interp xml:id="imagination">a statement, image, or discussion of imagination and fancy</interp>
+                    <interp xml:id="writing">a discussion of writing as a profession</interp>
+                    <interp xml:id="economy">a discussion of or imagery relating to economic concerns</interp>
+                    <interp xml:id="sociability"/>
+                    <interp xml:id="ease"/>
+               <!-- 
+                  order/disorder instead of distinction?
+                  logic/illogic ?? connection/dissociation
+                  reader/writer
+                  youth/age
+                  probability/improbability
+                  reason/imagination
+                  sociability/isolation
+                  ease/difficulty
+                  masculinity/femininity ?? gender type="masculine, feminine, queer, normed"
+                  
+ 
+                  
+               -->
+                </interpGrp>
+            </div>
+            <taxonomy> <!-- This section records the various references used in encoding, to be supplied -->
+           <!-- 
+           CW Caleb Williams
+           MONK The Monk
+           MGL Matthew Gregory Lewis
+           AR Anne Radcliffe
+           HEL Helvetius
+           SW Jonathan Swift
+           HAL Lord Halifax
+           TM2 Treatise on Man: His Intellectual Faculties and Education, Volume 2 http://books.google.com/books?id=-2IAAAAAMAAJ&lpg=PA406&ots=LFLGOMwYh3&dq=helvetius%20%22understanding%20and%20talents%22&pg=PA406#v=onepage&q=helvetius%20%22understanding%20and%20talents%22&f=false
+           SCA Scaliger 
+           SKSP Shakespeare
+           MTL Martial
+           MLTN
+           SPNSR
+           rs types: biblical, person, novel
+           metaphr types: medical, physical, religous, alimentary, nautical, reproductive, jewel, satiric
+           -->
+            </taxonomy>
+        </body>
+    </text>
+</TEI>

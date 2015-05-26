@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group>
+    <title>Trip to Norway</title>
+    <text>July 28-30, 2001 Nathan, Per, and John took a quick round trip to the
+    Norwegian fjord country.  Here are some highlights.</text>
+    <picture id="Lillehammer22">
+        <caption>Lillehammer: Ski-jump practice</caption>
+        <date>2001-07-28</date>
+        <text>The Lillehammer olympic 90m ski-jumping hill is used for Summer practice.
+      You can see a jumper landing.</text>
+        <full-image width="1280" height="960">Lillehammer22.jpg</full-image>
+        <image width="740" height="555">Lillehammer22p.jpg</image>
+        <small-image width="240" height="180">Lillehammer22t.jpg</small-image>
+    </picture>
+
+  <!-- more picture elements as desired -->
+    <picture id="ViaValdres2">
+        <caption>Valdres valley</caption>
+        <full-image width="1280" height="960">ViaValdres2.jpg</full-image>
+        <image width="740" height="555">ViaValdres2p.jpg</image>
+        <small-image width="240" height="180">ViaValdres2t.jpg</small-image>
+    </picture>
+</group>

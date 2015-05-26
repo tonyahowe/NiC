@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet href="style.xsl" type="text/xsl"?>  --><?xml-stylesheet type="text/xsl" href="file:/C:/Users/Tonya/Dropbox/DHOXSS%202013/NiC-not%20in%20use/style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="more-femed">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">Strictures on the Modern System of Female Education</title>
+                <author>
+                    <person xml:id="HM" sex="F" href="http://en.wikipedia.org/wiki/Hannah_More">
+                        <forename>Hannah</forename>
+                        <surname>More</surname>
+                        <birth when="1745-02-02">2 February 1745</birth>
+                        <death when="1833-09-07">7 September 1833</death>
+                        <occupation>Writer</occupation>
+                        <occupation>Playwright</occupation>
+                        <occupation>Philanthropist</occupation>
+                        <trait type="Marital Status">Unmarried</trait>
+                        <nationality>English</nationality>
+                    </person>
+                </author>
+                <respStmt>
+                    <resp>Transcription, correction, editorial commentary, and markup</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Printed for T. Cadell Jun. and W. Davies in the Strand</publisher>
+                    <date type="firstEd">1799</date>
+                    <extent type="physical">2v. ;  8⁰.</extent>
+                    <biblScope unit="page" from="12" to="34">Pages</biblScope>
+                    <note>First edition.</note>
+                    <note>This object is in the Library of Congress.</note>
+                </imprint>
+                <imprint>
+                    <pubPlace>Public domain electronic facsimile copy</pubPlace>
+                    <publisher>University of Michigan ECCO-TCP</publisher>
+                    <extent type="online">http://quod.lib.umich.edu/e/ecco?c=ecco;iel=4;view=toc;idno=004902140.0001.001</extent>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>CHAP. VII. On female study, and initiation into knowledge.—Error of cultivating the imagination to the neglect of the judgment.—Books of reasoning recommended.</head>
+        </front>
+        <body>
+            <p>
+                <span ana="editorial.xml#purpose">As this little work by no means assumes the
+                  character of a general scheme of education, the author has purposely avoided
+                  expatiating largely on any kind of instruction; but so far as <span ana="editorial.xml#religion">it is connected, either immediately or remotely,
+                     with objects of a moral or religious nature</span>.</span> Of course she has
+               been so far from thinking it necessary to enter into the enumeration of those books
+               which are useful in general instruction, that she has forborne to mention any. With
+               such books <span ana="editorial.xml#youth">the rising generation</span> is far more
+               copiously and ably furnished than any preceding period has <pb n="155"/> been; and
+               out of an excellent variety <span ana="editorial.xml#distinction">the judicious
+                  instructor can hardly fail to make such a selection</span> as shall be beneficial
+               to the pupil.</p>
+            <p> But while due praise ought not to be withheld from the improved methods of
+               communicating the elements of general knowledge; yet is there not some danger that
+               our very advantages may lead us into error, by causing us to repose so confidently on
+               the multiplied helps which facilitate the entrance into learning, as to render <span ana="editorial.xml#youth">our pupils</span> superficial through the very facility
+               of acquirement? <span ana="editorial.xml#education">Where so much is done for them,
+                  may they not be led to do too little for themselves? May there not be a moral
+                  disadvantage in possessing them with the notion that learning may be acquired
+                  without diligence and labour?</span> Sound education never can be made a <span ana="editorial.xml#quote">
+                    <rs ref="SKSP">"primrose path of dalliance."</rs>
+                </span>
+               Do what we will <span ana="editorial.xml#youth">we cannot cheat children into
+                  learning or play them into knowledge, according to the smoothness of the modern
+                     <pb n="156"/> creed</span>. There is no idle way to any acquisitions which
+               really deserve the name. <span ana="editorial.xml#metaphor">And as Euclid, in order
+                  to repress the impetuous vanity of greatness, told his Sovereign that there was no
+                  royal way to geometry, so the fond mother may be assured that there is no short
+                  cut to any other kind of learning.</span>
+                <span ana="editorial.xml#religion">The tree of knowledge, as a punishment perhaps,
+                  for its having been at first unfairly tasted, cannot now be climbed without
+                  difficulty</span>; and this very circumstance serves afterwards to furnish not
+               only literary pleasures, but moral advantages: for <span ana="editorial.xml#valueClaim">the knowledge which is acquired by unwearied
+                  assiduity is lasting in the possession, and sweet to the possessor; both perhaps
+                  in proportion to the cost and labour of the acquisition</span>. And though an able
+               teacher ought to endeavour, by improving the communicating faculty in himself, (for
+               many know what they cannot teach,) to soften every difficulty; yet in spite of the
+               kindness and ability with which he will smooth every <pb n="157"/> obstruction, it is
+               probably, among the wise institutions of Providence, that great difficulties should
+               still remain. <span ana="editorial.xml#religion">
+                    <span ana="editorial.xml#metaphor" type="religious">For education is but an initiation into that life of trial to
+                     which we are introduced on our entrance into this world. It is the first
+                     breaking-in to that state of toil and labour to which we are born; and in this
+                     view of the subject the acquisition of learning may be converted to higher uses
+                     than such as are purely literary.</span>
+                </span>
+            </p>
+            <p>Will it not be ascribed to a captious singularity if I venture to remark that <span ana="editorial.xml#valueClaim">real knowledge and real piety, though they have
+                  gained in many instances, have suffered in others from that profusion of <span ana="editorial.xml#term">little, amusing, sentimental books with which the
+                     youthful library overflows</span>
+                </span>? <span ana="editorial.xml#distinguish">Abundance has its dangers as well as scarcity.</span> In the first place may not
+               the multiplicity of <span ana="editorial.xml#affect">
+                    <span ana="editorial.xml#term">these alluring little works</span>
+                </span> increase the natural reluctance to
+               those more dry and uninteresting studies, of which after all, the rudiments of every
+                  <pb n="158"/> part of learning must consist? And, secondly, <span ana="editorial.xml#affect">is there not some danger (though there are many
+                  honourable exceptions) that some of those engaging narratives may serve to infuse
+                  into the youthful heart a sort of spurious goodness, a confidence of
+                  virtue?</span> And that the benevolent actions with the recital of which they
+               abound, <span ana="editorial.xml#affect">when they are not made to flow from any
+                  source but feeling</span>, may tend to inspire self-complacency, a
+               self-gratulation, a "stand by, for I am holier than "thou?" <span ana="editorial.xml#religion">May they not help to infuse a love of popularity and
+                  an anxiety for praise, in the place of that simple and unostentatious rule of
+                  doing whatever good we do, because it is the will of God?</span>
+                <span ana="editorial.xml#valueClaim">The universal substitution of this principle
+                  would tend to purify the worldly morality of many a popular little story.</span>
+               And there are few dangers which good parents will more carefully guard against than
+               that of giving their children a mere political piety; that sort of religion which
+               just goes to make <pb n="159"/> people more respectable, and to stand well with the
+               world *.</p>
+            <p> There is a certain precocity of mind which is much helped on by these superficial
+               modes of instruction; for frivolous reading will produce its correspondent effect, in
+               much less time than books of solid instruction; <span ana="editorial.xml#affect">the
+                  imagination being liable to be worked upon, and the feelings to be set a going,
+                  much faster than the understanding can be opened and the judgment
+                  enlightened</span>. <span ana="editorial.xml#metaphor" type="religious">A talent
+                  for conversation should be the result of education, not its precursor; it is a
+                  golden fruit when suffered to ripen gradually on the tree of knowledge; but if
+                  forced in the <pb n="160"/> hot-bed of a circulating library, it will turn out
+                  worthless and vapid in proportion as it was artificial and premature.</span>
+                <span ana="editorial.xml#youth">
+                    <span ana="editorial.xml#gender">Girls who have been
+                     accustomed to devour frivolous books, will converse and write with a far
+                     greater appearance of skill as to style and sentiment at twelve or fourteen
+                     years old, than those of a more advanced age who are under the discipline of
+                     severer studies; but the former having early attained to that low standard
+                     which had been held out to them, became stationary; while the latter, quietly
+                     progressive, are passing through just gradations to a higher strain of mind;
+                     and those who early begin with talking and writing like women, commonly end
+                     with thinking and acting like children.</span>
+                </span>
+            </p>
+            <p>
+                <span ana="editorial.xml#thesis">
+                    <span ana="editorial.xml#distinction">The swarms of
+                     Abridgments, Beauties, aud Compendiums</span>, which form too considerable a
+                  part of a young lady's library, may be considered in many instances as an
+                  infallible receipt for making a superficial mind.</span> The names of the renowned
+               characters <pb n="161"/> in history thus become familiar in the mouths of those who
+               can neither attach to the idea of the person, the series of his actions, nor the
+               peculiarities of his character. <span ana="editorial.xml#distinction">A few fine
+                  passages from the poets (passages perhaps which derived their chief beauty from
+                  their position and connection) are huddled together by some extract-maker</span>,
+               whose <span ana="editorial.xml#connection">brief and disconnected patches of broken
+                  and discordant materials</span>, while they <span ana="editorial.xml#affect">inflame young readers with the vanity of reciting</span>, neither fill the mind
+               nor form the taste: and it is not difficult to trace back to their shallow sources
+               the <span ana="editorial.xml#distinguish">hackney'd quotations</span> of certain
+               accomplished young ladies, who will be frequently found not to have come legitimately
+               by any thing they know: I mean, not to have drawn it from its true spring, the
+               original works of the author from which some beauty-monger has severed it. <span ana="editorial.xml#humanNature">Human inconsistency in this, as in other cases,
+                  wants to combine two irreconcileable things; it strives to unite the reputation
+                     <pb n="162"/> of knowledge with the pleasures of idleness, forgetting that
+                  nothing that is valuable can be obtained without sacrifices, and that if we would
+                  purchase knowledge we must pay for it the fair and lawful price of time and
+                  industry.</span>
+            </p>
+            <p> This remark is by no means of general application; there are many valuable works
+               which from their bulk would be almost inaccessible to a great number of readers, and
+               a considerable part of which may not be generally useful. Even in the best written
+               books there is often superfluous matter; authors are apt to get enamoured of their
+               subject, and to dwell too long on it: every person cannot find time to read a longer
+               work on any subject, and yet it may be well for them to know something on almost
+               every subject; <span ana="editorial.xml#distinguish">those therefore, who abridge
+                  voluminous works judiciously, render service to the community</span>. But there
+               seems, if I may venture the remark, to be a mistake in the use of abridgments. <span ana="editorial.xml#youth">They are put systematically <pb n="163"/> into the hands
+                  of youth, who have, or ought to have leisure for the works at large</span>; while
+               abridgments seem more immediately calculated for persons in more advanced life, who
+               wish to recal something they had forgotten; who want to restore old ideas rather than
+               acquire new ones; or they are useful for persons immersed in the business of the
+               world who have little leisure for voluminous reading. They are excellent to refresh
+               the mind, but not competent to form it.</p>
+            <p>
+                <span ana="editorial.xml#metaphor" type="medical">Perhaps there is some analogy
+                  between the mental and bodily conformation of women. The instructor therefore
+                  should imitate the physician. If the latter prescribe bracing medicines for <span ana="editorial.xml#gender">a body of which delicacy is the disease, the former
+                     would do well to prohibit relaxing reading for a mind which is already of too
+                     soft a texture, and should strengthen its feeble tone by invigorating
+                     reading</span>.</span>
+            </p>
+            <p>
+                <span ana="editorial.xml#gender">By softness, I cannot be supposed to mean imbecility
+                  of understanding, but <pb n="164"/> natural softness of heart, with that indolence
+                  of spirit which is fostered by indulging in <span ana="editorial.xml#affect">seducing books</span> and in the general habits of fashionable
+               life.</span>
+            </p>
+            <p> I mean not here to recommend books which are immediately religious, but <span ana="editorial.xml#reason">such as exercise the reasoning faculties</span>, teach
+               the mind to get acquainted with its own nature, and to stir up its own powers. <span ana="editorial.xml#metaphor" type="alimentary">Let not a timid young lady start if
+                  I should venture to recommend to her, after a proper course of preparation, to
+                  swallow and digest such strong meat, as Watts's or Duncan's little book of Logic,
+                  some parts of Mr. Locke's Essay on the Human Understanding, and Bishop Butler's
+                  Analogy.</span> Where there is leisure, and capacity, and an able counsellor,
+               works of this nature might be profitably substituted in the place of so much English
+               Sentiment, French Philosophy, Italian Poetry, and fantastic German imagery and magic
+               wonders. While such enervating or absurd books sadly disqualify the reader for <span ana="editorial.xml#gender">solid pursuit or vigorous <pb n="165"/>
+               thinking</span>, the studies here recommended <span ana="editorial.xml#metaphor" type="medical">would act upon the constitution of the mind as a kind of
+                  alterative, and, if I may be allowed the expression, would help to brace the
+                  intellectual stamina</span>.</p>
+            <p> This is however by no means intended to exclude works of taste and imagination,
+               which must always make <span ana="editorial.xml#gender">the ornamental part, and of
+                  course a very considerable part of female studies</span>. It is only suggested
+               that they should not form them entirely. For <span ana="editorial.xml#metaphor" type="physical">what is called dry tough reading, independent of the knowledge it
+                  conveys, is useful as an habit and wholesome as an exercise</span>. Serious study
+               serves to harden the mind for more trying conflicts; it lifts the reader from
+               sensation to intellect; it abstracts her from the world and its vanities; it fixes a
+               wandering spirit, and fortifies a weak one; it divorces her from matter; it corrects
+                  <span ana="editorial.xml#gender">that spirit of trifling which she naturally
+                  contracts from the frivolous turn of female conversation, <pb n="166"/> and the
+                  petty nature of female employments</span>; it concentrates her attention, assists
+               her in a habit of excluding trivial thoughts, and thus even helps to qualify her for
+               religious pursuits. <span ana="editorial.xml#thesis">Yes; I repeat it, there is to
+                  woman a Christian use to be made of sober studies; while books of an opposite
+                  cast, however unexceptionable they may be sometimes found in point of expression;
+                  however free from evil in its more gross and palpable shapes, yet by their very
+                  nature and constitution <span ana="editorial.xml#affect">they excite a spirit of
+                     relaxation, by exhibiting scenes and ideas which soften the mind; they impair
+                     its general powers of resistance, and at best feed habits of improper
+                     indulgence, and nourish a vain and visionary indolence, which lays the mind
+                     open to error and the heart to seduction.</span>
+                </span>
+            </p>
+            <p>
+                <span ana="editorial.xml#gender">Women are little accustomed to close reasoning on
+                  any subject</span>; <span ana="editorial.xml#distinguish">still less do they inure
+                  their minds to consider particular <pb n="167"/> parts of a subject; they are not
+                  habituated to turn a truth round and view it in all its varied aspects and
+                  positions</span>; and this perhaps is one cause (as will be observed in another *
+               place) of the too great confidence they are disposed to place in their opinions.
+                  <span ana="editorial.xml#gender">
+                    <span ana="editorial.xml#imagination">Though
+                     their imagination is already too lively</span>, and <span ana="editorial.xml#reason">their judgment naturally incorrect</span>; in
+                  educating them we go on to stimulate the imagination, while we neglect the
+                  regulation of the judgment.</span>
+                <span ana="editorial.xml#metaphor" type="nautical">They already want ballast, and we
+                  make their education consist in continually crowding more sail than they can
+                  carry.</span> Their intellectual powers being so little strengthened by exercise,
+               makes every little business appear a hardship to them: whereas serious study would be
+               useful, were it only that it leads the mind to the habit of conquering difficulties.
+               But it is peculiarly hard to turn at once from <pb n="168"/> the indolent repose of
+               light reading, from the concerns of mere animal life, the objects of sense, or the
+               frivolousness of chit chat; it is peculiarly hard, I say, to a mind so softened, to
+               rescue itself from the dominion of self-indulgence, to resume its powers, to call
+               home its scattered strength, to shut out every foreign intrusion, to force back a
+               spring so unnaturally bent, and to devote itself to religious reading, reflection, or
+               self-examination: whereas to an intellect accustomed to think at all the difficulty
+               of thinking seriously is obviously lessened.</p>
+            <p> Far be it from me to desire to make scholastic ladies or female dialecticians; but
+               there is little fear that the kind of books here recommended, if thoroughly studied,
+               and not superficially skimmed, will make them pedants or induce conceit; for by
+               shewing them the possible powers of the human mind, you will bring them to see the
+               littleness of their own, and to <pb n="169"/> get acquainted with the mind and to
+               regulate it, does not seem the way to puff it up. But let her who is disposed to be
+               elated with her literary acquisitions, check her vanity by calling to mind the just
+               remark of <rs type="person" ref="SW">Swift</rs>, <quote>that after all her boasted
+                  acquirements, a woman will, generally speaking, be found to possess less of what
+                  is called learning than a common school-boy.</quote>
+            </p>
+            <p>Neither is there any fear that this sort of reading will convert ladies into authors.
+               The direct contrary effect will be likely to be produced by the perusal of writers
+               who throw the generality of readers at such an unapproachable distance. <span ana="editorial.xml#writing">
+                    <span ana="editorial.xml#metaphor" type="reproductive">Who are those ever multiplying authors, that with unparalleled fecundity are
+                     overstocking the world with their quick succeeding progeny? They are novel
+                     writers; the easiness of whose productions is at once the cause of their own
+                     fruitfulness, and of the almost infinitely numerous race of imitators to <pb n="170"/> whom they give birth</span>.</span>
+                <span ana="editorial.xml#writing">Such is the frightful facility of this species of
+                  composition, that every raw girl while she reads, is tempted to fancy that she can
+                  also write.</span> And as Alexander, on perusing the Iliad, found by congenial
+               sympathy the image of Achilles in his own ardent soul, and felt himself the hero he
+               was studying; and <span ana="editorial.xml#metaphor" type="satiric">as Corregio, on
+                  first beholding a picture which exhibited the perfection of the Graphic art,
+                  prophetically felt all his own future greatness, and cried out in rapture, "And I
+                  too am a painter!" so a thorough paced novel reading Miss, at the close of every
+                  tissue of hackney'd adventures, feels within herself the stirring impulse of
+                  corresponding genius, and triumphantly exclaims, "And I too am an author!—"</span>
+                <span ana="editorial.xml#metaphor" type="alimentary">The glutted imagination</span>
+               soon overflows with the redundance of cheap sentiment and plentiful incident, and by
+               a sort of arithmetical proportion, is enabled by the perusal of any three <pb n="171"/> novels to produce a fourth; till every fresh production, like the progeny of <rs type="character" ref="SKSP">Banquo</rs>, is followed by <span ana="editorial.xml#quote">Another, and another, and another</span> * <span ana="editorial.xml#writing">Is a lady, however destitute of talents, education, or
+                  knowledge of the world, whose studies have been completed by a circulating
+                  library, in any distress of mind? the writing a novel suggests itself as the best
+                  soother of her sorrows! <span ana="editorial.xml#economy">Does she labour under
+                     any depression of circumstances? writing a novel occurs as the readiest receipt
+                     for mending them!</span>
+                </span>
+                <span ana="editorial.xml#distinguish">
+                    <span ana="editorial.xml#economy">And she
+                     solaces herself with the conviction that <pb n="172"/> the subscription which
+                     has been given to her importunity or her necessities, has been given to her
+                     genius.</span> And this confidence instantly levies a fresh contribution for a
+                  succeeding work</span>. <span ana="editorial.xml#economy">Capacity and cultivation
+                  are so little taken into the account, that writing a book seems to be now
+                  considered as the only sure resource which the idle and the illiterate have always
+                  in their power.</span>
+            </p>
+            <p> May I be indulged in a short digression to remark, though rather out of its place,
+               that <span ana="editorial.xml#economy">the corruption occasioned by these books has
+                  spread so wide, and descended so low, that not only among milleners,
+                  mantua-makers, and other trades where numbers work together, the labour of one
+                  girl is frequently sacrificed that she may be spared to read those mischievous
+                  books to the others</span>; but the Author has been assured by clergymen, who have
+               witnessed the fact, that <span ana="editorial.xml#class">they are procured and
+                  greedily read in the wards of our Hospitals! an awful hint, that those who <pb n="173"/> teach the poor to read, should not only take care to furnish them
+                  with principles which will lead them to abhor corrupt books, but should also
+                  furnish them with such books as shall strengthen and confirm their
+                  principles</span> *. <span ana="editorial.xml#religion">And let every Christian
+                  remember, that there is no other way of entering truly into the spirit of that
+                  divine prayer, which petitions that the name of God may be "hallowed," that <span ana="editorial.xml#reference" type="biblical">his kingdom (of grace) may
+                     come,</span> and that <span ana="editorial.xml#reference" type="biblical">his
+                     will may be done on earth as it <pb n="174"/> is in heaven,</span> than by each
+                  individual contributing according to his measure to accomplish the work for which
+                  he prays; for <span ana="editorial.xml#distinguish">to pray that these great
+                     objects may be promoted, without contributing to their promotion, is a palpable
+                     inconsistency</span>
+                </span>.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table xml:id="access-condition-type-code">
+    <code-table-name>work-types</code-table-name>
+    <basis/>
+    <description/>
+    <items>
+        <item>
+            <id>fem-ment</id>
+            <label>The Female Mentor; or, Select Conversations</label>
+            <value>Essay</value>
+            <value>Dialogue</value>
+        </item>
+        <item>
+            <id>hays-mec</id>
+            <label>The Memoirs of Emma Courtney</label>
+            <value>Novel</value>
+            <value>Preface</value>
+        </item>
+        <item>
+            <id>rich-pmla</id>
+            <label>Pamela; or, Virtue Rewarded</label>
+            <value>Epistolary Novel</value>
+            <value>Novel</value>
+            <value>Preface</value>
+        </item>
+        <item>
+            <id>more-femed</id>
+            <label>Strictures on Female Education</label>
+            <value>Treatise</value>
+            <value>Excerpt</value>
+        </item>
+        <item>
+            <id>johns-ramb4</id>
+            <label>The Rambler, No. 4</label>
+            <value>Essay</value>
+        </item>
+        <item>
+            <id>barb-rom</id>
+            <label>On Romance: An Imitation</label>
+            <value>Essay</value>
+        </item>
+        <item>
+            <id>colfield-cry</id>
+            <label>The Cry, a New Dramatic Fable</label>
+            <value>Dialogue</value>
+            <value>Misc</value>
+            <value>Essay</value>
+        </item>
+        <item>
+            <id>smollett-rr</id>
+            <label>The Adventures of Roderick Random</label>
+            <value>Preface</value>
+            <value>Novel</value>
+        </item>
+        <item>
+            <id>reeve-prog</id>
+            <label>The Progress of Romance</label>
+            <value>Dialogue</value>
+            <value>Misc</value>
+            <value>Essay</value>
+        </item>
+    </items>
+</code-table>

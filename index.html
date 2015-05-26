@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <form action="search.html" class="form form-horizontal">
+        <div class="col-md-3 col-md-push-9">
+            <div class="well well-sm">
+                <div class="form-group">
+                    <div class="col-md-12 col-xs-12">
+                        <span class="input-group">
+                            <input name="query" type="search" class="templates:form-control form-control" placeholder="Search String"/>
+                            <span class="input-group-btn">
+                                <button id="f-btn-search" type="submit" class="btn btn-primary">
+                                    <span class="glyphicon glyphicon-search"/>
+                                </button>
+                            </span>
+                        </span>
+                        <input type="hidden" name="field" value="text"/>
+                    </div>
+                </div>
+                <div class="form-group" data-toggle="tooltip" data-placement="left" title="Search Mode">
+                    <div class="col-md-12 col-xs-12">
+                        <select name="mode" class="form-control" data-template="templates:form-control">
+                            <option value="any" selected="selected">Any Search Term</option>
+                            <option value="all">All Search Terms</option>
+                            <option value="phrase">Phrase Search</option>
+                            <option value="near-ordered">Proximity Search (Ordered)</option>
+                            <option value="near-unordered">Proximity Search (Unordered)</option>
+                            <option value="fuzzy">Fuzzy Search</option>
+                            <option value="wildcard">Wildcard Search</option>
+                            <option value="regex">Regex Search</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group" data-toggle="tooltip" data-placement="left" title="Search Scope">
+                    <div class="col-md-12 col-xs-12">
+                        <select name="scope" class="form-control" data-template="templates:form-control">
+                            <option value="narrow" selected="selected">Narrow Search</option>
+                            <option value="broad">Broad Search</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group" data-toggle="tooltip" data-placement="left" title="Type of Work to Search">
+                    <div class="col-md-12 col-xs-12">
+                        <span class="app:work-types"/>
+                    </div>
+                </div>
+            </div>
+            <div class="well well-sm well-dark hidden-xs">
+                <p>The Novels in Context project provides curated, scholarly, and critically-annotated resources about the 18th-century English novel for teachers and students. For this purpose, NiC seeks to become an agile, accessible, free alternative to ECCO.</p>
+                <img src="resources/images/nic1.gif"/>
+            </div>
+        </div>
+        <div class="col-md-9 col-md-pull-3">
+            <h1>Novels in Context</h1>
+            <div id="content">
+                <h2>List of Works</h2>
+                <table class="toc table table-hover">
+                    <thead>
+                        <tr>
+                            <th/>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Work Type</th>
+                            <th>Download</th>
+                            <th>Open</th>
+                        </tr>
+                    </thead>
+                    <tbody data-template="app:list-works">
+                        <tr data-template="templates:each" data-template-from="works" data-template-to="work">
+                            <td>
+                                <input type="checkbox" name="target-texts" data-template="app:checkbox"/>
+                            </td>
+                            <td>
+                                <a href="" data-template="app:work-title"/>
+                            </td>
+                            <td class="work-author">
+                                <a href="" data-template="app:work-author"/>
+                            </td>
+                            <td class="work-type">
+                                <a href="" data-template="app:work-type"/>
+                            </td>
+                            <td>
+                                <a href="" data-template="app:epub-link">epub</a>, 
+                                <a href="" data-template="app:pdf-link">pdf</a>
+                            </td>
+                            <td>
+                                <a href="" data-template="app:xml-link">XML</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title class="config:app-title">App Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta class="config:app-meta"/>
+        <link rel="icon" href="resources/images/nic_icon_16x16.ico"/>
+<!--        <link rel="stylesheet" type="text/css" href="$shared/resources/css/exist-nic.css"/>-->
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+        <script type="text/javascript" src="$shared/resources/scripts/jquery/jquery-1.7.1.min.js"/>
+        <script type="text/javascript" src="$shared/resources/scripts/bootstrap-3.0.3.min.js"/>
+    </head>
+    <body id="grey-top">
+        <div class="grey-bot">
+            <div class="container" id="main-container">
+                <div class="row">
+                    <div class="col-md-12" id="header">
+                        <a href="/" id="logo">NiC</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <nav class="navbar navbar-default" role="navigation" data-template="site:expand-links">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"/>
+                            <span class="icon-bar"/>
+                            <span class="icon-bar"/>
+                        </button>
+                        <div class="navbar-collapse collapse" id="navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown" id="demo">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Novels in Context</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href=".">Search and List of Works</a>
+                                        </li>
+                                        <li>
+                                            <a href="search-help.html">Search Help</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="about-NiC.html">About NiC</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div id="main" class="row"/>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="copyright">
+                <p>Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.form-group[data-toggle="tooltip"]').tooltip({container: 'body'});
+            });
+        </script>
+    </body>
+</html>

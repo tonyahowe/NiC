@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="barb-rom">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">On Romances, An Imitation</title>
+                <author>
+                    <person xml:id="JA" sex="M" href="http://en.wikipedia.org/wiki/John_Aikin">
+                        <forename>John</forename>
+                        <surname>Aikin</surname>
+                        <birth when="1747-01-05">5 January 1747</birth>
+                        <death when="1822-12-07">7 December 1822</death>
+                        <occupation>Doctor</occupation>
+                        <occupation>Writer</occupation>
+                        <trait type="Marital Status">Married</trait>
+                        <nationality>English</nationality>
+                    </person>
+                </author>
+                <author>
+                    <person xml:id="ALB" sex="F" href="http://en.wikipedia.org/wiki/Anna_Laetitia_Barbauld">
+                        <forename>Anna Leticia</forename>
+                        <surname>Barbauld</surname>
+                        <birth when="1743-06-20">20 June 1743</birth>
+                        <death when="1825-03-09">9 March 1825</death>
+                        <occupation>Essayist</occupation>
+                        <occupation>Poet</occupation>
+                        <occupation>Children's Author</occupation>
+                        <trait type="Marital Status">Married</trait>
+                        <nationality>English</nationality>
+                    </person>
+                </author>
+                <respStmt>
+                    <resp>Transcription, correction, editorial commentary, and markup</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Printed for R. and J. Dodsley</publisher>
+                    <date type="firstEd">1754</date>
+                    <extent type="physical">3v. 12°</extent>
+                    <biblScope unit="page" from="12" to="34">Add Pages.</biblScope>
+                </imprint>
+                <imprint>
+                    <pubPlace>Public domain electronic facsimile copy</pubPlace>
+                    <publisher>University of Michigan ECCO-TCP</publisher>
+                    <extent type="online">http://name.umdl.umich.edu/004853488.0001.000</extent>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="section">On Romances, an Imitation.</head>
+        </front>
+        <body>
+            <pb facs="barbauld-00.png"/>
+            <pb facs="barbauld-01.png"/>
+            <pb facs="barbauld-02.png"/>
+            <pb facs="barbauld-03.png"/>
+            <pb facs="barbauld-04.png"/>
+            <pb facs="barbauld-05.png"/>
+            <pb facs="barbauld-06.png"/>
+            <pb facs="barbauld-07.png"/>
+            <pb facs="barbauld-08.png"/>
+            <p>OF all the multifarious productions which the efforts of superiour genius, or the labours of scholastic industry, have crowded upon the world, none are perused with more insatiable avidity, or disseminated with more universal applause, than the narrations of feigned events, descriptions of imaginary scenes, and delineations of ideal characters. The celebrity of other authors is confined within very narrow limits. The Geometrician and Divine, the Antiquary and Critic, however distinguished by uncontested excellence, can only hope to please those whom a conformity of disposition has engaged in similar pursuits; and must be content to be regarded by the rest of the world with the smile of frigid indifference, or the contemptuous sneer of self-sufficient folly. The collector of shells and the anatomist of insects is little inclined to enter into theological disputes: the Divine is not apt to regard with veneration the uncouth diagrams and tedious calculations of the Astronomer: the man whose life has been consumed in adjusting the disputes of lexicographers, or elucidating the learning of antiquity, cannot easily bend his thoughts to recent transactions, or readily interest himself in the unimportant history of his contemporaries: and the Cit, who knows no business but acquiring wealth, and no pleasure but displaying it, has a heart equally shut up to argument and fancy, to the batteries of syllogism, and the arrows of wit. To the writer of fiction alone, every ear is open, and every tongue lavish of applause; curiosity sparkles in every eye, and every bosom is throbbing with concern.</p>
+            <p> IT is however easy to account for this enchantment. To follow the chain of perplexed ratiocination, to view with critical skill the airy architecture of systems, to unravel the web of sophistry, or weigh the merits of opposite hypotheses, requires perspicacity, and presupposes learning. Works of this kind, therefore, are not so well adapted to the generality of readers as familiar and colloquial composition; for few can reason, but all can feel; and many who cannot enter into an argument, may yet listen to a tale. The writer of Romance has even an advantage over those who endeavour to amuse by the plea of fancy; who from the fortuitous collision of dissimilar ideas produce the scintillations of wit; or by the vivid glow of poetical imagery delight the imagination with colours of ideal radiance. The attraction of the magnet is only exerted upon similar particles; and to taste the beauties of Homer it is requisite to partake his fire: but every one can relish the author who represents common life, because every one can refer to the originals from whence his ideas were taken. He relates events to which all are liable, and applies to passions which all have felt. The gloom of solitude, the languor of inaction, the corrosions of disappointment, and the toil of thought, induce men to step aside from the rugged road of life, and wander in the fairy land of fiction; where every bank is sprinkled with flowers, and every gale loaded with perfume; where every event introduces a hero, and every cottage is inhabited by a Grace. Invited by these flattering scenes, the student quits the investigation of truth, in which he perhaps meets with no less fallacy, to exhilerate his mind with new ideas, more agreeable, and more easily attained: the busy relax their attention by desultory reading, and smooth the agitation of a ruffled mind with images of peace, tranquility, and pleasure: the idle and the gay relieve the listlessness of leisure, and diversify the round of life by a rapid series of events, pregnant with rapture and astonishment; and the pensive solitary fills up the vacuities of his heart by interesting himself in the fortunes of imaginary beings, and forming connections with ideal excellence.</p>
+            <p> IT is, indeed, no ways extraordinary that the mind should be charmed by fancy, and attracted by pleasure; but that we should listen to the groans of misery, and delight to view the exacerbations of complicated anguish, that we should chuse to chill the bosom with imaginary fears, and dim the eyes with fictitious sorrow, seems a kind of paradox of the heart, and only to be credited because it is universally felt. Various are the hypotheses which have been formed to account for the disposition of the mind to riot in this species of intellectual luxury. Some have imagined that we are induced to acquiesce with greater patience in our own lot, by beholding pictures of life tinged with deeper horrors, and loaded with more excruciating calamities; as, to a person suddenly emerging out of a dark room, the saintest glimmering of twilight assumes a lustre from the contrasted gloom. Others, with yet deeper refinement, suppose that we take upon ourselves this burden of adscititious sorrows in order to feast upon the consciousness of our own virtue. We commiserate others (say they) that we may applaud ourselves; and the sigh of compassionate sympathy is always followed by the gratulations of selfcomplacent esteem. But surely they who would thus reduce the sympathetic emotions of pity to a system of refined selfishness, have but ill attended to the genuine feelings of humanity. It would however exceed the limits of this paper, should I attempt an accurate investigation of these sentiments. But let it be remembered, that we are more attracted by those scenes which interest our passions, or gratify our curiosity, than those which delight our fancy: and so far from being indifferent to the miseries of others, we are, at the time, totally regardless of our own. And let not those, on whom the hand of time has impressed the characters of oracular wisdom, censure with too much acrimony, productions which are thus calculated to please the imagination, and interest the heart. They teach us to think, by inuring us to feel: they ventilate the mind by sudden gusts of passion; and prevent the stagnation of thought, by a fresh infusion of dissimilar ideas.</p>
+        </body>
+    </text>
+</TEI>

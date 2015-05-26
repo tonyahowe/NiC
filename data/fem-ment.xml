@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fem-ment">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">The Female Mentor; or, Select Conversations</title>
+                <author>
+                    <person>
+                        <forename/>
+                        <surname>Honoria</surname>
+                    </person>
+                </author>
+                <respStmt>
+                    <resp>Transcription and correction</resp>
+                    <name>Elizabeth Ricketts</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction, markup, and annotation</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions where possible; please see Source information for more details. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <date type="firstEd">1793</date>
+                    <publisher>Printed for T. Cadell, in the Strand, 1793.</publisher>
+                    <pubPlace>London</pubPlace>
+                    <extent>2v. 8°</extent>
+                    <note>This is the first edition, in two volumes. A third volume was added in 1796.</note>
+                    <biblScope unit="page" from="12" to="34">Pages</biblScope>
+                </imprint>
+                <imprint>
+                    <pubPlace>Public domain electronic fulltext copy</pubPlace>
+                    <publisher>HathiTrust</publisher>
+                    <date>1802</date>
+                    <extent>2 v. in 1. 17 cm.</extent>
+                    <extent type="online">http://catalog.hathitrust.org/Record/012393233</extent>
+                    <note>This is the first American edition, from which the text is sourced</note>
+                </imprint>
+                <imprint>
+                    <date>1802</date>
+                    <publisher>Printed by J. Hoff</publisher>
+                    <pubPlace>Philadelphia</pubPlace>
+                    <extent>2 v. in 1. 17 cm.</extent>
+                    <note>First American edition, from which the page images are sourced. This item is in the Library of Congress, Washington, DC.</note>
+                    <biblScope unit="page" from="12" to="34">Pages</biblScope>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>Conversation VIII: On Novels</head>
+        </front>
+        <body>
+            <p>THIS afternoon it was debated whether we should permit the reading of Novels. Different opinions were advanced and there seemed to be no probability of coming to a decision till we all turned to Amanda, our <em>Female Mentor</em>. ----She expressed herself in the following manner:</p>
+            <p>
+”The present rage for novels, and your particular application to me, lead me to make remarks upon the general effects that may arise from the frequent perusal of these publications. There are books of this description which deserves the highest commendation; and when we meet with characters struggling with magnanimity under complicated distresses, we may be led to think that they are examples worthy of imitation. But whether these details are conducive to the advantage of the two sexes or not, ought to be fully investigated. As the character of a man and woman ought to be widely different, in like manner their education, which has so strong an influence on their characters, should be, in many particulars, totally dissimilar; hence it follows, that what is beneficial to one sex may be detrimental to the other; and this obvious conclusion will assist in solving the question concerning the advantage or disadvantage of novels towards forming the youthful and unexperienced mind. I am of opinion that it is very desirable for a young man to form an attachment to a virtuous woman. Such a passion calls forth the noblest feelings, raises in his mind an emulation to make himself worthy of the beloved object, and is often the means of inducing him to apply with increased diligence to any particular profession, business, or science, which may promote his success in life. Every sort of reading, therefore, which awakens the feelings of virtuous love in his breast may safely and prudently be encouraged.</p>
+            <p>
+”But when I consider a girl who is nearly entering into life with a susceptible heart, instead of recommending novels in general to her perusal, I would strongly dissuade her from reading them. Women's situations are very delicate; their inclinations, when of the purest kind, lead them to wish to please, and to become an object of love to one amiable and respectable character of the other sex; to one alone their wishes ought to be bounded, and they ever will be so, in women that are truly amiable. Should we even allow, that the generality of novels are written without the least indelicacy, yet as their only subject is love, why should we wish to lead the mind to that disposition, which nature is sufficiently ready to supply without art! There is always one hero, on whom the heroine fixes her inclination. The girl who is conversant with this species of composition will expect to find such an hero in the world; the first man who pays her any particular attention, will soon make an impression upon her already-prepared heart; and she will conclude, that her partiality is founded on a laudable object. But when a man is assiduous in his attention, and seems attached, ought she always to flatter that he is in earnest? he appears to like her now; will he continue in the same inclination? may not a little time dissipate his partiality? some other woman may supply her place, or if he should remain constant, some pecuniary or prudent consideration may prevent his making a declaration; or perhaps, which is a still harder case, he may only sport with her feelings. Do not these circumstances, which happen every day render it very imprudent in women to work themselves up to such a height of enthusiasm for one beloved object as to preclude the possibility of their listening to another who may have the power and the inclination to make them happy?</p>
+            <p>
+A very sensible woman of my acquaintance once honestly confessed to me, that all the books she had ever read, the novel of Sir Charles Grandison had done her most harm. On expressing my surprise that a publication which set virtue in so amiable a light should have been productive of harm to a delicate mind, as l knew hers to be; she replied that she had perused it before she came into life and that when she was introduced into the world, she expected to have found in some lover a character similar to that of Richardson's hero; that for some time she had been in a state of continual disappointment and mortification, which prevented her from accepting several offers that would otherwise have appeared highly advantageous and proper. These romantic notions did not leave her till it was too late: -  ‘And I have now,’ she added. ‘the felicity of being an old maid.</p>
+            <p>
+“I am of opinion, that not more than one woman in fifty has it in her power to marry the man whom she really would prefer to all others. Women are to conceal their feelings, although they like any of the other sex, or they will appear bold, and become objects of ridicule; and a lady of delicacy would rather die, than first disclose her partiality.</p>
+            <p>
+“Such being the situation of women, I would recommend them to read history in preference to novels, and to cultivate any particular pursuit to which their genius leads them. By having their minds properly occupied, they will be in less danger of forming a romantic attachment; or if they should be caught in the snare unexpectedly, and should have fixed their affections where they can meet with no return, they may, by calling reason to their aid, have strength of mind sufficient to enable them to drive from their thoughts, a person, whom it may be necessary for their peace to think of no more.</p>
+            <p>
+“If I were desired,” Amanda added with a smile, “to recommend any novel to the younger part of my sex, it should be the Female Quixote, in which a rich, amiable, and beautiful young woman had so filled her head with romances and novels, that she fancied every man who approached her a lover in disguise, and every common incident of life an adventure. After having narrowly escaped falling a victim to her own extravagant conceptions of love and chivalry, she had the good fortune to be cured of her distemper, to become a rational being, and to renounce the perusal of those publications which led her astray.”</p>
+            <p>
+Amanda did not positively give it as her opinion, that no novels should be permitted to be read in this society; yet as she implied that they were pernicious to the female sex in general, and as there were many young ladies present, the assembly agreed to reject that species of reading.</p>
+            <p>
+Still further as an apology for this decision, Cleora, a young married woman in her twenty third year who possessed a natural vivacity, and aptness of introducing things apropos, related the following anecdote:  “A young lady who lived in a retired part of Scotland, but who had friends residing in Edinburgh, employed her time so entirely in perusing novels and romances, that she contracted a dislike to history or any serious reading. Her friend, who was accustomed to supply her with books, being absent from Edinburgh, she requested a gentleman, upon whose taste she could rely, to send her a novel or romance: the gentleman forwarded Plutarch's Lives, as ideal characters: she read part of them with satisfaction, till she came to Alexander and Julius Caesar names, <em>names that she had accidently heard</em>, upon which she returned the books to the gentleman in disgust, and reproached him for the deception.”</p>
+        </body>
+    </text>
+</TEI>

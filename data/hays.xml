@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hays-mec">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">The Memoirs of Emma Courtney</title>
+                <author>
+                    <person xml:id="MH" sex="F" href="http://en.wikipedia.org/wiki/Mary_Hays">
+                        <forename>Mary</forename>
+                        <surname>Hays</surname>
+                        <birth when="1759-10-13">13 October 1759</birth>
+                        <death when="1843">1843</death>
+                        <occupation>Novelist</occupation>
+                        <occupation>Feminist</occupation>
+                        <trait type="Marital Status">Married</trait>
+                        <nationality>English</nationality>
+                    </person>
+                </author>
+                <respStmt>
+                    <resp>Transcription, correction, editorial commentary, and markup</resp>
+                    <name>Tonya Howe</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This text is prepared as part of <title>The Novels in Context</title> project, which provides an accessible, curated, and marked-up selection of primary sources relevant to the study
+               and the teaching of the eighteenth-century development of the novel in English.</p>
+                <p>
+                    <normalization>
+                    Original spelling and capitalization is retained, though the long s has been silently modernized and ligatured forms are not encoded. Hyphenation has not been retained. </normalization>
+                </p>
+                <p>Materials have been transcribed from and checked against first editions. 
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <imprint>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Printed for G. G. and J. Robinson, Paternoster-Row</publisher>
+                    <date type="firstEd">1796</date>
+                    <extent type="physical">2v. ; 12⁰</extent>
+                    <biblScope unit="page" from="1" to="7">Pages 1-7</biblScope>
+                    <note>First Edition.</note>
+                    <note>This item is located in the University of Alberta Special Collections Lbrary.</note>
+                </imprint>
+                <imprint>
+                    <pubPlace>Public domain electronic facsimile copy</pubPlace>
+                    <publisher>Google eBook</publisher>
+                    <extent type="online">http://books.google.com/books?id=94UgAAAAMAAJ</extent>
+                </imprint>
+                <imprint>
+                    <pubPlace>New York</pubPlace>
+                    <publisher>Printed for Hugh M. Griffith, no. 88, water-street</publisher>
+                    <date>1802</date>
+                    <note>Page images are sourced from this first American edition, courtesy of the Library of Congress, Washington DC.</note>
+                    <extent type="physical">2 v. in 1. 17 x 11 cm.</extent>
+                    <biblScope unit="page" from="1" to="7">Pages 1-7</biblScope>
+                </imprint>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>Preface.</head>
+        </front>
+        <body>
+            <pb facs="hays-mec.jpg"/>
+            <pb facs="hays-mec-001.jpg"/>
+            <pb facs="hays-mec-002.jpg"/>
+            <pb facs="hays-mec-003.jpg"/>
+            <pb facs="hays-mec-004.jpg"/>
+            <p>
+                <span title="thesis">
+                    <span title="valueClaim">The most interesting, and the most useful, fictions,
+                  are, perhaps, such, as delineating the progress, and tracing the consequences, of
+                  one strong, indulged, passion, or prejudice, afford materials, by which the
+                  philosopher may calculate the powers of the human mind, and learn the springs
+                  which set it in motion</span>
+                </span>—<span title="quote">
+                    <rs type="treatise" ref="TM2">'Understanding, and talents,' says <rs type="person" ref="HEL">Helvetius</rs>, 'being nothing more, in men, than the produce of their
+                     desires, and particular situations.'</rs>
+                </span>
+                <span title="gothic">Of the passion of terror <span title="allusion">
+                        <rs type="person" ref="AR">Mrs Radcliffe</rs>
+                    </span> has made admirable use in her ingenious romances.</span>—In
+               the novel of <rs type="title" ref="CW">Caleb Williams</rs>, <span title="character">curiosity in the hero,
+               and the love of reputation in the soul-moving character of Falkland, fostered into
+               ruling passions</span>, are drawn with a masterly hand.</p>
+            <p>
+                For the subject of these Memoirs, a more universal
+                  sentiment is chosen—a sentiment hackneyed in this species of composition,
+                  consequently more difficult to treat with any degree of originality;—yet, <span title="purpose">to
+                  accomplish this, has been the aim of the author</span>; with what success, the public
+                  will, probably, determine.
+            </p>
+            <p>
+                <span title="valueClaim">Every writer who advances principles, whether
+                  true or false, that have a tendency to set the mind in motion, does good.</span>
+               Innumerable mistakes have been made, both moral and philosophical:—while covered with
+                  <span title="religion">a sacred and mysterious veil</span>, how are
+               they to be detected? <span title="science">From various combinations and
+                  multiplied experiments, truth, only, can result.</span>
+                <span title="reason">Free thinking, and free
+               speaking, are the virtue and the characteristics of a rational being</span>:—there can be no
+               argument which mitigates against them in one instance, but what equally mitigates
+               against them in all; <span title="religion">
+                    <span title="science">
+                        <span title="experience">every principle must be doubted, before it will be
+                     examined and proved.</span>
+                    </span>
+                </span>
+            </p>
+            <p>
+                <span title="purpose" type="negative">
+                    <span title="romance">It has commonly been the business
+                  of fiction to pourtray characters, not as they really exist, but, as, we are told,
+                  they ought to be—a sort of ideal perfection, in which nature and passion are
+                  melted away, and jarring attributes wonderfully combined.</span>
+                </span>
+            </p>
+            <p>
+                <span title="character">In delineating the character of Emma Courtney, I had not in view these fantastic
+               models: <span title="realism">
+                        <span title="purpose">I meant
+                     to represent her, as a human being, loving virtue while enslaved by passion,
+                     liable to the mistakes and weaknesses of our fragile
+                  nature</span>
+                    </span>
+                </span>.—<span title="reader">Let those readers, who feel
+                  inclined to judge with severity the extravagance and eccentricity of her conduct,
+                  look into their own hearts</span>; and should they there find no record, traced by an
+                  accusing spirit, to soften the asperity of their censures—yet, let them bear in
+                  mind, that the errors of my heroine were the offspring of sensibility; and that
+                     <span title="science">
+                    <span title="experience">the result of her hazardous experiment</span>
+                </span>
+                  is calculated to operate as <span title="purpose">a&#160;warning, rather
+                     than as an example.</span>—The philosopher—who is not ignorant, that
+               light and shade are more powerfully contrasted in minds rising above the common
+               level; that, <span title="metaphor">as rank weeds take strong root in a fertile soil, vigorous powers not
+               unfrequently produce fatal mistakes and pernicious exertions</span>; that <span title="character">character is the
+               produce of a lively and constant affection</span>—may, possibly, <span title="purpose">discover in these Memoirs
+                  traces of reflection, and of some attention to the phænomena of the human mind</span>.</p>
+            <p>
+                <span title="probability">Whether the incidents, or the characters, are
+                  copied from life, is of little importance—The only question is, if
+                  the&#160;circumstances, and situations, are altogether improbable?</span> If
+               not—<span title="logic">whether the consequences&#160;might&#160;not have followed from the circumstances?</span>—<span title="valueClaim">This is
+               a grand question, applicable to all the purposes of education, morals, and
+               legislation</span>—and on this I rest my moral—<span title="quote">
+                    <rs type="biblical" ref="MTW">'Do men gather figs of thorns, or grapes of
+               thistles?' asked a moralist and a reformer</rs>
+                </span>.</p>
+            <p>
+                <span title="probability">Every&#160;possible&#160;incident, in works of this
+                  nature, might, perhaps, be rendered&#160;probable, <span title="editorial.xml#connection">were a sufficient regard paid to the
+                  more minute, delicate, and connecting links of the chain</span>.</span> Under this
+               impression, I chose, as the least arduous, a simple story—and, even in that, the fear
+               of repetition, of prolixity, added, it may be, to a portion of indolence, made me, in
+               some parts, neglectful of this rule:—yet, in tracing the character of my heroine from
+               her birth, I had it in view. For the conduct of my hero, I consider myself less
+               responsible—it was not&#160;his&#160;memoirs that I professed to write.</p>
+            <p> I am not sanguine respecting the success of this little publication. <span title="gothic">It is truly observed, by <rs type="person" ref="MGL">the writer of <rs type="novel" ref="MONK">a late popular novel</rs>
+                    </rs>—<span title="quote">'That an author, whether good or bad, or between
+                     both, is an animal whom every body is privileged to attack; for, though all are
+                     not able to write books, all conceive themselves able to judge them. A bad
+                     composition carries with it its own punishment—contempt and ridicule:—a good
+                     one excites envy, and (frequently) entails upon its author a thousand
+                     mortifications.'</span>
+                </span>
+            </p>
+            <p>
+                <span title="affect">
+                    <span title="reason">
+                        <span title="reader">To the feeling and the thinking few</span>, this
+                     production of an active mind, in a season of impression, rather than of
+                     leisure, is presented.</span>
+                </span>
+            </p>
+        </body>
+    </text>
+</TEI>
