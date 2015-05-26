@@ -55,10 +55,15 @@
             <head type="dateline">Saturday, 31 March 1750</head>
             <epigraph xml:lang="la">
                 <cit>
-                    <bibl>Horace</bibl>
-                    <quote>
+                    <quote xml:lang="la">
                         <l>Simul et jucunda et idonea dicere Vitae.</l>
                     </quote>
+                    <bibl>
+                        <author>Horace</author>
+                        <source>Ars Poetica 334</source>
+                        <source type="online">http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0065%3Acard%3D309</source>
+                        <cit type="translation" xml:lang="en">to deliver at once both the pleasures and the necessaries of life</cit>
+                    </bibl>
                 </cit>
             </epigraph>
         </front>
@@ -70,201 +75,218 @@
             <pb facs="rambler-004.png"/>
             <pb facs="rambler-005.png"/>
             <p>The works of fiction, with which the present generation seems more particularly
-                  delighted, are such as <span ana="editorial.xml#realism" type="positive">exhibit
+                  delighted, are such as exhibit
                      life in its true state, diversified only by accidents that daily happen in the
                      world, and influenced by passions and qualities which are really to be found in
-                     conversing with mankind.</span>
+                     conversing with mankind.
             </p>
-            <p>This kind of writing may be termed not improperly the <span ana="editorial.xml#genre">
-                    <span ana="editorial.xml#term">comedy of
-                        romance</span>, and is to be conducted nearly by the rules of comic
-                     poetry.</span> Its province is <span ana="editorial.xml#purpose" type="positive">to bring about natural events by easy means, and to keep up
-                     curiosity without the help of wonder</span>: it is therefore precluded from the
-                     <span ana="editorial.xml#genre" type="negative">machines and expedients of the
-                     heroic romance</span>, and can neither employ <span ana="editorial.xml#romance">giants to snatch away a lady from the nuptial rites</span>, nor <span ana="editorial.xml#romance">knights to bring her back from captivity</span>; it
-                  can <span ana="editorial.xml#romance">neither bewilder its personages in desarts,
-                     nor lodge them in imaginary castles</span>. </p>
-            <p>I remember a remark made by <span ana="editorial.xml#reference">
+            <p>This kind of writing may be termed not improperly the 
+                    comedy of
+                        romance, and is to be conducted nearly by the rules of comic
+                     poetry. Its province is to bring about natural events by easy means, and to keep up
+                     curiosity without the help of wonder: it is therefore precluded from the
+                     machines and expedients of the
+                     heroic romance, and can neither employ giants to snatch away a lady from the nuptial rites, nor knights to bring her back from captivity; it
+                  can neither bewilder its personages in desarts,
+                     nor lodge them in imaginary castles. </p>
+            <p>I remember a remark made by 
                     <rs type="person" ref="SCA">Scaliger</rs> upon Potanus, that all his writings are filled with
                      the same images; and that if you take from him his lillies and his roses, his
                      satyrs and his dryads, he will have nothing left that can be called poetry. In
                      like manner, almost all the fictions of the last age will vanish, if you
-                     deprive them of a hermit and a wood, a battle and a shipwreck.</span>
+                     deprive them of a hermit and a wood, a battle and a shipwreck.
             </p>
-            <p>Why this <span ana="editorial.xml#imagination">wild strain of imagination</span>
+            <p>Why this wild strain of imagination
                   found reception so long, in polite and learned ages, it is not easy to conceive;
-                  but we cannot wonder that, <span ana="editorial.xml#economy">while readers could
-                     be procured, the authors were willing to continue it</span>: for <span ana="editorial.xml#ease">when a man had by practice some fluency of language,
-                     he had no further care than to <span ana="editorial.xml#imagination">retire to
-                        his closet, let loose his invention, and <span ana="editorial.xml#metaphor" type="sexual">heat his mind with incredibilities</span>
-                    </span>; a book
-                     was thus produced without <span ana="editorial.xml#valueClaim" type="positive">fear of criticism, without the toil of study, without knowledge of nature,
-                        or acquaintance with life.</span>
-                </span>
+                  but we cannot wonder that, while readers could
+                     be procured, the authors were willing to continue it: for when a man had by practice some fluency of language,
+                     he had no further care than to retire to
+                        his closet, let loose his invention, and heat his mind with incredibilities; a book
+                     was thus produced without fear of criticism, without the toil of study, without knowledge of nature,
+                        or acquaintance with life.
+                
             </p>
             <p>
-                <span ana="editorial.xml#valueClaim">The task of our present writers is very
+                The task of our present writers is very
                      different; it requires, together with that learning which is to be gained from
-                     books, that <span ana="editorial.xml#sociability">experience which can never be
-                        attained by solitary diligence, but must arise from general converse</span>,
-                     and <span ana="editorial.xml#empiricism">accurate observation of the living
-                        world</span>
-                </span>
-                <span ana="editorial.xml#ease">Their performances have, as <rs type="person" ref="HOR">Horace</rs> expresses it, <span ana="editorial.xml#quote">
-                        <span rend="italics">plus oneris quantum veniae minus,</span> little
-                        indulgence, and therefore more difficulty.</span>
-                </span>
-                <span ana="editorial.xml#realism">They are engaged in portraits of which every one
+                     books, that experience which can never be
+                        attained by solitary diligence, but must arise from general converse,
+                     and accurate observation of the living
+                        world
+                
+                Their performances have, as <rs type="person" ref="HOR">Horace</rs> expresses it, 
+                        <cit>
+                    <quote xml:lang="la">
+                        <span rend="italics">plus oneris quantum veniae minus,</span>
+                    </quote>
+                    <bibl>
+                        <author>Horace</author>
+                        <source>Epistles 2.1.170</source>
+                        <source type="online">http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0539%3Abook%3D2%3Apoem%3D1</source>
+                    </bibl>
+                    <cit type="translation" xml:lang="en">little
+                        indulgence, and therefore more difficulty.</cit>
+                </cit>
+               They are engaged in portraits of which every one
                      knows the original, and can detect any deviation from exactness of
-                     resemblance</span>. Other writings are safe, except from the malice of
-                  learning, but these are in danger from <span ana="editorial.xml#distinguish">every
-                     common reader</span>; <span ana="editorial.xml#metaphor">as the slipper ill
+                     resemblance. Other writings are safe, except from the malice of
+                  learning, but these are in danger from every
+                     common reader; as the slipper ill
                      executed was censured by a shoemaker who happened to stop in his way at the
-                     Venus of Apelles.</span>
+                     Venus of Apelles.
             </p>
-            <p>But the fear of not being approved as <span ana="editorial.xml#purpose">just
-                     copyers of human manners</span>, is not the most important concern that an
-                  author of this sort ought to have before him. <span ana="editorial.xml#youth">These books are written chiefly to the young, the ignorant, and the idle, to
-                     whom they serve as <span ana="editorial.xml#purpose">lectures of conduct, and
-                        introductions into life</span>
-                </span>. <span ana="editorial.xml#youth">They
-                     are the entertainment of minds unfurnished with ideas</span>, and therefore
-                     <span ana="editorial.xml#affect">easily susceptible of impressions</span>;
-                     <span ana="editorial.xml#reason">not fixed by principles</span>, and therefore
-                     <span ana="editorial.xml#affect">easily following <span ana="editorial.xml#imagination">the current of fancy</span>
-                </span>; <span ana="editorial.xml#reason">
-                    <span ana="editorial.xml#experience">not informed by
+            <p>But the fear of not being approved as just
+                     copyers of human manners, is not the most important concern that an
+                  author of this sort ought to have before him. These books are written chiefly to the young, the ignorant, and the idle, to
+                     whom they serve aslectures of conduct, and
+                        introductions into life. They
+                     are the entertainment of minds unfurnished with ideas, and therefore
+                     easily susceptible of impressions;
+                    not fixed by principles, and therefore
+                     easily following the current of fancy; 
+                    not informed by
                         experience, and consequently open to every false suggestion and partial
-                        account.</span>
-                </span>
+                        account.
             </p>
             <p>
-                <span ana="editorial.xml#youth">That the highest degree of reverence should be
+                That the highest degree of reverence should be
                      paid to youth, and that nothing indecent should be suffered to approach their
                      eyes or ears; are precepts extorted by sense and virtue from an ancient writer,
-                     by no means eminent for chastity of thought. <span ana="editorial.xml#education">The same kind, tho' not the same degree of
+                     by no means eminent for chastity of thought. The same kind, tho' not the same degree of
                         caution, is required in every thing which is laid before them, to secure
                         them from unjust prejudices, perverse opinions, and incongruous combinations
-                        of images</span>.</span>
+                        of images.
             </p>
             <p>
-                <span ana="editorial.xml#romance">In the romances formerly written, every
+                In the romances formerly written, every
                      transaction and sentiment was so remote from all that passes among men, that
                      the reader was in very little danger of making any application to
-                     himself</span>; the virtues and crimes were <span ana="editorial.xml#experience">equally beyond his sphere of activity</span>;
-                  and he amused himself with <span ana="editorial.xml#character">heroes and with
-                     traitors, deliverers and persecutors, as with beings of another species</span>,
-                  whose actions were regulated upon motives of their own, and who had <span ana="editorial.xml#realism">neither faults nor excellences in common with
-                     himself</span>. </p>
+                     himself; the virtues and crimes were equally beyond his sphere of activity;
+                  and he amused himself with heroes and with
+                     traitors, deliverers and persecutors, as with beings of another species,
+                  whose actions were regulated upon motives of their own, and who had 
+                  neither faults nor excellences in common with
+                     himself. </p>
             <p>
-                <span ana="editorial.xml#realism">But when an adventurer is levelled with the rest
+               But when an adventurer is levelled with the rest
                      of the world, and acts in such scenes of the universal drama, as may be the lot
-                     of any other man</span>; young spectators fix their eyes upon him with closer
-                  attention, and hope <span ana="editorial.xml#purpose">by observing his behaviour
+                     of any other man; young spectators fix their eyes upon him with closer
+                  attention, and hope by observing his behaviour
                      and success to regulate their own practices, when they shall be engaged in the
-                     like part</span>. </p>
-            <p>For this reason these <span ana="editorial.xml#term">familiar histories</span> may
-                  perhaps <span ana="editorial.xml#purpose">be made of greater use than the
+                     like part. </p>
+            <p>For this reason these familiar histories may
+                  perhaps be made of greater use than the
                      solemnities of professed morality, and convey the knowledge of vice and virtue
-                     with more efficacy than axioms and definitions</span>. <span ana="editorial.xml#affect">But if the power of example is so great, as to take
+                     with more efficacy than axioms and definitions. 
+                     But if the power of example is so great, as to take
                      possession of the memory by a kind of violence, and produce effects almost
                      without the intervention of the will, care ought to be taken that, when the
                      choice is unrestrained, the best examples only should be exhibited; and that
                      which is likely to operate so strongly, should not be mischievous or uncertain
-                     in its effects</span>. </p>
+                     in its effects. </p>
             <p>
-                <span ana="editorial.xml#valueClaim">The chief advantage which these fictions have
-                     over real life is, <span ana="editorial.xml#distinguish">that their authors are
+                The chief advantage which these fictions have
+                     over real life is, that their authors are
                         at liberty, tho' not to invent, yet to select objects, and to cull from the
                         mass of mankind, those individuals upon which the attention ought most to be
-                        employ'd</span>
-                </span>; <span ana="editorial.xml#metaphor" type="jewel">as a
+                        employ'd; as a
                      diamond, though it cannot be made, may be polished by art, and placed in such a
                      situation, as to display that lustre which before was buried among common
-                     stones </span>. </p>
+                     stones. </p>
             <p>
-                <span ana="editorial.xml#imitation">It is justly considered as the greatest
-                     excellency of art, to imitate nature</span>; but <span ana="editorial.xml#distinguish">it is necessary to distinguish those parts of
-                     nature, which are most proper for imitation</span>: <span ana="editorial.xml#affect">greater care is still required in representing life,
-                     which is so often discoloured by passion, or <span ana="editorial.xml#metaphor" type="physical">deformed by wickedness</span>
-                </span>. <span ana="editorial.xml#distinguish" type="negative">If the world be promiscuously
+                It is justly considered as the greatest
+                     excellency of art, to imitate nature; but 
+                     it is necessary to distinguish those parts of
+                     nature, which are most proper for imitation:
+                     greater care is still required in representing life,
+                     which is so often discoloured by passion, or 
+                     deformed by wickedness. If the world be promiscuously
                      described, I cannot see of what use it can be to read the account; or why it
                      may not be as safe to turn the eye immediately upon mankind, as upon a mirror
-                     which shows all that presents itself without discrimination.</span>
+                     which shows all that presents itself without discrimination.
             </p>
             <p>
-                <span ana="editorial.xml#character">It is therefore not a sufficient vindication
+                It is therefore not a sufficient vindication
                      of a character, that it is drawn as it appears, for many characters ought never
-                     to be drawn</span>; nor of a narrative, that the train of events is agreeable
+                     to be drawn; nor of a narrative, that the train of events is agreeable
                   to observation and experience, for that observation which is called knowledge of
-                  the world, will be found much more frequently to make men cunning than good. <span ana="editorial.xml#purpose">The purpose of these writings is surely not only to
+                  the world, will be found much more frequently to make men cunning than good. 
+                  The purpose of these writings is surely not only to
                      show mankind, but to provide that they may be seen hereafter with less hazard;
                      to teach the means of avoiding the snares which are laid by Treachery for
                      Innocence, without infusing any wish for that superiority with which the
                      betrayer flatters his vanity; to give the power of counteracting fraud, without
                      the temptation to practise it; to initiate the youth by mock encounters in the
                      art of necessary defense, and to increase prudence without impairing
-                     virtue.</span>
+                     virtue.
             </p>
-            <p>Many writers, for the sake of following nature, <span ana="editorial.xml#distinguish">so mingle good and bad qualities in <span ana="editorial.xml#character">their principal personages</span>, that they
-                     are both equally conspicuous</span>; <span ana="editorial.xml#affect">and as we
+            <p>Many writers, for the sake of following nature, 
+            so mingle good and bad qualities in their 
+            principal personages, that they
+                     are both equally conspicuous; and as we
                      accompany them through their adventures with delight, and are led by degrees to
                      interest ourselves in their favour, we lose the abhorrence of their faults,
                      because they do not hinder our pleasure, or, perhaps, regard them with some
-                     kindness for being united with so much merit</span>. </p>
+                     kindness for being united with so much merit. </p>
             <p>There have been men indeed splendidly wicked, whose endowments threw a brightness
                   on their crimes, and whom scarce any villainy made perfectly detestable, because
                   they never could be wholly divested of their excellencies; but such have been in
-                  all ages the great corruptors of the world, and <span ana="editorial.xml#metaphor">their resemblance ought no more to be preserved, than the art of murdering
-                     without pain</span>.</p>
+                  all ages the great corruptors of the world, and their resemblance ought no more to be preserved, than the art of murdering
+                     without pain.</p>
             <p>
-                <span ana="editorial.xml#probability">Some have advanced, without due attention to
+                Some have advanced, without due attention to
                      the consequences of this notion, that certain virtues have their correspondent
                      faults, and therefore that to exhibit either apart is to deviate from
-                     probability.</span>
-                <span ana="editorial.xml#reference">Thus men are observed by <rs type="person" ref="SW">Swift</rs> to be "grateful in the same degree as they are
-                     resentful."</span>
-                <span ana="editorial.xml#humanNature">This principle, with others of the same
+                     probability.
+                Thus men are observed by <rs type="person" ref="SW">Swift</rs> to be <cit>
+                    <bibl>
+                        <author>Swift</author>
+                        <source>Miscellanies 1711</source>
+                    </bibl>
+                    <quote>"grateful in the same degree as they are
+                     resentful."</quote>
+                </cit>
+                This principle, with others of the same
                      kind, supposes man to act from a brute impulse, and persue a certain degree of
-                     inclination, without any choice of the object</span>; for, otherwise, though it
+                     inclination, without any choice of the object; for, otherwise, though it
                   should be allowed that gratitude and resentment arise from the same constitution
                   of the passions, it follows not that they will be equally indulged when reason is
                   consulted; yet unless that consequence be admitted, this sagacious maxim becomes
-                  an empty sound, without any <span ana="editorial.xml#realism">relation to practice
-                     or to life</span>.</p>
+                  an empty sound, without any relation to practice
+                     or to life.</p>
             <p>Nor is it evident, that even the first motions to these effects are always in the
                   same proportion. For pride, which produces quickness of resentment, will obstruct
                   gratitude, by unwillingness to admit that inferiority which obligation implies;
                   and it is very unlikely, that he who cannot think he receives a favour will
                   acknowledge or repay it.</p>
-            <p>It is of <span ana="editorial.xml#purpose">the utmost importance to
-                  mankind</span>, that positions of this tendency should be laid open and confuted;
+            <p>It is of the utmost importance to
+                  mankind, that positions of this tendency should be laid open and confuted;
                   for while men consider good and evil as springing from the same root, they will
                   spare the one for the sake of the other, and in judging, if not of others at least
-                  of themselves, will be apt to estimate their virtues by their vices. <span ana="editorial.xml#purpose">To this fatal error all those will contribute, who
+                  of themselves, will be apt to estimate their virtues by their vices. To this fatal error all those will contribute, who
                      confound the colours of right and wrong, and instead of helping to settle their
                      boundaries, mix them with so much art, that no common mind is able to disunite
-                     them.</span>
+                     them.
             </p>
             <p>
-                <span ana="editorial.xml#probability">In narratives, where historical veracity has
+                In narratives, where historical veracity has
                      no place, I cannot discover why there should not be exhibited the most perfect
                      idea of virtue; of virtue not angelical, nor above probability, for what we
                      cannot credit we shall never imitate, but the highest and purest that humanity
                      can reach, which, exercised in such trials as the various revolutions of things
                      shall bring upon it, may, by conquering some calamities, and enduring others,
-                     teach us what we may hope, and what we can perform.</span>
-                <span ana="editorial.xml#affect">Vice, for vice is necessary to be shewn, should
-                     always disgust</span>; nor should the graces of gaiety, or the dignity of
-                  courage, be so united with it, as to reconcile it to the mind. <span ana="editorial.xml#purpose">Wherever it appears, it should raise hatred by the
+                     teach us what we may hope, and what we can perform.
+                Vice, for vice is necessary to be shewn, should
+                     always disgust; nor should the graces of gaiety, or the dignity of
+                  courage, be so united with it, as to reconcile it to the mind. Wherever it appears, it should raise hatred by the
                      malignity of its practices, and contempt by the meanness of its stratagems; for
                      while it is supported by either parts or spirit, it will be seldom heartily
-                     abhorred.</span> The Roman tyrant was content to be hated, if he was but
+                     abhorred. The Roman tyrant was content to be hated, if he was but
                   feared; and there are thousands of the readers of romances willing to be thought
-                  wicked, if they may be allowed to be wits. <span ana="editorial.xml#education">It
-                     is therefore to be steadily inculcated, that <span ana="editorial.xml#reason">virtue is the highest proof of understanding</span>, and the only solid
+                  wicked, if they may be allowed to be wits. It
+                     is therefore to be steadily inculcated, that virtue is the highest proof of understanding, and the only solid
                      basis of greatness; and that vice is the natural consequence of narrow
-                     thoughts, that it begins in mistake, and ends in ignominy.</span>
+                     thoughts, that it begins in mistake, and ends in ignominy.
             </p>
         </body>
     </text>

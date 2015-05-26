@@ -21,8 +21,12 @@ declare function tei2:tei2html($nodes as node()*) {
                 <i>{ tei2:tei2html($node/node()) }</i>
             case element(tei:front) return
                 tei2:front($node)
-            case element(tei:p) return
-                <p xmlns="http://www.w3.org/1999/xhtml" id="{tei2:get-id($node)}">{ tei2:tei2html($node/node()) }</p> (: THIS IS WHERE THE ANCHORS ARE INSERTED! :)
+(:            case element(tei:body) return:)
+(:                tei2:body($node):)
+            case element(tei:rs) return (: create a new function for RSs to insert the content of specific variables; as is, content of the node is inserted as tooltip title. could use content of source attribute or link as the # ref :)
+               <a href="#" data-toggle="tooltip" title="{tei2:tei2html($node/node())}">{ tei2:tei2html($node/node()) }</a>
+           case element(tei:p) return 
+                <p xmlns="http://www.w3.org/1999/xhtml" id="{tei2:get-id($node)}">{ tei2:tei2html($node/node()) }</p>  (: THIS IS WHERE THE ANCHORS ARE INSERTED! :)
             case element(exist:match) return
                 <mark xmlns="http://www.w3.org/1999/xhtml">{ $node/node() }</mark>
             case element() return
@@ -86,7 +90,7 @@ declare function tei2:front($front as element (tei:front)) {
     let $frontTitle := $front//tei:head
     let $epigraph := $front//tei:epigraph
     let $quote := $front//tei:quote
-    let $bibl := $front//tei:bibl
+    let $author := $front//tei:author
     
     return
         <div xmlns="http://www.w3.org/1999/xhtml" class="main-text-frontmatter">
@@ -95,15 +99,25 @@ declare function tei2:front($front as element (tei:front)) {
                 console:log($epigraph),
                 for $cit in $epigraph
                 return
-                    <blockquote>{$quote/tei:l/text()}<br/>--{$bibl/text()}</blockquote>
+                    <blockquote>{$quote/tei:l/text()}<br/>--{$author/text()}</blockquote>
             }
             </div>
 };
     
 (:declare function tei2:body($body as element (tei:body)) {:)
 (:    let $para := $body//tei:p:)
+(:    let $cit := $body//tei:cit:)
+(:    let $bibl := $body//tei:cit/tei:bibl:)
+(:    let $author := $body//tei:cit/tei:bibl/tei:author:)
+(:    let $source := $body//tei:cit/tei:bibl/tei:source:)
+(:    let $onlineSource := $body//tei:cit/tei:bibl/tei:source[@type="online"]:)
+(:    :)
 (:    return :)
-(:        $para :)
+(:        <div xmlns="http://www.w3.org/1999/xhtml" class="main-text-body">:)
+(:        {:)
+(:            <p>{$para/text()}<br/></p>:)
+(:        }:)
+(:        </div>:)
 (:};:)
 
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="johnson-1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statusBar">Headnote: The Rambler No. 4</title>
+                <author>
+                    <forename>Tonya</forename>
+                    <surname>Howe</surname>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+            </publicationStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>Headnote: <em>The Rambler No. 4</em>
+            </head>
+        </front>
+        <body>
+            <p>Samuel Johnson's <i>Rambler</i> essay Number 4 from 1750 is one of the key primary source texts in the history and theory of the novel, particularly as it developed the discourse of the novel in opposition to that of romance. Johnson points out several novelistic features, particularly verisimilitude, and he argues that novels have a special power as a result of that realism to affect readers. This makes them potentially both dangerous and useful as sources of moral education. Johnson's work is an essay, and it appeared in his periodical <i>The Rambler</i>, a series of essays that, like <i>The Tatler</i> and <i>The Spectator</i> before it, sought to provide the kind of rational public forum that would educate and shape its readers into thoughtful, viable citizens. </p>
+        </body>
+    </text>
+</TEI>
