@@ -21,6 +21,10 @@ declare function tei2:tei2html($nodes as node()*) {
                 <i>{ tei2:tei2html($node/node()) }</i>
             case element(tei:front) return
                 tei2:front($node)
+            case element(tei:rs) return 
+                tei2:link($node)
+            case element(tei:quote) return 
+                tei2:link($node)
             case element(tei:p) return
                 <p xmlns="http://www.w3.org/1999/xhtml" id="{tei2:get-id($node)}">{ tei2:tei2html($node/node()) }</p> (: THIS IS WHERE THE ANCHORS ARE INSERTED! :)
             case element(exist:match) return
@@ -30,6 +34,16 @@ declare function tei2:tei2html($nodes as node()*) {
             default return
                 $node/string() (: what would this catch? comment node in the xml? :)
 };
+
+declare function tei2:link($node as element()) {
+  if ($node/@link ne '' and $node/@link castable as xs:anyURI) then 
+    <a href="{$node/@link}" data-toggle="tooltip" title="{$node/string()}">{
+      tei2:tei2html( $node/node() )
+    }</a>
+  else 
+    tei2:tei2html( $node/node() )
+};
+
 
 declare function tei2:header($header as element(tei:teiHeader)) {
     let $titleStmt := $header//tei:titleStmt
