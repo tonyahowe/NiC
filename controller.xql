@@ -38,6 +38,24 @@ else if (contains($exist:path, "/resources/")) then
         <forward url="{$exist:controller}/resources/{substring-after($exist:path, '/resources/')}"/>
     </dispatch>
 
+else if (contains($exist:path, "/headnotes/")) then
+    let $id := replace($exist:resource, "^(.*)\.\w+$", "$1")
+    let $html := "view-headnote.html"
+    return   
+            <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+                <forward url="{$exist:controller}/{$html}">
+                </forward>
+                <view>
+                    <forward url="{$exist:controller}/modules/view.xql">
+                        <add-parameter name="id" value="{$id}"/>
+                    </forward>
+                </view>
+                <error-handler>
+                    <forward url="{$exist:controller}/error-page.html" method="get"/>
+                    <forward url="{$exist:controller}/modules/view.xql"/>
+                </error-handler>
+            </dispatch>
+            
 else if (starts-with($exist:path, "/works/")) then
     let $id := replace($exist:resource, "^(.*)\.\w+$", "$1")
     let $html :=

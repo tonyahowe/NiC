@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="barb-rom-head-2">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="barb-rom-head-1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="statusBar">A Second Headonte for Clara Reeve's The Progress of Romance</title>
+                <title type="statusBar">Headnote 1 for Clara Reeve's The Progress of Romance</title>
                 <author>
                     <forename>Tonya</forename>
                     <surname>Howe</surname>

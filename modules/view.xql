@@ -3,13 +3,9 @@ xquery version "3.0";
 import module namespace templates="http://exist-db.org/xquery/templates";
 import module namespace site="http://exist-db.org/apps/site-utils";
 import module namespace config="http://exist-db.org/apps/NiC/config" at "config.xqm";
-
 import module namespace app="http://exist-db.org/apps/" at "app.xql";
-
 import module namespace demo="http://exist-db.org/apps/demo" at "demo.xql";
-
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
-
 declare option output:method "html5";
 declare option output:media-type "text/html";
 

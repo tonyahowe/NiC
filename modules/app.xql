@@ -48,6 +48,40 @@ declare function functx:escape-for-regex
            '(\.|\[|\]|\\|\||\-|\^|\$|\?|\*|\+|\{|\}|\(|\))','\\$1')
  } ;
 
+(: List Headnotes test :)
+
+declare 
+    %templates:wrap
+function app:list-headnotes($node as node(), $model as map(*)) {
+    map {
+        "headnotes" :=
+            for $headnote in collection($config:headnotes)/tei:TEI
+            order by app:work-title($headnote)
+            return
+                $headnote
+    }
+};
+
+declare
+    %templates:wrap
+function app:headnote($node as node(), $model as map(*), $id as xs:string?) {
+    let $headnote := collection($config:headnotes)//id($id)
+    return
+        map { "headnote" := $headnote }
+};
+
+declare function app:headnote-title($node as node(), $model as map(*), $type as xs:string?) {
+    let $suffix := if ($type) then "." || $type else ()
+    let $headnote := $model("headnote")/ancestor-or-self::tei:TEI
+    return
+        <a xmlns="http://www.w3.org/1999/xhtml" href="{$node/@href}{$headnote/@xml:id}{$suffix}">{ app:headnote-title($headnote) }</a>
+};
+
+declare function app:headnote-title($headnote as element(tei:TEI)) {
+    $headnote/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[1]/text()
+};
+
+
 (:~
  : List works
  :)
@@ -83,9 +117,20 @@ declare function app:work-title($work as element(tei:TEI)) {
 };
 
 declare function app:work-author($node as node(), $model as map(*)) {
-    let $authors := $model("work")//tei:author
-    return
-        string-join($authors/tei:surname, ', ')
+    let $surnames := $model("work")//tei:surname
+    let $name-count := count($surnames)
+        return
+            if ($name-count le 2) then
+                string-join($surnames, ' and ')
+            else
+                concat(
+                    string-join(
+                        $surnames[position() = (1 to last() - 1)]
+                        , 
+                        ', '),
+                    ', and ',
+                    $surnames[last()]
+                )
 };
 
 declare 
@@ -98,6 +143,18 @@ function app:checkbox($node as node(), $model as map(*), $target-texts as xs:str
         attribute checked { "checked" }
     else
         ()
+};
+
+declare 
+    %templates:default("target-texts", "all")
+function app:display-checked($node as node(), $model as map(*), $id as xs:string?, $target-texts as xs:string?) {
+    map {
+        "works" :=
+            for $work in $target-texts
+            order by app:work-title($work)
+            return
+                tei2:tei2html($work)
+    }         
 };
 
 declare function app:work-type($node as node(), $model as map(*)) {
@@ -200,6 +257,7 @@ declare function app:sources($node as node(), $model as map(*)) {
             {$n//tei:note}
             </small></li></p>
 };
+
 
 (:~
     Execute the query. The search results are not output immediately. Instead they

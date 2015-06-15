@@ -3,6 +3,9 @@
     <form action="search.html" class="form form-horizontal">
         <div class="col-md-3 col-md-push-9">
             <div class="well well-sm">
+                <div class="well">
+                    <span class="app:display-checked"/>
+                </div>
                 <div class="form-group">
                     <div class="col-md-12 col-xs-12">
                         <span class="input-group">
@@ -56,12 +59,12 @@
                 <table class="toc table table-hover">
                     <thead>
                         <tr>
-                            <th/>
+                            <th>Limit Search</th>
                             <th>Title</th>
                             <th>Author</th>
                             <th>Work Type</th>
-                            <th>Download</th>
-                            <th>Open</th>
+                            <!--<th>Download</th>-->
+                            <!--<th>Open</th>-->
                         </tr>
                     </thead>
                     <tbody data-template="app:list-works">
@@ -79,12 +82,17 @@
                                 <a href="" data-template="app:work-type"/>
                             </td>
                             <td>
-                                <a href="" data-template="app:epub-link">epub</a>, 
+<!--                                <a href="" data-template="local:work2epub">epub</a> -->
                                 <a href="" data-template="app:pdf-link">pdf</a>
-                            </td>
-                            <td>
+                            </td> 
+                            <!--<td>
                                 <a href="" data-template="app:xml-link">XML</a>
-                            </td>
+                            </td> -->
+                        </tr>
+                    </tbody>
+                    <tbody data-template="app:list-headnotes">
+                        <tr data-template="templates:each" data-template-from="headnotes" data-template-to="headnote">
+                            <a href="" data-template="app:headnote-title"/>
                         </tr>
                     </tbody>
                 </table>
