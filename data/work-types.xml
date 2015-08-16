@@ -58,6 +58,10 @@
             <value>Dialogue</value>
             <value>Misc</value>
             <value>Essay</value>
+            <headnotes>
+                <note type="headnote">reeve-prog-head1</note>
+                <note type="headnote">reeve-prog-head2</note>
+            </headnotes>
         </item>
     </items>
 </code-table>

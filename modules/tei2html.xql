@@ -7,6 +7,8 @@ declare function tei2:tei2html($nodes as node()*) {
     for $node in $nodes
     return
         typeswitch ($node)
+            case document-node() return
+                tei2:tei2html($node/*)
             case text() return
                 $node
             case element(tei:TEI) return
@@ -26,7 +28,7 @@ declare function tei2:tei2html($nodes as node()*) {
             case element(tei:quote) return 
                 tei2:link($node)
             case element(tei:note) return
-                tei2:note($node)
+               tei2:note($node) 
             case element(tei:p) return
                 <p xmlns="http://www.w3.org/1999/xhtml" id="{tei2:get-id($node)}">{ tei2:tei2html($node/node()) }</p> (: THIS IS WHERE THE ANCHORS ARE INSERTED! :)
             case element(exist:match) return
@@ -34,7 +36,7 @@ declare function tei2:tei2html($nodes as node()*) {
             case element() return
                 tei2:tei2html($node/node())
             default return
-                $node/string() (: what would this catch? comment node in the xml? :)
+                $node/string() 
 };
 
 declare function tei2:link($node as element()) {
@@ -47,7 +49,7 @@ declare function tei2:link($node as element()) {
 };
 
 declare function tei2:note($node as element()) {
-    <span href="{$node/@link}" data-toggle="tooltip" title="{$node/@title}"> {
+    <span style="color:orange" href="{$node/@link}" data-toggle="tooltip" title="{$node/@title}"> {
         tei2:tei2html ( $node/node() )
     }</span>
 }; 
@@ -94,9 +96,6 @@ declare function tei2:header($header as element(tei:teiHeader)) {
                     <li class="list-unstyled">{concat($n//$resps/tei:resp, ' by ', $n//$resps/tei:name)}</li>
                             
                     
-(:                for $resp in $resps:)
-(:                return:)
-(:                    <p>{string-join(($titleStmt/tei:respStmt/tei:resp, $titleStmt/tei:respStmt/tei:name), ' by ')}</p>:)
                
             }
 
@@ -127,20 +126,6 @@ declare function tei2:front($front as element (tei:front)) {
             </div>
 };
     
-(:declare function tei2:body($body as element (tei:body)) {:)
-(:    let $para := $body//tei:p:)
-(:    return :)
-(:        $para :)
-(:};:)
-
-
-(:declare function tei2:pageImages($pb as element (tei:pb)) {:)
-(:    let $facsPage := $pb/@facs:)
-(:    for $pb in "work":)
-(:    return:)
-(:        <img src="../images/{$facsPage}"/>:)
-(:};:)
-
 declare %private function tei2:get-id($node as element()) {
     ($node/@xml:id, $node/@exist:id)[1]
 };

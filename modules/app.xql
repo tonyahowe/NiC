@@ -236,6 +236,17 @@ declare function app:view($node as node(), $model as map(*), $id as xs:string, $
             
 };
 
+declare function app:are-headnotes($node as node(), $model as map(*), $id as xs:string) {
+<!-- here test for existence of headnotes in work-types.xml file -->
+};
+
+declare function app:view-headnote($node as node(), $model as map(*), $id as xs:string) {
+    for $text in $model("work")/id($id)
+    return 
+        tei2:tei2html($text)
+};
+        
+
 declare function app:pageImages($node as node(), $model as map(*)) {
     for $pb in $model("work")//tei:pb
     let $facsPage := $pb/@facs

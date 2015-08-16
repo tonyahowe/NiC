@@ -29,7 +29,7 @@ declare variable $config:app-root :=
         substring-before($modulePath, "/modules")
 ;
 
-declare variable $config:headnotes := $config:app-root || '/headnotes';
+declare variable $config:headnotes := $config:app-root || "/headnotes";
 
 declare variable $config:data-root := $config:app-root || "/data";
 
